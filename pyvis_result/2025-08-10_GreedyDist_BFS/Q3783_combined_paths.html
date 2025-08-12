@@ -1,0 +1,161 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 750px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+    <div style="position: absolute; top: 10px; right: 10px; background: white; padding: 10px; border: 1px solid black; border-radius: 5px;">
+        <h4>圖例</h4>
+        <p><span style="color: orange;">●</span> 查詢節點</p>
+        <p><span style="color: lightblue;">●</span> 一般節點</p>
+        <p><span style="color: lightgray;">—</span> 一般邊</p>
+    <p><span style="color: green;">—</span> 路径 1</p><p><span style="color: #C2EABD;">—</span> 路径 2</p><p><span style="color: #C0BABC;">—</span> 路径 3</p><p><span style="color: #C7AC92;">—</span> 路径 4</p><p><span style="color: #CD533B;">—</span> 路径 5</p><p><span style="color: #37392E;">—</span> 路径 6</p><p><span style="color: #19647E;">—</span> 路径 7</p><p><span style="color: #28AFB0;">—</span> 路径 8</p><p><span style="color: gold;">—</span> 路径 9</p><p><span style="color: #745C97;">—</span> 路径 10</p></div>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "orange", "fixed": true, "font": {"size": 20}, "id": "Hurts_to_breath", "label": "Hurts_to_breath", "shape": "dot", "size": 20, "x": -466.5418359700965, "y": 170.64737227898928}, {"color": "lightblue", "fixed": true, "font": {"size": 20}, "id": "Lung_contusion", "label": "Lung_contusion", "shape": "dot", "size": 10, "x": 460.5588438351583, "y": 193.37356517814206}, {"color": "lightblue", "fixed": true, "font": {"size": 20}, "id": "Headache", "label": "Headache", "shape": "dot", "size": 10, "x": 456.12444825718603, "y": -132.5025846468506}, {"color": "lightblue", "fixed": true, "font": {"size": 20}, "id": "Hyperhidrosis", "label": "Hyperhidrosis", "shape": "dot", "size": 10, "x": 182.7204542517453, "y": -75.0924551305531}, {"color": "orange", "fixed": true, "font": {"size": 20}, "id": "Sweating", "label": "Sweating", "shape": "dot", "size": 20, "x": -443.79895020138247, "y": -207.19493909559898}, {"color": "lightblue", "fixed": true, "font": {"size": 20}, "id": "Cough", "label": "Cough", "shape": "dot", "size": 10, "x": 225.69356035726358, "y": 345.7388607113743}, {"color": "lightblue", "fixed": true, "font": {"size": 20}, "id": "Asthma", "label": "Asthma", "shape": "dot", "size": 10, "x": 138.85287994087065, "y": -479.6367467611392}, {"color": "orange", "fixed": true, "font": {"size": 20}, "id": "Congestion_in_chest", "label": "Congestion_in_chest", "shape": "dot", "size": 20, "x": -329.3976579751876, "y": 220.28491918982553}, {"color": "lightblue", "fixed": true, "font": {"size": 20}, "id": "Fever", "label": "Fever", "shape": "dot", "size": 10, "x": 6.223400858818224, "y": 356.43797351505793}, {"color": "lightblue", "fixed": true, "font": {"size": 20}, "id": "Other_diagnostic_procedures_(interview;_evaluation;_consultation)", "label": "Other_diagnostic_procedures_(interview;_evaluation;_consultation)", "shape": "dot", "size": 10, "x": 428.73263999623566, "y": 47.196339664812044}, {"color": "lightblue", "fixed": true, "font": {"size": 20}, "id": "Chronic_sinusitis", "label": "Chronic_sinusitis", "shape": "dot", "size": 10, "x": -283.27210595601974, "y": 427.29678106672844}, {"color": "lightblue", "fixed": true, "font": {"size": 20}, "id": "Hematologic_tests_(Blood_test)", "label": "Hematologic_tests_(Blood_test)", "shape": "dot", "size": 10, "x": -83.63881003697055, "y": -500.0}, {"color": "lightblue", "fixed": true, "font": {"size": 20}, "id": "Idiopathic_nonmenstrual_bleeding", "label": "Idiopathic_nonmenstrual_bleeding", "shape": "dot", "size": 10, "x": -292.2568673576211, "y": -366.5490859707878}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "lightgray", "from": "Hurts_to_breath", "title": "possible_disease", "to": "Lung_contusion", "width": 1}, {"arrows": "to", "color": "lightgray", "from": "Lung_contusion", "title": "has_symptom", "to": "Headache", "width": 1}, {"arrows": "to", "color": "lightgray", "from": "Lung_contusion", "title": "need_medical_test", "to": "Hematologic_tests_(Blood_test)", "width": 1}, {"arrows": "to", "color": "lightgray", "from": "Headache", "title": "possible_disease", "to": "Hyperhidrosis", "width": 1}, {"arrows": "to", "color": "lightgray", "from": "Headache", "title": "possible_disease", "to": "Chronic_sinusitis", "width": 1}, {"arrows": "to", "color": "lightgray", "from": "Hyperhidrosis", "title": "has_symptom", "to": "Sweating", "width": 1}, {"arrows": "to", "color": "lightgray", "from": "Hyperhidrosis", "title": "has_symptom", "to": "Cough", "width": 1}, {"arrows": "to", "color": "lightgray", "from": "Hyperhidrosis", "title": "has_symptom", "to": "Fever", "width": 1}, {"arrows": "to", "color": "lightgray", "from": "Hyperhidrosis", "title": "need_medical_test", "to": "Other_diagnostic_procedures_(interview;_evaluation;_consultation)", "width": 1}, {"arrows": "to", "color": "lightgray", "from": "Hyperhidrosis", "title": "has_symptom", "to": "Headache", "width": 1}, {"arrows": "to", "color": "lightgray", "from": "Sweating", "title": "possible_disease", "to": "Hyperhidrosis", "width": 1}, {"arrows": "to", "color": "lightgray", "from": "Cough", "title": "possible_disease", "to": "Asthma", "width": 1}, {"arrows": "to", "color": "lightgray", "from": "Cough", "title": "possible_disease", "to": "Chronic_sinusitis", "width": 1}, {"arrows": "to", "color": "lightgray", "from": "Asthma", "title": "has_symptom", "to": "Congestion_in_chest", "width": 1}, {"arrows": "to", "color": "lightgray", "from": "Fever", "title": "possible_disease", "to": "Asthma", "width": 1}, {"arrows": "to", "color": "lightgray", "from": "Fever", "title": "possible_disease", "to": "Chronic_sinusitis", "width": 1}, {"arrows": "to", "color": "lightgray", "from": "Other_diagnostic_procedures_(interview;_evaluation;_consultation)", "title": "can_check_disease", "to": "Asthma", "width": 1}, {"arrows": "to", "color": "lightgray", "from": "Other_diagnostic_procedures_(interview;_evaluation;_consultation)", "title": "can_check_disease", "to": "Chronic_sinusitis", "width": 1}, {"arrows": "to", "color": "lightgray", "from": "Chronic_sinusitis", "title": "has_symptom", "to": "Congestion_in_chest", "width": 1}, {"arrows": "to", "color": "lightgray", "from": "Hematologic_tests_(Blood_test)", "title": "can_check_disease", "to": "Idiopathic_nonmenstrual_bleeding", "width": 1}, {"arrows": "to", "color": "lightgray", "from": "Idiopathic_nonmenstrual_bleeding", "title": "has_symptom", "to": "Sweating", "width": 1}, {"arrows": "to", "color": "green", "from": "Hurts_to_breath", "title": "Path 1: possible_disease", "to": "Lung_contusion", "width": 3}, {"arrows": "to", "color": "green", "from": "Lung_contusion", "title": "Path 1: has_symptom", "to": "Headache", "width": 3}, {"arrows": "to", "color": "green", "from": "Headache", "title": "Path 1: possible_disease", "to": "Hyperhidrosis", "width": 3}, {"arrows": "to", "color": "green", "from": "Hyperhidrosis", "title": "Path 1: has_symptom", "to": "Sweating", "width": 3}, {"arrows": "to", "color": "green", "from": "Sweating", "title": "Path 1: possible_disease", "to": "Hyperhidrosis", "width": 3}, {"arrows": "to", "color": "green", "from": "Hyperhidrosis", "title": "Path 1: has_symptom", "to": "Cough", "width": 3}, {"arrows": "to", "color": "green", "from": "Cough", "title": "Path 1: possible_disease", "to": "Asthma", "width": 3}, {"arrows": "to", "color": "green", "from": "Asthma", "title": "Path 1: has_symptom", "to": "Congestion_in_chest", "width": 3}, {"arrows": "to", "color": "#C2EABD", "from": "Hurts_to_breath", "title": "Path 2: possible_disease", "to": "Lung_contusion", "width": 3}, {"arrows": "to", "color": "#C2EABD", "from": "Lung_contusion", "title": "Path 2: has_symptom", "to": "Headache", "width": 3}, {"arrows": "to", "color": "#C2EABD", "from": "Headache", "title": "Path 2: possible_disease", "to": "Hyperhidrosis", "width": 3}, {"arrows": "to", "color": "#C2EABD", "from": "Hyperhidrosis", "title": "Path 2: has_symptom", "to": "Sweating", "width": 3}, {"arrows": "to", "color": "#C2EABD", "from": "Sweating", "title": "Path 2: possible_disease", "to": "Hyperhidrosis", "width": 3}, {"arrows": "to", "color": "#C2EABD", "from": "Hyperhidrosis", "title": "Path 2: has_symptom", "to": "Fever", "width": 3}, {"arrows": "to", "color": "#C2EABD", "from": "Fever", "title": "Path 2: possible_disease", "to": "Asthma", "width": 3}, {"arrows": "to", "color": "#C2EABD", "from": "Asthma", "title": "Path 2: has_symptom", "to": "Congestion_in_chest", "width": 3}, {"arrows": "to", "color": "#C0BABC", "from": "Hurts_to_breath", "title": "Path 3: possible_disease", "to": "Lung_contusion", "width": 3}, {"arrows": "to", "color": "#C0BABC", "from": "Lung_contusion", "title": "Path 3: has_symptom", "to": "Headache", "width": 3}, {"arrows": "to", "color": "#C0BABC", "from": "Headache", "title": "Path 3: possible_disease", "to": "Hyperhidrosis", "width": 3}, {"arrows": "to", "color": "#C0BABC", "from": "Hyperhidrosis", "title": "Path 3: has_symptom", "to": "Sweating", "width": 3}, {"arrows": "to", "color": "#C0BABC", "from": "Sweating", "title": "Path 3: possible_disease", "to": "Hyperhidrosis", "width": 3}, {"arrows": "to", "color": "#C0BABC", "from": "Hyperhidrosis", "title": "Path 3: need_medical_test", "to": "Other_diagnostic_procedures_(interview;_evaluation;_consultation)", "width": 3}, {"arrows": "to", "color": "#C0BABC", "from": "Other_diagnostic_procedures_(interview;_evaluation;_consultation)", "title": "Path 3: can_check_disease", "to": "Asthma", "width": 3}, {"arrows": "to", "color": "#C0BABC", "from": "Asthma", "title": "Path 3: has_symptom", "to": "Congestion_in_chest", "width": 3}, {"arrows": "to", "color": "#C7AC92", "from": "Hurts_to_breath", "title": "Path 4: possible_disease", "to": "Lung_contusion", "width": 3}, {"arrows": "to", "color": "#C7AC92", "from": "Lung_contusion", "title": "Path 4: has_symptom", "to": "Headache", "width": 3}, {"arrows": "to", "color": "#C7AC92", "from": "Headache", "title": "Path 4: possible_disease", "to": "Hyperhidrosis", "width": 3}, {"arrows": "to", "color": "#C7AC92", "from": "Hyperhidrosis", "title": "Path 4: has_symptom", "to": "Sweating", "width": 3}, {"arrows": "to", "color": "#C7AC92", "from": "Sweating", "title": "Path 4: possible_disease", "to": "Hyperhidrosis", "width": 3}, {"arrows": "to", "color": "#C7AC92", "from": "Hyperhidrosis", "title": "Path 4: has_symptom", "to": "Cough", "width": 3}, {"arrows": "to", "color": "#C7AC92", "from": "Cough", "title": "Path 4: possible_disease", "to": "Chronic_sinusitis", "width": 3}, {"arrows": "to", "color": "#C7AC92", "from": "Chronic_sinusitis", "title": "Path 4: has_symptom", "to": "Congestion_in_chest", "width": 3}, {"arrows": "to", "color": "#CD533B", "from": "Hurts_to_breath", "title": "Path 5: possible_disease", "to": "Lung_contusion", "width": 3}, {"arrows": "to", "color": "#CD533B", "from": "Lung_contusion", "title": "Path 5: has_symptom", "to": "Headache", "width": 3}, {"arrows": "to", "color": "#CD533B", "from": "Headache", "title": "Path 5: possible_disease", "to": "Hyperhidrosis", "width": 3}, {"arrows": "to", "color": "#CD533B", "from": "Hyperhidrosis", "title": "Path 5: has_symptom", "to": "Sweating", "width": 3}, {"arrows": "to", "color": "#CD533B", "from": "Sweating", "title": "Path 5: possible_disease", "to": "Hyperhidrosis", "width": 3}, {"arrows": "to", "color": "#CD533B", "from": "Hyperhidrosis", "title": "Path 5: has_symptom", "to": "Headache", "width": 3}, {"arrows": "to", "color": "#CD533B", "from": "Headache", "title": "Path 5: possible_disease", "to": "Chronic_sinusitis", "width": 3}, {"arrows": "to", "color": "#CD533B", "from": "Chronic_sinusitis", "title": "Path 5: has_symptom", "to": "Congestion_in_chest", "width": 3}, {"arrows": "to", "color": "#37392E", "from": "Hurts_to_breath", "title": "Path 6: possible_disease", "to": "Lung_contusion", "width": 3}, {"arrows": "to", "color": "#37392E", "from": "Lung_contusion", "title": "Path 6: has_symptom", "to": "Headache", "width": 3}, {"arrows": "to", "color": "#37392E", "from": "Headache", "title": "Path 6: possible_disease", "to": "Hyperhidrosis", "width": 3}, {"arrows": "to", "color": "#37392E", "from": "Hyperhidrosis", "title": "Path 6: has_symptom", "to": "Sweating", "width": 3}, {"arrows": "to", "color": "#37392E", "from": "Sweating", "title": "Path 6: possible_disease", "to": "Hyperhidrosis", "width": 3}, {"arrows": "to", "color": "#37392E", "from": "Hyperhidrosis", "title": "Path 6: has_symptom", "to": "Fever", "width": 3}, {"arrows": "to", "color": "#37392E", "from": "Fever", "title": "Path 6: possible_disease", "to": "Chronic_sinusitis", "width": 3}, {"arrows": "to", "color": "#37392E", "from": "Chronic_sinusitis", "title": "Path 6: has_symptom", "to": "Congestion_in_chest", "width": 3}, {"arrows": "to", "color": "#19647E", "from": "Hurts_to_breath", "title": "Path 7: possible_disease", "to": "Lung_contusion", "width": 3}, {"arrows": "to", "color": "#19647E", "from": "Lung_contusion", "title": "Path 7: has_symptom", "to": "Headache", "width": 3}, {"arrows": "to", "color": "#19647E", "from": "Headache", "title": "Path 7: possible_disease", "to": "Hyperhidrosis", "width": 3}, {"arrows": "to", "color": "#19647E", "from": "Hyperhidrosis", "title": "Path 7: has_symptom", "to": "Sweating", "width": 3}, {"arrows": "to", "color": "#19647E", "from": "Sweating", "title": "Path 7: possible_disease", "to": "Hyperhidrosis", "width": 3}, {"arrows": "to", "color": "#19647E", "from": "Hyperhidrosis", "title": "Path 7: need_medical_test", "to": "Other_diagnostic_procedures_(interview;_evaluation;_consultation)", "width": 3}, {"arrows": "to", "color": "#19647E", "from": "Other_diagnostic_procedures_(interview;_evaluation;_consultation)", "title": "Path 7: can_check_disease", "to": "Chronic_sinusitis", "width": 3}, {"arrows": "to", "color": "#19647E", "from": "Chronic_sinusitis", "title": "Path 7: has_symptom", "to": "Congestion_in_chest", "width": 3}, {"arrows": "to", "color": "#28AFB0", "from": "Hurts_to_breath", "title": "Path 8: possible_disease", "to": "Lung_contusion", "width": 3}, {"arrows": "to", "color": "#28AFB0", "from": "Lung_contusion", "title": "Path 8: need_medical_test", "to": "Hematologic_tests_(Blood_test)", "width": 3}, {"arrows": "to", "color": "#28AFB0", "from": "Hematologic_tests_(Blood_test)", "title": "Path 8: can_check_disease", "to": "Idiopathic_nonmenstrual_bleeding", "width": 3}, {"arrows": "to", "color": "#28AFB0", "from": "Idiopathic_nonmenstrual_bleeding", "title": "Path 8: has_symptom", "to": "Sweating", "width": 3}, {"arrows": "to", "color": "#28AFB0", "from": "Sweating", "title": "Path 8: possible_disease", "to": "Hyperhidrosis", "width": 3}, {"arrows": "to", "color": "#28AFB0", "from": "Hyperhidrosis", "title": "Path 8: has_symptom", "to": "Cough", "width": 3}, {"arrows": "to", "color": "#28AFB0", "from": "Cough", "title": "Path 8: possible_disease", "to": "Asthma", "width": 3}, {"arrows": "to", "color": "#28AFB0", "from": "Asthma", "title": "Path 8: has_symptom", "to": "Congestion_in_chest", "width": 3}, {"arrows": "to", "color": "gold", "from": "Hurts_to_breath", "title": "Path 9: possible_disease", "to": "Lung_contusion", "width": 3}, {"arrows": "to", "color": "gold", "from": "Lung_contusion", "title": "Path 9: need_medical_test", "to": "Hematologic_tests_(Blood_test)", "width": 3}, {"arrows": "to", "color": "gold", "from": "Hematologic_tests_(Blood_test)", "title": "Path 9: can_check_disease", "to": "Idiopathic_nonmenstrual_bleeding", "width": 3}, {"arrows": "to", "color": "gold", "from": "Idiopathic_nonmenstrual_bleeding", "title": "Path 9: has_symptom", "to": "Sweating", "width": 3}, {"arrows": "to", "color": "gold", "from": "Sweating", "title": "Path 9: possible_disease", "to": "Hyperhidrosis", "width": 3}, {"arrows": "to", "color": "gold", "from": "Hyperhidrosis", "title": "Path 9: has_symptom", "to": "Fever", "width": 3}, {"arrows": "to", "color": "gold", "from": "Fever", "title": "Path 9: possible_disease", "to": "Asthma", "width": 3}, {"arrows": "to", "color": "gold", "from": "Asthma", "title": "Path 9: has_symptom", "to": "Congestion_in_chest", "width": 3}, {"arrows": "to", "color": "#745C97", "from": "Hurts_to_breath", "title": "Path 10: possible_disease", "to": "Lung_contusion", "width": 3}, {"arrows": "to", "color": "#745C97", "from": "Lung_contusion", "title": "Path 10: need_medical_test", "to": "Hematologic_tests_(Blood_test)", "width": 3}, {"arrows": "to", "color": "#745C97", "from": "Hematologic_tests_(Blood_test)", "title": "Path 10: can_check_disease", "to": "Idiopathic_nonmenstrual_bleeding", "width": 3}, {"arrows": "to", "color": "#745C97", "from": "Idiopathic_nonmenstrual_bleeding", "title": "Path 10: has_symptom", "to": "Sweating", "width": 3}, {"arrows": "to", "color": "#745C97", "from": "Sweating", "title": "Path 10: possible_disease", "to": "Hyperhidrosis", "width": 3}, {"arrows": "to", "color": "#745C97", "from": "Hyperhidrosis", "title": "Path 10: need_medical_test", "to": "Other_diagnostic_procedures_(interview;_evaluation;_consultation)", "width": 3}, {"arrows": "to", "color": "#745C97", "from": "Other_diagnostic_procedures_(interview;_evaluation;_consultation)", "title": "Path 10: can_check_disease", "to": "Asthma", "width": 3}, {"arrows": "to", "color": "#745C97", "from": "Asthma", "title": "Path 10: has_symptom", "to": "Congestion_in_chest", "width": 3}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": false,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

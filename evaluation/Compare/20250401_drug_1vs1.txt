@@ -1,0 +1,6 @@
+output1: win rate = 0.48 (48.0 pts / 100 games)
+output2: win rate = 0.47 (47.0 pts / 100 games)
+output3: win rate = 0.485 (48.5 pts / 100 games)
+output4: win rate = 0.47 (47.0 pts / 100 games)
+output5: win rate = 0.485 (48.5 pts / 100 games)
+output6: win rate = 0.53 (53.0 pts / 100 games)

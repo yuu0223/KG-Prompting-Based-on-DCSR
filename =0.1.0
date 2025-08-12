@@ -1,0 +1,35 @@
+Requirement already satisfied: langchain in ./venv/lib/python3.10/site-packages (0.0.181)
+Requirement already satisfied: numpy<2,>=1 in ./venv/lib/python3.10/site-packages (from langchain) (1.26.4)
+Requirement already satisfied: requests<3,>=2 in ./venv/lib/python3.10/site-packages (from langchain) (2.32.3)
+Requirement already satisfied: tenacity<9.0.0,>=8.1.0 in ./venv/lib/python3.10/site-packages (from langchain) (8.2.2)
+Requirement already satisfied: numexpr<3.0.0,>=2.8.4 in ./venv/lib/python3.10/site-packages (from langchain) (2.10.2)
+Requirement already satisfied: dataclasses-json<0.6.0,>=0.5.7 in ./venv/lib/python3.10/site-packages (from langchain) (0.5.7)
+Collecting pydantic<2,>=1
+  Using cached pydantic-1.10.22-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+Requirement already satisfied: openapi-schema-pydantic<2.0,>=1.2 in ./venv/lib/python3.10/site-packages (from langchain) (1.2.4)
+Requirement already satisfied: PyYAML>=5.4.1 in ./venv/lib/python3.10/site-packages (from langchain) (6.0.2)
+Requirement already satisfied: async-timeout<5.0.0,>=4.0.0 in ./venv/lib/python3.10/site-packages (from langchain) (4.0.2)
+Requirement already satisfied: aiohttp<4.0.0,>=3.8.3 in ./venv/lib/python3.10/site-packages (from langchain) (3.8.4)
+Requirement already satisfied: SQLAlchemy<3,>=1.4 in ./venv/lib/python3.10/site-packages (from langchain) (2.0.15)
+Requirement already satisfied: charset-normalizer<4.0,>=2.0 in ./venv/lib/python3.10/site-packages (from aiohttp<4.0.0,>=3.8.3->langchain) (2.1.0)
+Requirement already satisfied: attrs>=17.3.0 in ./venv/lib/python3.10/site-packages (from aiohttp<4.0.0,>=3.8.3->langchain) (23.1.0)
+Requirement already satisfied: frozenlist>=1.1.1 in ./venv/lib/python3.10/site-packages (from aiohttp<4.0.0,>=3.8.3->langchain) (1.3.3)
+Requirement already satisfied: multidict<7.0,>=4.5 in ./venv/lib/python3.10/site-packages (from aiohttp<4.0.0,>=3.8.3->langchain) (6.0.4)
+Requirement already satisfied: aiosignal>=1.1.2 in ./venv/lib/python3.10/site-packages (from aiohttp<4.0.0,>=3.8.3->langchain) (1.3.1)
+Requirement already satisfied: yarl<2.0,>=1.0 in ./venv/lib/python3.10/site-packages (from aiohttp<4.0.0,>=3.8.3->langchain) (1.9.2)
+Requirement already satisfied: typing-inspect>=0.4.0 in ./venv/lib/python3.10/site-packages (from dataclasses-json<0.6.0,>=0.5.7->langchain) (0.9.0)
+Requirement already satisfied: marshmallow<4.0.0,>=3.3.0 in ./venv/lib/python3.10/site-packages (from dataclasses-json<0.6.0,>=0.5.7->langchain) (3.19.0)
+Requirement already satisfied: marshmallow-enum<2.0.0,>=1.5.1 in ./venv/lib/python3.10/site-packages (from dataclasses-json<0.6.0,>=0.5.7->langchain) (1.5.1)
+Requirement already satisfied: typing-extensions>=4.2.0 in ./venv/lib/python3.10/site-packages (from pydantic<2,>=1->langchain) (4.13.2)
+Requirement already satisfied: certifi>=2017.4.17 in ./venv/lib/python3.10/site-packages (from requests<3,>=2->langchain) (2023.7.22)
+Requirement already satisfied: urllib3<3,>=1.21.1 in ./venv/lib/python3.10/site-packages (from requests<3,>=2->langchain) (2.3.0)
+Requirement already satisfied: idna<4,>=2.5 in ./venv/lib/python3.10/site-packages (from requests<3,>=2->langchain) (3.10)
+Requirement already satisfied: greenlet!=0.4.17 in ./venv/lib/python3.10/site-packages (from SQLAlchemy<3,>=1.4->langchain) (2.0.2)
+Requirement already satisfied: packaging>=17.0 in ./venv/lib/python3.10/site-packages (from marshmallow<4.0.0,>=3.3.0->dataclasses-json<0.6.0,>=0.5.7->langchain) (23.2)
+Requirement already satisfied: mypy-extensions>=0.3.0 in ./venv/lib/python3.10/site-packages (from typing-inspect>=0.4.0->dataclasses-json<0.6.0,>=0.5.7->langchain) (1.0.0)
+Installing collected packages: pydantic
+  Attempting uninstall: pydantic
+    Found existing installation: pydantic 2.11.4
+    Uninstalling pydantic-2.11.4:
+      Successfully uninstalled pydantic-2.11.4
+Successfully installed pydantic-1.10.22

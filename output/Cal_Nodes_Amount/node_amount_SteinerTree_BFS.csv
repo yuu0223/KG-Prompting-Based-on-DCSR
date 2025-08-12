@@ -1,0 +1,715 @@
+Question_ID,Question,KG_nodes_count,Path_nodes_count
+5239,"Doctor, I'm experiencing some strange symptoms. I've been acting hostile towards my family, and I'm having problems with my movement. Also, I've noticed that I've been slurring my words lately.",5,5
+913,"Hi Doctor, I've been feeling very weak and fatigued lately. I also noticed that my muscles have been shrinking and I'm having trouble building muscle. ",10,10
+205,"Hi doctor, I am experiencing some pain in my lower abdomen and after a few tests, I have been diagnosed with a benign kidney cyst. What medical tests do I need to undergo now? ",5,5
+2254,"Doctor, I am experiencing some pain and soreness in my breast, along with some back pain and difficulty breathing. What could be the problem?",7,7
+2007,"Doctor, I've been experiencing shortness of breath, drainage in my throat, weakness in my wrist, and I've been coughing up blood. What could be the problem?",7,7
+1829,"Doctor, I have been experiencing sharp chest pain along with an irregular heartbeat. What could be the problem?",3,3
+1144,I have been diagnosed with primary kidney disease. What are the required medications for it? ,5,5
+840,"Doctor, I have been experiencing severe back pain and stiffness. Sometimes the pain even radiates to my neck and shoulders. I also find it difficult to move my back freely.",9,9
+4468,"Doctor, I recently had an ultrasound and they found a mass on my kidney. What could this mean?",9,9
+713,"Doctor, I was diagnosed with diabetic ketoacidosis. What tests do I need to take?<EOS>",5,5
+4838,"Doctor, I've been experiencing lower body pain and my foot/toe feels stiff or tight. Any idea what it might be?",5,5
+3457,"Doctor, I am experiencing an eyelid lesion or rash, diminished vision, and leg weakness. What could this be?",7,7
+261,"Doctor, I have been experiencing some pain and swelling around my bellybutton. I also noticed some redness and discharge from the area. What could be the problem?",8,8
+245,"Doctor, I have an open wound from my surgical incision. What medical tests do I need?",7,7
+768,"Doctor, I have been experiencing difficulty in passing urine lately. It feels like something is blocking my bladder. What should I do?",3,3
+1792,"Hi doctor, I've been feeling hot and cold lately along with some elbow cramps or spasms. I also feel like vomiting sometimes and have had seizures in the past. What could be the reason for these symptoms? ",7,7
+1906,"Doctor, I have been vomiting, my throat feels tight and I am experiencing incontinence of stool.",4,4
+4140,"Doctor, I am experiencing eye redness, a swollen eye, a headache, spots or clouds in vision, and pain in my eye. What could be causing these symptoms?",8,8
+4932,"Doctor, I have this strange rash on my skin and I've noticed a few skin growths. What could be causing this?",3,3
+218,I had an accident last night and I think I might have injured one of my internal organs. ,3,3
+4598,"Doctor, I've been experiencing some strange symptoms lately. I've been abusing alcohol a bit more than usual, and I've been experiencing delusions or hallucinations. I've been slurring my words, too, and I even fainted at work the other day. ",9,9
+1629,"Doctor, I've been having knee pain and heartburn lately.",3,3
+5324,"Doctor, I have been experiencing burning chest pain, regurgitation, problems with the shape and size of my breast, and I'm also having some smoking-related problems. What could be wrong with me?",9,9
+4465,"Doctor, I have been experiencing some symptoms lately. I have been abusing alcohol, feeling depressed, and having temper problems. I also have some fears and phobia. ",9,9
+3437,"Doctor, I've been experiencing sweating along with back pain, foot or toe weakness, and dizziness. What do you think could be the problem?",9,9
+1806,"Doctor, I have been experiencing vomiting, burning abdominal pain and sharp abdominal pain, what could be the problem?",7,7
+3680,"Doctor, I've been having pelvic pain and it's been bothering me a lot lately. What could be causing this?",7,7
+4828,"Doctor, I have been experiencing cough, elbow cramps, excessive growth, low back weakness, and decreased appetite. What could this be?",8,8
+2279,"Doctor, I have a plugged feeling in my ear and my hearing has diminished recently. Additionally, I've been biting my nails a lot and experiencing some emotional symptoms. I've also noticed some muscle swelling. What could be causing all these symptoms?",9,9
+54,"Doctor, I have been feeling very down and sad after giving birth to my baby. It's been a few weeks now and I just can't seem to shake it off. ",5,5
+1308,"Doctor, I broke my tooth and it's really hurting. What medication should I take?",6,6
+3463,"Hi doctor, I've been experiencing leg cramps or spasms a lot lately. Any idea what could be causing it?",5,5
+2788,"Doctor, I have been experiencing some strange symptoms lately, including focal weakness, depressive thoughts, and itching of my skin. Can you tell me what might be causing these symptoms? ",9,9
+2277,"Doctor, I have been experiencing some dizziness, weakness in my elbow and low back area, and my muscles have been swelling. Additionally, I am also having a plugged feeling in my ear. Can you please tell me what's wrong with me?",9,9
+1274,"Hi Doc, I've been experiencing knee pain for a while now and it hurts even more when I climb stairs or do any kind of physical activity.",5,5
+1764,"Doctor, I've been experiencing Hemoptysis, Sharp abdominal pain, Side pain, Diarrhea, and Burning abdominal pain. What could be the reason for all these symptoms?",9,9
+2758,"Doctor, I have a mouth ulcer and my gums are hurting a lot. What could be the reason for this?",5,5
+838,"Doctor, I have been feeling really down and hopeless since I had my baby. I think I might have postpartum depression.",4,4
+760,"Hi Doctor, I've been having some behavioral issues lately. I get into a lot of fights and feel angry all the time. ",4,4
+3113,"Doctor, I have been experiencing neck swelling, toothache, mouth pain, peripheral edema, and gum pain. What could be the issue?",9,9
+793,I have been experiencing vaginal dryness and itching lately. It's making sex very uncomfortable.,4,4
+2941,"Hi doctor, I have been experiencing cramps and spasms in my lower abdomen for the past week. I also noticed a mass on my vulva, my menstruation has become very infrequent and I've been having unusual vaginal discharge. Additionally, I experienced some vaginal bleeding after menopause. What could be causing these symptoms?",10,10
+2818,"Doctor, I've been experiencing nausea, a headache, and a plugged feeling in my ear. What's wrong with me?",5,5
+4946,"Doctor, I have been experiencing symptoms like vaginal itching, painful urination, groin pain, vaginal discharge, and also I have some skin lesions. What could be the reason for these symptoms?",8,8
+2167,"Doctor, I have redness in my ear and my skin has an abnormal appearance. What could be wrong?",5,5
+356,"Doctor, I fell off my bike and got an open wound on my cheek. What do I need to do?",5,5
+3764,"Doctor, I have been experiencing some trouble with urination lately. I have to go very frequently and sometimes I even urinate involuntarily.",7,7
+4393,"Hey doctor, I am experiencing some symptoms of eye, like blurred vision and dry eyes. Can you please tell me what could be the issue?",5,5
+1023," Hi doctor, I have been experiencing some discomfort and pain in my kidneys. I am concerned that I may have acute kidney injury. ",7,7
+3101,"Doctor, I have been experiencing impotence, heartburn, blood in stool, and leg swelling. What could be the reason for these symptoms?",9,9
+646,"Doctor, I have been having trouble retracting my foreskin. It's painful and causing inflammation. What should I do?",8,8
+4523,"Doctor, I have been experiencing a sharp pain in my lower abdomen. It's mostly around the suprapubic region. What could be the reason for this pain?",4,4
+2402,"Doctor, I have been feeling very depressed and sometimes I feel like I am losing my mind. I have also noticed that my breathing is shorter than usual and my movements feel restricted. Additionally, my feet and legs are swollen. What could be happening to me?",7,7
+5150,"Doctor, I have been experiencing shoulder pain. Could you tell me what might be causing it?",7,7
+5067,"Doctor, I have noticed problems with the shape and size of my breast and there is also some swelling in my back. Can you tell me what is wrong with me?",5,5
+2963,"Doctor, I have been having some redness in my ear, facial pain, toothache, sore throat, and ear pain. What could be the issue?",8,8
+4730,"Doctor, I have been having some issues with my ear lately. There's always this constant ringing in my ear and I feel like there's fluid in my ear.",4,4
+1576,"Doctor, I've been experiencing suprapubic pain, groin mass, lack of growth, leg pain, and some emotional symptoms. What could be the problem?",6,6
+570,"Doctor, I have been experiencing fatigue, weakness, and jaundice. My family has a history of anemia and I think I might have it too.",7,7
+376,"Doctor, I have been experiencing dizziness and a feeling of everything spinning around me. It's been happening for a few days now and I'm a bit worried.",3,3
+5418,"Doctor, I have a big swollen lip and I have an open wound in my jaw. What could be causing this?",5,5
+1867,"Doctor, I have been experiencing sharp abdominal pain recently.",3,3
+2371,"Hi doctor, I'm experiencing some pain in my neck, shoulder, and arm. Do you have any idea what it could be?",5,5
+654,"Doctor, I have been experiencing shortness of breath and chest pain. My doctor believes that I have pleural effusion. What tests do I need to take to confirm this diagnosis?",4,4
+1908,"Doctor, I have been experiencing vomiting blood, incontinence of stool, and temper problems lately. What could be the problem?",4,4
+828,"Doctor, I think I may have a foreign object stuck in my vagina, and I'm experiencing discomfort.",4,4
+3114,"Doctor, I have been experiencing gum pain and pain in my gums. What could be the problem?",5,5
+2278,"Doctor, I have been experiencing elbow cramps and weakness lately, along with some emotional symptoms. Can you tell me what's wrong with me? ",5,5
+3715,"I have this sore on my leg that just won't seem to heal, and the skin around it looks infected. What do you think it could be?",5,5
+5208,"Doctor, I have this lump in my throat and drainage in my throat. My tonsils are also swollen and my throat feels tight. I am also experiencing some apnea. What could be causing these symptoms?",10,10
+2989,"Doctor, I've been experiencing side pain, back pain, and it hurts to breathe. Additionally, my bones are painful. Can you tell me what's going on?",9,9
+1333,"Doctor, I have been experiencing a tingling sensation and weakness in my arms and legs. I was just diagnosed with mononeuritis. What medication should I take?",16,16
+3033,"Doctor, I have been experiencing vomiting blood, depressive symptoms, and sometimes even hostile behavior. What could be causing all this?",5,5
+2911,"Hi Doctor, I've been experiencing some symptoms lately like pain in my eye, facial pain and a lump on my knee. Do you know what might be causing this? ",4,4
+1717,"Doctor, I've been coughing up sputum and experiencing sharp chest and abdominal pain. I've also noticed flushing and jaundice. What could be wrong with me?",6,6
+2188,"Doctor, I have been feeling extremely tired and dizzy lately. I am also suffering from constipation and smoking problems. Additionally, I have been feeling very low and ache all over my body. What could be the reason for all of this?",14,14
+5309,"Doctor, I have been experiencing sharp chest pain, leg pain, sweating, back pain, and cough. What could be wrong with me?",9,9
+585,"Doctor, I have been experiencing a lot of pain and discomfort in my breasts lately. I noticed a small lump that seems to be causing me immense pain. Do you know what could be the reason?",7,7
+4991,"Doctor, I've been experiencing groin pain along with redness of the penis and swelling of scrotum. Additionally, the skin around the area looks abnormal. What could be the issue?",9,9
+5202,"I have a skin rash, sore throat, lip sore, ache all over my body, and a terrible headache. What could be the problem, doctor?",9,9
+1402,"Doctor, I have been experiencing very painful and unusual menstrual cramps every month. I don't know what to do, it's really affecting my daily routine.",5,5
+4376,"Doctor, I've been experiencing an irregular heartbeat, chest tightness, and palpitations. My heart rate has also decreased and I've been gaining weight. What could be causing these symptoms?",8,8
+2006,"Doctor, I have been experiencing vomiting, cough, sharp chest pain, and back pain. What could be the problem?",7,7
+1339,"Doctor, I have recently been diagnosed with Endocarditis. What medications do I need to take?",3,3
+3787,"Doctor, I have been experiencing heartburn and back pain for the past few days. Could you please tell me what might be causing this?",5,5
+3109,"Doctor, I've been feeling really down lately, and my body feels like it's in pain. Also, I'm having these weird involuntary movements. What could be wrong with me?",6,6
+2212,"Doctor, I have an open wound on my back and I've been feeling like my heartbeat is irregular. What could be the problem? ",6,6
+5243,"Doctor, I have this skin rash on my feet and my skin is also dry, peeling and rough. What could be the reason?",6,6
+4563,"Doctor, I have been experiencing a lot of pain lately. My hand, fingers, shoulder, neck, and even elbow have been hurting. I also have some low back pain. What do you think is the problem?",11,11
+1800,"Doctor, my infant has been having diarrhea, redness in their ear, decreased appetite, and has been very irritable lately. What could be wrong?",6,6
+2657,"Doctor, I have been experiencing shoulder pain, headache, and weakness lately. What could be the problem?",5,5
+459,"Hey Doc, I've been experiencing some chest pains recently and I'm afraid it might be related to my central atherosclerosis. Is there any way to know for sure?",2,2
+1877,"Doctor, I am having severe back pain and headache. What could be the reason?",3,3
+263,"Doctor, I am experiencing sudden weakness on one side of my face and an inability to close one of my eyes. Also, I am finding it difficult to eat and drink properly.",9,9
+2585,"Doctor, I've been experiencing acne breakouts, heavy menstrual flow, and abnormal skin with too little hair in some areas and unwanted hair in others. What could be the cause of this?",8,8
+3287,"Doctor, I've been having difficulty breathing lately. What could be causing it? ",8,8
+2194,"Doctor, I have been experiencing arm cramps and spasms lately and have noticed a disturbance in my memory as well. What could be the reason for this?",8,8
+543,"Doctor, I have been having these recurring headaches for a while now, and they are extremely painful. I think I might have migraines.",3,3
+1729,"Doctor, I have been experiencing excessive urination at night, and I'm also getting angrier than usual lately. What could be causing this?",3,3
+4647,"Doctor, I have been experiencing knee pain, headache, low back pain, and shoulder pain all at once. What could be the problem?",5,5
+2578,"Doctor, I have a lot of pain in my hip, joints, legs, and arms recently. ",8,8
+1742,"Doctor, I am experiencing chills, lower abdominal pain, vomiting, retention of urine, and sharp abdominal pain. What could be the problem?",7,7
+5370,"Doctor, I have been experiencing ankle pain and itching of the skin. I also noticed some skin lesions on my leg and foot. Additionally, I've been having recurrent acne or pimples and my skin looks infected.",10,10
+4090,"Doctor, I have a really sore throat. What could be the cause?",4,4
+3242,"Doctor, I have been experiencing involuntary urination and symptoms of bladder problems lately. In addition, I am also experiencing vaginal itching.",4,4
+5267,"Doctor, I have been experiencing bedwetting lately. What could be causing this?",5,5
+3759,"Doctor, I've been experiencing anxiety and nervousness lately, along with some emotional symptoms. I've also been having back pain, wrist weakness, and elbow weakness. What could be causing all of these symptoms?",10,10
+1171,"Hi doctor, I have been experiencing severe coughing fits and shortness of breath. I think I may have whooping cough. ",5,5
+2170,"Doctor, I have been experiencing neck pain, elbow pain, arm stiffness or tightness, and shoulder swelling. Can you tell me what might be wrong?",9,9
+2021,"Doctor, I have a skin growth in my ear and my hearing has diminished. Also, my ear looks red and there is fluid inside. I have a plugged feeling in my ear as well. What could be the cause?",10,10
+4599,"Doctor, I'm feeling very blue these days. I'm also experiencing stiffness all over my body and have difficulty speaking clearly. ",9,9
+4416,"Doctor, I have missed my period and I am experiencing heartburn along with some pelvic pressure. Also, I am having some spotting and problems during my pregnancy.",11,11
+2153,"Doctor, I have a sore throat, sharp chest pain, fever, coughing, and wheezing. What could be the problem?",7,7
+4789,"Doctor, I have a skin rash on my foot along with swelling, pain, and skin irritation. What could be the reason for this?",7,7
+3510,"Doctor, I have been experiencing intermenstrual bleeding along with uterine contractions. I also faced problems during my last pregnancy and have been struggling with infertility. What could be causing all these symptoms?",7,7
+4781,"Doctor, I've been experiences some emotional symptoms, diminished hearing, low back weakness, back pain, and feeling hot and cold. What could be the problem?",9,9
+3272,"Doctor, I have been feeling very weak and I am vomiting frequently. ",3,3
+2966,"Doctor, I have been experiencing some redness in my ear. Could it be an infection?",3,3
+1797,"Doctor, I have been experiencing sharp abdominal pain and had some problems during my pregnancy.",3,3
+1134,"Doctor, I have been experiencing weakness or paralysis on one side of my body. I think I have Hemiplegia, can you please provide me with the list of required medications for this condition?",5,5
+4175,"Doctor, I have peripheral edema, bleeding gums, pain in my eye, and my bones are painful. What could be happening to me?",11,11
+4043,"Doctor, I've been experiencing a lot of side pain and I also feel the constant need to pee, even though I just went. Sometimes I even involuntarily pee a little. What could be causing these symptoms?",6,6
+745,"Hi, doctor. I have this hard, thickened patch of skin on my foot that won't go away. It's been bothering me a lot lately. What should I do?",3,3
+386,"Doctor, I have been experiencing floaters and flashes of light in my vision. What could be wrong?",7,7
+899,I have been having ear pain and discharge. I think I might have acute otitis media. ,6,6
+1253,I have been experiencing memory problems and confusion lately. I think I might have Wernicke Korsakoff syndrome. ,4,4
+5141,"Doctor, I've been having sharp chest pain, itching of the skin and back pain. What could be the cause of this?",7,7
+1311,"Doctor, I recently suffered an injury to my face and it's been quite painful. What medications should I take? ",4,4
+3459,"Doctor, I have been experiencing a persistent cough and tingling sensations in my hands and feet. What could be the cause of these symptoms?",10,10
+4886,"Doctor, I've been having trouble with smoking lately, and I've been feeling really down. Do you have any idea what's going on?",5,5
+521,"Doctor, I have been having frequent abdominal pain, bloating, and constipation. I think I might have irritable bowel syndrome.",5,5
+3153,"Doctor, I have been experiencing ear pain for the past few days. ",5,5
+3127,"Hi doctor, I have been feeling very tired lately. I don't think I have been overdoing it, but the fatigue seems to be persistent.",3,3
+4882,"Doctor, I have been experiencing neck pain, diminished vision, vomiting, and anxiety and nervousness. What could be happening to me?",9,9
+3835,"Doctor, I have been experiencing muscle swelling, heavy menstrual flow, and vaginal bleeding after menopause. Additionally, I have been having vaginal discharge and recently noticed pus in my sputum. What could be wrong with me?",11,11
+4335,"Doctor, I have been feeling very weak lately. What could be the reason for this?",11,11
+2060,"Doctor, I have been experiencing some discomfort lately. It hurts to breathe, and I have a sharp pain in my chest. My voice also sounds hoarse, and I've been having trouble swallowing. What could be the problem?",7,7
+4533,"Hi Doctor, I have been experiencing rectal bleeding and blood in my stool. What could be the cause of this?",3,3
+95,"Doctor, I have been experiencing abdominal pains and distention, and sometimes, I feel nauseous and vomit. I also have constipation and difficulty passing gas.",9,9
+939,"Doctor, I have been experiencing pain and discomfort in my vulva, and it's been bothering me for quite some time.",3,3
+4399,"Doctor, I've been experiencing back pain, poor circulation, ache all over, paresthesia, and some symptoms in my eyes. What could be wrong with me?",10,10
+2186,"Hi doctor, I have been experiencing some leg pain and ankle swelling for a few days. What could be the reason for this?",5,5
+5251,"Doctor, I have been experiencing back pain, low back stiffness, back cramps, muscle pain and even hip pain. What could be the problem? ",8,8
+2787,"Doctor, I have been experiencing itching of my skin and I have developed an allergic reaction. In addition, I have been feeling focal weakness, have a skin rash and overall weakness. What could be causing this?",12,12
+914,"Doctor, I've been experiencing sudden jerks and twitches in my muscles. It's becoming very difficult to manage them on a daily basis.",7,7
+2405,"Doctor, I've been feeling a bit off lately. I've been having shortness of breath and I think I may be having an allergic reaction. ",3,3
+3562,"Doctor, I've been experiencing heavy menstrual flow, sharp abdominal pain, and vaginal pain. What could be the problem?",5,5
+1296,"Doctor, I have been experiencing a lot of discomfort and redness in my eyes. I think I might have Iridocyclitis, could you please recommend some medication for this?",10,10
+3717,"Doctor, I have been experiencing skin pain for a long time now. What could be the problem?",10,10
+27,"Doctor, I have been having trouble breathing for the past few days. I feel like I am not able to take deep breaths and it feels like something is compressed in my chest.",7,7
+2158,"Doctor, I feel a sharp pain in my arm, and I also notice a depression on my elbow. What could be the problem? ",3,3
+4101,"Doctor, I have been experiencing some strange symptoms in my face lately. It feels like my face is flushing and my eyes are bulging out. What could be the cause of this?",7,7
+1464,"Doctor, I have been experiencing difficulty swallowing and a feeling of something stuck in my throat. I have also been experiencing bad breath and regurgitation of undigested food. ",7,7
+4159,"Doctor, I have been experiencing cramps and spasms in my lower abdomen, along with sharp abdominal pain. I have also been vomiting, and my menstruation has been quite painful. Additionally, I have noticed burning abdominal pain. What could be wrong with me?",12,12
+872,I have been diagnosed with Intracranial hemorrhage. What medication do I need to take?,4,4
+5123,"Doctor, I have noticed a change in the size and color of my skin mole, and it's been very itchy. Also, I have a skin growth and a mass in my groin area.",13,13
+2445,"Doctor, I have been having a hard time lately. In the past few weeks, I've been experiencing several symptoms like breathing fast, loss of sensation, irregular heartbeat, headaches and sharp chest pains. What could be wrong with me?",8,8
+5235,"Doctor, I've been experiencing some symptoms and I'm not sure what's happening. I've been having very depressive thoughts and sometimes feel like I'm losing touch with reality. Also, my sense of smell and taste has been off lately, and I've been slurring my words. What could this be?",7,7
+4989,"Doctor, my infant son has been extremely irritable lately and seems to be in pain.",7,7
+1630,"Doctor, I have knee swelling and it is really painful, can you tell me what's causing it?",5,5
+3064,"Doctor, I have been experiencing double vision lately. Can you tell me what might be causing it?",5,5
+1324,"Doctor, I have been experiencing fatigue, cough, fever, chest pain, and headache. I was recently diagnosed with Valley fever. Could you please suggest what medications I should take?",12,12
+4419,"Doctor, I have been experiencing some pelvic pressure and spotting during my pregnancy, can you tell me what might be the cause of it?",5,5
+4345,"Hi doctor, I'm experiencing stiffness all over my body and my knee has joint swelling, a mass or lump, and feels really stiff and tight. What could be causing this?",8,8
+5,"Doctor, I think I've been poisoned. I drank some ethylene glycol by mistake. ",5,5
+4907,"I don't know what's wrong with me, doctor. Lately, I've been experiencing some really intense mood changes. I've been feeling pretty down and depressed, and sometimes I feel like I'm losing touch with reality. ",5,5
+2656,"Doctor, I've been experiencing nailbiting and diarrhea lately. What could be causing this?",5,5
+4003,"Doctor, I've been experiencing pus draining from my ear, diminished hearing, ringing in my ear, ear pain, and redness in my ear. What could be wrong with me?",8,8
+160,"Doctor, I have been experiencing some discomfort and pain while passing urine. I also feel like I need to urinate more frequently than usual. Could you tell me what's wrong with me and what medical tests I need to take?",5,5
+917,"Doctor, I have this open wound on my back and it's really painful. What medications do I need to take?",6,6
+2974,"Doctor, I have been experiencing involuntary urination and I also have a fever. What could be the problem?",5,5
+2520,"Doctor, I have noticed that my skin looks abnormal lately. It's kind of thick and hard, and has a shiny appearance. Do you know what it could be? ",5,5
+1962,"Hi Doctor, I've been having some issues lately. My eyes feel strained all the time, I get cramps and spasms, my feet and toes feel stiff, and I've gained some weight recently. What could be wrong with me?",8,8
+475,"Doctor, I have been experiencing memory loss, confusion and trouble speaking. I also have been consuming a lot of alcohol lately. ",6,6
+1974,"Doctor, I'm having problems with movement and my knee feels stiff and tight. What could be causing this? ",4,4
+4648,"Doctor, I have been experiencing ankle pain, leg pain, low back pain, neck pain and back pain.",9,9
+702,"Doctor, I have been experiencing some symptoms lately and I'm worried it might be something serious. I have been having persistent abdominal pain, changes in my bowel movements, and blood in my stool.",5,5
+3982,"Doctor, I have a hoarse voice and sore throat, and I keep pulling at my ears. What could be wrong with me?",6,6
+567,"Doctor, I have been experiencing shortness of breath and chest pain lately. I also feel very tired all the time. I'm worried I might have cardiomyopathy.",6,6
+4364,"Doctor, I have been experiencing sharp and burning abdominal pain with bloating for the past few days. I also have some side pain and symptoms of the kidneys. What could be the reason for this?",6,6
+1031,"Doctor, I think I may have been poisoned by antihypertensive medication. What medication do I need to take?",8,8
+1052,"Doctor, I have been experiencing recurring episodes of fever and joint pain for the past few months. My doctor suggested I might have chronic rheumatic fever. Can you please tell me what medications I would need to take for this?",7,7
+5405,"Doctor, I've been experiencing excessive anger, lack of growth, antisocial behavior, obsessions and compulsions, and even delusions or hallucinations. What could be causing these symptoms?",7,7
+3894,"Doctor, I have been experiencing shoulder pain, headache, arm pain, and neck pain. Do you know what could be causing it?",7,7
+4504,"Doctor, I have this mass or swelling around my anus, and I'm experiencing sharp abdominal pain along with dark tarry stool. What is wrong with me?",7,7
+1353,"Doctor, I have been having high blood pressure during my pregnancy. What do you think is the required medication for me?",6,6
+2172,I have been experiencing a lot of pain in my shoulder that seems to be spreading to my neck. What could be causing this?,3,3
+4323,"I've been experiencing loss of sensation and pain in my arm, hand and fingers, as well as pain in my foot, toes and ankle. Do you know what could be causing this?",12,12
+4970,"Doctor, I have been experiencing some hip pain, side pain, and difficulty speaking lately, and also some delusions and hallucinations. Could you please tell me what could be causing these symptoms?",11,11
+3467,"Doctor, I have a swollen mass in my neck. It's been there for a few weeks now and it's getting bigger. Can you tell me what's going on? ",5,5
+1736,"Doctor, I have noticed bleeding from my eye, spots or clouds in my vision, and my eye has been red. What do you think is wrong with me?",8,8
+4418,"Doctor, I have been experiencing some uterine contractions lately. Is there anything to worry about?",3,3
+1648,"Hi doctor, I've been experiencing some symptoms that are troubling me. My eyes feel heavy, and I seem to have some difficulty focusing. Additionally, I feel like there's some fluid buildup in my ear. What could be causing this?",7,7
+3269,"Doctor, I have been experiencing a lot of pain in my eye.",7,7
+3060,"Doctor, I have been experiencing a lot of pain in my eye lately. ",7,7
+3589,"I have been experiencing pain of the anus, joint pain, nausea and rectal bleeding lately. What could be the issue?",7,7
+4240,"Doctor, I have been experiencing incontinence of stool, pain of the anus, low back cramps, and I noticed a mass or swelling around my anus. I also saw some blood in my stool, what could be wrong with me?",13,13
+3699,"Doctor, I am experiencing joint pain, groin pain, lower body pain, and low back pain. What could be wrong with me?",9,9
+992,"Doctor, I think I dislocated my foot during a game of soccer. It's really painful and I can't put any weight on it. What medication should I take?",10,10
+2031,"Hi Doctor, I injured my finger and it's been hurting a lot. It's also swollen.",4,4
+1841,"Doctor, I've been experiencing loss of sensation, coryza, and nausea for a while now. What could be the problem?",4,4
+525,"Doctor, I've been feeling really sick and I think I may have a parasitic disease. ",4,4
+2770,"Doctor, I have been experiencing vomiting for the past few days, what could be causing this?",4,4
+173,"Doctor, I have an open wound in my mouth that isn't healing on its own. Can you please help me diagnose and treat it?",7,7
+4820,"Doctor, I've been having some neck, back, and bone pain recently, and I've noticed some soreness in my breasts. Do you have any idea what might be causing it?",9,9
+4538,"Doctor, I have been experiencing delusions or hallucinations and stiffness all over my body, what could be wrong?",6,6
+1886,I have been having difficulty breathing lately and have noticed weakness in my elbows. I've also been feeling quite anxious and nervous.,5,5
+4821,"Doctor, I have a lump in my breast and it's causing me pain. The shape and size of my breast also seem to be a bit odd. Additionally, I have been experiencing neck pain. Do you have any idea what could be wrong with me?",11,11
+1805,"Doctor, I have been experiencing diarrhea and a decreased appetite. What could be the cause?",3,3
+59,"Doctor, I have been experiencing bleeding in between my periods, and I'm not sure what's causing it.",3,3
+582,"Doctor, I have been experiencing a persistent cough and difficulty breathing for the past few days. I think I might have tracheitis. ",5,5
+5170,"Doctor, I have been experiencing some strange symptoms lately. I have been having spots or clouds in my vision and experiencing pain in my eyes. Also, I have difficulty swallowing and joint pain. On top of that, I feel like my vision has been diminished.",9,9
+483,"Hello Doctor, I have been experiencing some issues related to tumors in my nervous system. I suspect that it could be neurofibromatosis. What kind of medical tests do I need to take?",6,6
+1876,"Doctor, I have a headache that has been bothering me for a few days now. It seems to be getting worse and I have been feeling a bit dizzy too. ",3,3
+258,"Doctor, I am having trouble controlling my impulses. I feel like I need help.",3,3
+2707,"Doctor, I have been fainting a lot lately and my eyes feel really itchy. I also find it difficult to breathe properly.",8,8
+581,"Doctor, I fell down yesterday and hurt my face. Now, I feel severe pain and I am unable to open my mouth properly.",7,7
+4212,"Hi doctor, I've been experiencing vomiting lately. ",7,7
+1950,"Doctor, I have noticed a lump on my hip and am experiencing headaches and some depressive symptoms. Do you know what could be causing these?",5,5
+2282,"Doctor, I have been experiencing a lot of pain in my shoulder.",5,5
+3977,"Doctor, I'm experiencing a loss of sensation in my feet. What could be causing this?",5,5
+1756,"Doctor, I have been experiencing upper abdominal pain and sharp chest pain. I am also pregnant and I feel pain sometimes during my pregnancy. ",5,5
+1084,"Hi doctor, I've been experiencing some issues with my pituitary gland. I think I might have a pituitary disorder.",3,3
+4678,"Hi doctor, I have been experiencing unpredictable menstruation, along with pain and soreness in my breasts and painful menstruation. What could be the cause of this?",6,6
+4721,"Doctor, I have been experiencing skin pain, acne, itching and there's a new skin growth. I also found a lump on my breast.",8,8
+3873,"Doctor, I've been experiencing vaginal dryness, sweating, and weight gain. What could be causing this?",9,9
+1991,"Doctor, I have been experiencing disturbance of memory, vomiting, and headache lately, what could be the reason for this? ",5,5
+3875,"Doctor, I have a decreased appetite, frontal headache, upper abdominal pain, and cough. What could it be?",7,7
+3335,"Doctor, I have been experiencing an irregular heartbeat. Sometimes it feels like it skips a beat or adds an extra beat. What could be the cause of this?",4,4
+1560,"Hi doctor, I have recently been diagnosed with spondylolisthesis. Can you suggest any medications that could help alleviate the pain?",7,7
+773,"Doctor, I think I may have accidentally ingested too many opioids. I'm feeling very nauseous and dizzy. ",6,6
+795,"Doctor, I have a cellulitis or abscess in my mouth. What medications do I need?",2,2
+5399,"Doctor, I have these weird symptoms on my skin like swelling, warts and a lesion. Can you tell me what could it be?",4,4
+3532,"Doctor, my lips are very dry, and I have a mouth ulcer that is causing bleeding in my mouth, can you prescribe any medication for it?",9,9
+2903,"Doctor, I have a sore on my lip and my skin around it feels itchy and swollen, what could it be?",5,5
+3470,"Doctor, I have been experiencing some symptoms in my hand recently. The skin on my arm and hand looks infected, my hand and finger are swelling, and my bones are painful.",10,10
+3368,"Doctor, I have been experiencing diminished hearing, weakness, and disturbance of memory lately, what is wrong with me?",6,6
+3826,"Doctor, I have this weird sensation in my eye and it feels like there's something in there. My eyelid is also moving abnormally and my eye is really itchy. ",5,5
+444,"Doctor, I think I might have hydatidiform mole. What tests should I take to be sure about it?",5,5
+5354,"Doctor, I have this problem where I wet my bed at night, and I also have to go to the bathroom very often during the day. On top of that, my feet and ankles are swollen. What could be causing this?",6,6
+5294,"Doctor, I've been feeling really sick lately. I've been vomiting, feeling weak, and ache all over. I also have a lot of leg pain. Do you have any idea what it could be?",9,9
+807,"Doctor, I had a transient ischemic attack a few weeks ago and I'm afraid it might happen again. What can I do?",3,3
+497,"Hi doctor, I think I have Onychomycosis, this is a fungal infection that affects the nails of my toes, making them thick, crumbly, and discolored. What should I do?",9,9
+3299,"Doctor, I have been experiencing joint pain, leg pain, and insomnia for the past few days. What could be the reason?",7,7
+2780,"Doctor, I have been experiencing shortness of breath, anxiety and nervousness, and palpitations. Do you know what could be causing this?",4,4
+896,"Doctor, I have been experiencing shortness of breath and cough for the past few days. I feel like there is a lot of fluid buildup in my lungs, and it's getting hard for me to breathe.",6,6
+2037,"Doctor, I have been having some health issues lately. I have problems during pregnancy, low self-esteem, throat irritation, I abuse alcohol and have been showing hostile behavior. What could be causing all of these symptoms?",6,6
+1570,"Doctor, I have been experiencing nasal congestion, cough, and diminished hearing lately. What could be causing these symptoms?",4,4
+1559,"Doctor, I have been diagnosed with Kaposi sarcoma. What medications do I need to take?",5,5
+4394,"Doctor, I have been experiencing lack of growth, loss of sex drive, symptoms in my eyes, acne or pimples, and painful menstruation for quite some time now. What could be the cause of it all?",13,13
+3676,"Doctor, I'm experiencing sharp abdominal pain and I noticed blood in my stool.",3,3
+1149,"Doctor, I have a tooth abscess and it's really painful. What medication do I need?",4,4
+1504,"Hi Doctor, I have been diagnosed with Osteomyelitis. What medications do I need to take for it?",4,4
+3790,"Doctor, my baby has been very irritable lately and has had a fever. Additionally, he seems to have a runny nose. What could it be?",7,7
+2047,"Doctor, I've been experiencing itching of the anus, burning abdominal pain, and ankle pain. What could be causing this?",4,4
+618,"Hi Doctor, I've been feeling really weak and dizzy lately, even though I'm drinking plenty of water. I think it might be because of the heat.",6,6
+3631,"Doctor, I have been experiencing fainting and irregular heartbeat, what could be causing it?",3,3
+4509,"Doctor, I have noticed some skin moles on my arms and legs. What could be the reason?",8,8
+803,"Hi doctor, I think I may have vaginitis. ",8,8
+415,"Doctor, I fell down the stairs this morning and believe I may have fractured my leg.",6,6
+5343,"I've been having leg swelling, vaginal pain, arm swelling and leg pain. What could be the issue?",6,6
+4429,"Doctor, I've been experiencing some symptoms like lymphedema and some symptoms related to my eyes. What could it be?",5,5
+121,"Doctor, I have been experiencing shortness of breath and wheezing for a while now. I also have a persistent cough and a lot of phlegm. I am worried that I might have COPD. ",6,6
+765,"Hi doctor, I think I have molluscum contagiosum. The bumps on my skin are starting to spread and some of them have a white core.",8,8
+1937,"Doctor, I'm having difficulty speaking and I've been feeling very depressed lately. I'm also having trouble remembering a lot of things and I'm experiencing some weakness on the right side of my body.",10,10
+1363,"Hi doctor, I have been experiencing severe anxiety, nightmares, and flashbacks after a traumatic event. I'm having trouble sleeping and it's affecting my daily life.",8,8
+3330,"Doctor, I have been feeling weak lately and also experiencing sharp chest pain. In addition, my behavior has been quite antisocial and I have been abusing alcohol. What could be wrong with me?",7,7
+3979,"Doctor, I've been having a really sore throat lately and I keep pulling at my ears. What could be causing this?",5,5
+3944,"Doctor, I have this lump on my foot and it's causing me a lot of pain. I'm not sure when it even appeared.",5,5
+1752,"Doctor, I have been experiencing some symptoms lately.",5,5
+3286,"Doctor, I've been having trouble sleeping lately. I'm also feeling tired all the time, and I keep getting heartburn. On top of that, my heart feels like it's racing a lot. What could be causing all of these symptoms?",8,8
+481,"Doctor, I'm experiencing high blood pressure and swelling in my hands and feet during my pregnancy. I'm worried that I may have preeclampsia. ",9,9
+1349,"Hi Doctor, I have been experiencing severe numbness and tingling in my fingers and toes which turn white and blue when I get cold or stressed. I think I may have Raynaud disease. What medications should I take?",25,25
+3105,I've been having a fever and really bad sinus congestion. What could be wrong with me?,3,3
+18,"Doctor, I've been experiencing continuous ringing in my ears for the past few weeks. I'm quite worried about it. ",2,2
+3199,"Doctor, I'm experiencing ear pain, headache, and swollen lymph nodes. What could be the problem?",5,5
+2173,"Doctor, I have been experiencing headache, abusing alcohol, fainting, and sleepiness lately. What could be the problem?",6,6
+3728,"Doctor, I am experiencing knee pain, ache all over, vomiting, sharp abdominal pain, and have a fever. What could it be?",7,7
+2337,"Doctor, I've been feeling very cold lately and my feet and legs have been quite swollen. What could be the problem?",7,7
+3466,"I have this weird lump on my neck, and I'm also experiencing vaginal dryness and leg cramps. What could be causing all of this?",9,9
+4553,"Doctor, I have been feeling very depressed lately and also experiencing stiffness all over my body. Can you tell me what might be causing this?",5,5
+5423,"Doctor, I've been experiencing fatigue, sharp abdominal pain, fever and nausea. What's wrong with me?",6,6
+3987,"Doctor, I've been experiencing sharp abdominal pain and pelvic pain during my periods. What could be the reason for this?",4,4
+1269,"Hi Doctor, I think I dislocated my wrist while playing football. It's really painful, and I can't move it much.",7,7
+1556,"Hi doctor, I have this infection on my finger and my friend said it might be a Paronychia. ",4,4
+2431,"Doctor, I have been experiencing sharp abdominal pain, pain or soreness of breast, nausea, and lower abdominal pain for the past few weeks. I am also not getting my period. What could be wrong with me?",8,8
+1784,"Doctor, I have been experiencing back pain for the past week. ",8,8
+480,"Doctor, I have been experiencing fatigue, shortness of breath, chest pain and irregular heartbeats. I did some research and it seems like I might have myocarditis. What tests should I get done to confirm it?",7,7
+4745,"Doctor, I have been facing a problem with my memory. Sometimes, I forget things that I should remember easily. What do you think might be the issue?",5,5
+4442,"Doctor, I have redness in and around my nose. What could be causing it?",3,3
+500,"Hi doctor, I have been feeling really tired and weak lately, and I think it's because of my iron deficiency anemia. What medical tests should I take?",5,5
+2570,"Doctor, I have been having vomiting, low back pain, decreased appetite, back pain, and blood in my urine. What could be the reason for these symptoms? ",7,7
+469,"Hello, I have been having a lot of pain and numbness in my back, legs and calves. The pain worsens when I walk or stand for too long. ",7,7
+411,"Doctor, I've got these small black spots floating in my vision. It's been worrying me a lot lately.",5,5
+4786,"Doctor, I'm having some strange symptoms, my skin on arm and hand look infected, and I am also having hip pain.",5,5
+3906,"Doctor, I'm concerned about my lack of growth despite having a healthy diet and exercising regularly. Can you please tell me what's wrong?",8,8
+4120,"Doctor, I have been feeling really down lately. I don't have any energy to do anything and I don't want to talk to anyone. ",5,5
+4351,"Doctor, I've been having shortness of breath and increased heart rate. Also, I have been experiencing lower body pain. What could be the cause of this? ",7,7
+1290,"I have been experiencing discomfort in my legs, and I recently found out that I have venous insufficiency. What medication do I need to take?",5,5
+466,"Doctor, I am having some discomfort and pain in my lower abdomen. I also feel bloated and have difficulty eating.",8,8
+4161,"Doctor, I have been experiencing a lot of cramps and spasms recently. ",3,3
+657,"Doctor, I have been experiencing weakness and lack of energy lately. I'm worried I might have a vitamin deficiency.",9,9
+1523,"Doctor, I have been having difficulty breathing through my nose and I think I have a deviated nasal septum. What medications do I need to take?",3,3
+562,"Doctor, I have been experiencing some unusual symptoms like fever, fatigue, chills, and heart palpitations. I think I might have Endocarditis. ",9,9
+4875,"Doctor, I have a mass on my neck that seems to be getting bigger. Also, the skin over it looks abnormal and swollen with some moles. What might be going on?",7,7
+557,"Doctor, I think I have Malaria.",7,7
+1927,"Doctor, I have these weird skin moles on my fingers and feet that are really bothering me. What could it be?",6,6
+3308,"Hi doctor, I have a lesion on my eyelid and a mass as well. Also, I am experiencing some symptoms in my eyes like diminished vision and pain. What could be wrong?",6,6
+983,"Hi doctor, I think I dislocated my patella, it's really painful.",7,7
+4667,"Doctor, I've been having unpredictable menstruation for some time now. I also experience vaginal itching, and when I have my periods, they last unusually longer than before. But then I also have this problem of completely missing my period for a couple of months.",10,10
+2017,"Doctor, I have been experiencing some congestion in my chest along with facial pain and frontal headache. What could be the problem?",5,5
+4743,"I have been feeling very low lately. I think I might have depression. And my self-esteem is at an all-time low. Also, I noticed pus in my urine, and I have been having cramps or spasms in my elbow.",11,11
+4871,"Doctor, I've been experiencing dizziness, paresthesia, arm weakness, back pain, and disturbance of memory. What could be wrong with me?",8,8
+326,"Doctor, I've been experiencing intense pain on one side of my throat, difficulty swallowing and a high fever.",9,9
+5074,"Hi Doctor, my hand hurts a lot and the skin on my arm and hand looks infected.",5,5
+672,"Doctor, I have been experiencing painful sores in my nose and mouth. My throat is also sore and it's difficult to swallow sometimes. What do you think is wrong?",5,5
+3435,"Doctor, I've been experiencing weakness, sharp chest pain, problems with movement, leg pain, and sweating. What could be the problem?",11,11
+5386,"Doctor, I have noticed some abnormal appearance on my skin. ",11,11
+4782,"Doctor, I've been feeling dizzy lately, and it's been causing me a lot of trouble. I also have some depressive symptoms and I feel like my hearing has diminished. On top of that, my lower back feels very weak. What could these symptoms be?",8,8
+4631,"Doctor, I have been feeling hot and cold lately, and I noticed that I have been nailbiting excessively. I also have back pain and I even fainted earlier. Additionally, I noticed that my hands and fingers have been swelling. What could be the problem?",15,15
+4283,"Doctor, I'm experiencing nasal congestion and pain in my eye. What could be wrong?",5,5
+2592,"Doctor, I've been having some issues lately. I noticed blood in my urine, I've been vomiting, and I'm experiencing pain in my testicles and suprapubic pain.",8,8
+2137,"Doctor, I have been experiencing coryza for the past few days. What could be the issue?",8,8
+1674,"Doctor, I am experiencing neck stiffness and shoulder swelling, along with leg cramps or spasms. What could be the reason for these symptoms?",7,7
+2574,"Doctor, I'm worried about the symptoms I'm experiencing. I've noticed a skin growth and symptoms of the scrotum and testes. I'm also experiencing impotence, excessive urination at night, and I've seen blood in my urine.",14,14
+1956,"Doctor, I have been experiencing skin swelling and itching of skin. What could be the problem?",3,3
+2176,"Doctor, I have been feeling really low for the past few days, and it's been hard for me to get out of bed. I've been crying a lot and just can't seem to shake off this feeling.",5,5
+3243,"Doctor, I have been experiencing constipation for a while now, and recently I have noticed that I am having some urge incontinence. What could be the problem?",5,5
+1073,Hi doctor. I think I have a fracture in one of my ribs. ,5,5
+5288,"Doctor, I have redness in my eyes, a sore throat, itchiness in my eyes, a swollen eye, and fever. What's wrong with me?",10,10
+2458,"Doctor, I've been experiencing some strange symptoms lately. My eyes seem to be deviating and my eyelids have been moving abnormally. What could be causing this?",3,3
+3746,"Doctor, I have been experiencing bleeding from my ear, facial pain and my hearing has reduced too. What could be the reason for it?",5,5
+2591,"Doctor, I have been experiencing lower body pain and side pain lately. Can you please help me understand what's going on?",3,3
+595,"Doctor, I've been experiencing skin irritation, redness, and itchiness whenever I come into contact with certain substances. I think it might be contact dermatitis. What tests do I need to take to confirm this?",10,10
+77,"Doctor, I think I might have had a stroke. My left side suddenly felt weak and numb.",5,5
+3755,"Hi doctor, I've been experiencing some pain in my testicles along with elbow cramps and burning sharp abdominal pain.",7,7
+5089,"Doctor, I have been feeling very nauseous lately and I have noticed an excessive growth on my body. I also have a lump on my knee and a sore in my vulvar area.",10,10
+4613,"Doctor, I have been feeling nauseous and have a burning pain in my abdomen. I also have chills and pain on my side. Do you know what could be wrong with me?",7,7
+820,"Hi doctor, I have been experiencing vision problems and I was diagnosed with diabetic retinopathy. What medications do I need to take?",5,5
+601,"Doctor, I have been experiencing a lump on my neck and after the diagnosis, I found out that I have thyroid cancer. What medical tests do I need to take?",5,5
+4405,"Hi doctor, I have been experiencing neck cramps or spasms, wrist weakness, vulvar sore, and back pain. Do you have any idea what could be wrong with me?",8,8
+1747,"Doctor, I have been feeling very depressed and emotionally unstable lately, and I have also noticed weakness in my wrists. Additionally, I have had some angry outbursts. What could be wrong with me?",6,6
+4145,"Doctor, I have been experiencing lower abdominal pain, swelling of scrotum and penis pain. Can you please tell me what could be the problem?",6,6
+1086,"I've been recently diagnosed with Autism, what kind of medications do I need to take?",5,5
+2860,"Doctor, I have been feeling nauseous and vomiting a lot lately. Also, my skin has an abnormal appearance.",5,5
+564,"Doctor, I was feeling uneasy and nauseous after being out in the sun for a few hours. I also had a headache and my body temperature was very high. I think I may have a heat stroke.",8,8
+2002,"Doctor, my eye has been feeling really itchy lately. ",5,5
+3028,"Doctor, I've been having some problems lately. I have been abusing alcohol, exhibiting aggressive behavior, feeling unhappy, experiencing worsened smoking problems, and experiencing slurred speech even when sober. Can you help me?",10,10
+2335,"Doctor, I have been experiencing fever, elbow cramps, weakness in my elbow, being underweight, and coughing up blood. What could be causing all of these symptoms?",10,10
+1293,"Hi doctor, I have been struggling with drug abuse for a while now and I was wondering if there is any medication that can help me?",5,5
+3590,"Doctor, I have been experiencing sharp abdominal pain and nausea. What could be the cause?",3,3
+4451,"Doctor, I've been experiencing a lot of jaw pain lately. ",3,3
+2479,"Doctor, I have been experiencing delusions, seizures, nausea, anxiety and nervousness. What could be wrong?",8,8
+5011,"Doctor, I have been experiencing facial pain, allergic reaction, hoarse voice and frontal headache for the past few days. What do you think is wrong with me?",9,9
+5358,"Doctor, I have this skin swelling, itchy eyelid and my skin seems to have some dryness, peeling, scaliness and roughness. Can you tell me what is causing all these symptoms?",12,12
+65,"Doctor, I fell from a height and I have difficulty breathing and a sharp pain in my chest. ",5,5
+4544,"Doc, I have been having nasal congestion, coryza, diarrhea, chills, and a sore throat. Do you know what could be the problem?",9,9
+2453,"Doctor, I have been experiencing pain in my foot and spasms in my toes. What could be the cause of this?",5,5
+5435,"Doctor, I am experiencing leg pain, leg cramps, weakness, and difficulty in moving. Also, I have been having severe back pain for a while now.",9,9
+849,I have been diagnosed with lung contusion. What medications do I need to take to treat it?,9,9
+1101,"Doctor, I think I have a fracture in my patella. Can you help me with it?",9,9
+946,"Doctor, I have been experiencing some vision problems lately. I went to an ophthalmologist and was diagnosed with chorioretinitis. What medications do I need to take?",7,7
+877,"Hello doctor, I have been experiencing constant congestion and headaches, and I was told that I have chronic sinusitis. Can you please prescribe me some medications for it?",6,6
+2232,"Doctor, I have not had my periods for a few months now and when I do get them, the flow is very little. What could be causing this?",5,5
+2309,"Doctor, I have been feeling constantly thirsty and I seem to be gaining weight for no apparent reason. What could be wrong with me?",3,3
+4955,"Doctor, I've been experiencing a lot of regurgitation, heartburn, lower body pain, vomiting, and back pain lately. What could it be?",9,9
+1726,"Doctor, I have been experiencing severe headaches, seizures and also some depressive and psychotic symptoms lately. What could be wrong with me?",6,6
+2809,"Doctor, I have been experiencing peripheral edema, skin rash, cough, vomiting, and sneezing. What could be the reason for these symptoms?",8,8
+1668,"Doctor, I am having some sharp pain in my lower abdomen. What could be the reason for it?",8,8
+5196,"Doctor, I have noticed some skin swelling, moles and my skin has been dry, peeling and itchy for a while. Do you know what this could be?",7,7
+2163,"Doctor, I have redness in my ear, cough, mouth ulcers, abnormal appearing skin and decreased appetite. What could be happening to me?",9,9
+4141,"Doctor, I've been experiencing eye redness, itchiness, and swelling for the past few days. Also, I'm seeing some spots or clouds in my vision. What could be the problem?",8,8
+2058,"Doctor, I have been experiencing sharp chest pain and regurgitation. Do you know what might be causing this?",5,5
+417,"Doctor, I have a rash on my back that looks like small, scaly patches. It's been there for a few weeks and now it's spreading. What could it be?",5,5
+757,"Hello doctor, I think I might have a breast infection, it's painful and swollen.",6,6
+5197,"Doctor, I've been experiencing some strange symptoms lately. I have itchiness in my eyes, neck cramps, and I can't stop nailbiting. Also, my sex drive is low and I have a strange lump in my knee.",14,14
+2267,"Doctor, I have been experiencing seizures, cough, allergic reactions, focal weakness, and abnormal involuntary movements. What could be wrong with me?",10,10
+362,"Doctor, I have been experiencing itchy and watery eyes, sneezing, and a runny nose. I think I might have seasonal allergies.",10,10
+30,"Hi doctor, I think I injured my hip while running yesterday. It hurts a lot and I have difficulty moving.",4,4
+2733,"Doctor, I've been experiencing excessive anger, temper problems, and antisocial behavior lately. What do you think could be the cause?",5,5
+1072,"I think I might have gonorrhea, I have been experiencing pain during urination and some unusual discharge.",3,3
+5220,"Doctor, I've been experiencing constipation, fluid retention, vomiting, diarrhea, and sharp abdominal pain. Can you tell me what's wrong with me?",7,7
+2146,"Doctor, my newborn baby has an irregular belly button, changes in stool appearance, drainage in the throat, and has been having problems with feeding. The scalp also appears irregular. What could be wrong?",13,13
+3620,"Hi doctor, I have been experiencing some strange symptoms with my vision. My eyes often burn or sting and I've noticed spots or clouds in my vision. Also, I feel like my vision has been diminished lately. ",8,8
+4520,"Doctor, I have been having this sharp chest pain lately, what could be the reason for it?",3,3
+3504,"Doctor, I have noticed some skin swelling and warts on my skin. What could be the reason?",3,3
+4595,"Doctor, I have been experiencing slurring of my words lately. What could be the cause of it?",5,5
+80,"Doctor, I have been experiencing difficulty walking and balancing, bladder control problems, and incontinence. I am also experiencing memory loss and confusion at times. What could be wrong with me?",14,14
+617,"Hi doctor, I have been experiencing frequent headaches and blackouts. Recently, I have also noticed a weakness on one side of my body.",6,6
+1222,"Doctor, I have been diagnosed with Hydatidiform mole. What medications should I take?",5,5
+4470,"Doctor, I have a kidney mass and have noticed an increased heart rate along with excessive urination at night. I am also experiencing symptoms of prostate. ",7,7
+296,"Doctor, I have an open wound on my shoulder and it's not healing properly. What tests do I need?",4,4
+3025,"Doctor, I have been experiencing knee stiffness or tightness and noticed blood in my stool, what could be the issue?",5,5
+4772,"Doctor, I have been feeling very tired and fatigued lately. Also, my muscles have started swelling up. What could be the problem?",5,5
+4527,"Doctor, I have been experiencing heartburn and upper abdominal pain. What might be the problem?",5,5
+1214,"Doctor, I have been experiencing severe pain and discomfort due to my sickle cell crisis. What medication should I take to alleviate the symptoms?",9,9
+3521,"Doctor, I have been experiencing shortness of breath, sinus congestion, vomiting, cough, and a sore throat. What could be wrong with me?",8,8
+1045,"Doctor, I have been experiencing redness and watery discharge in both my eyes, and it's becoming quite uncomfortable. ",5,5
+343,"Doctor, I think I might have Scarlet fever. I have a rash all over my body and my throat is sore.",5,5
+2526,"Doctor, I have been experiencing wheezing, nasal congestion and coryza for the past few days. What could it be?",4,4
+2988,"Doctor, I am experiencing some back pain that is quite severe. ",3,3
+327,"Hi doctor, I have been experiencing symptoms such as nausea, vomiting, bloating and abdominal pain after I eat. I think I might have Gastroparesis. ",8,8
+2932,"Doctor, I keep having nosebleeds. What could be the possible cause of this?",5,5
+1721,"Doctor, I have been experiencing leg cramps, jaundice, chest tightness, coughing up sputum and flushing. What could be the reason for all these symptoms?",6,6
+2045,"Doctor, I have been experiencing painful urination and constipation. What could be the problem?",3,3
+843,"Doctor, I have been experiencing abnormal vaginal bleeding.",3,3
+2898,"Doctor, I have been experiencing sharp chest pain, coryza, nasal congestion, weakness, and wheezing. What could be the problem? ",7,7
+4587,"Doctor, I've been experiencing diaper rash along with pelvic pain. Also, I'm currently pregnant and facing some problems during the pregnancy. What could be the possible reason for this?",6,6
+1267,"Hi doctor, I'm experiencing vision problems in my right eye. The eye seems weaker and I'm having a hard time focusing.",4,4
+1940,"Doctor, I have been experiencing an ache all over my lower body, my skin is swollen and I feel pain around my anus. What could be the problem?",4,4
+1332,"Doctor, I have been experiencing shortness of breath and dry cough for a long time now. After several tests, I was diagnosed with interstitial lung disease. What medication do I need to take?",6,6
+1451,I think I dislocated my finger and it's really painful. What medication do I need to take?,4,4
+3378,"Doctor, I have been experiencing some strange symptoms lately. My eyelids are itchy, I'm feeling cross-eyed, I have excessive growth, and I am also experiencing wrist weakness and emotional symptoms.",7,7
+204,"Doctor, I have been having painful and swollen veins in my legs, I think I might have varicose veins.",5,5
+1470,"Doctor, I have been diagnosed with HPV. What medications do I need to take?",6,6
+2722,"Doctor, I have been experiencing foot or toe pain, ankle pain, ankle swelling, knee pain and foot or toe swelling. What could be the problem?",8,8
+3373,"'Doctor, I have been experiencing blindness and decreased appetite lately, can you tell me what is wrong with me?'",5,5
+2033,"Doctor, I have been experiencing throat irritation, blood in stool, low self-esteem, and depression. I must also admit that I have been abusing alcohol.",6,6
+1305,"Hi doctor, I think I may have a female genitalia infection. ",4,4
+886,"Doctor, I have been experiencing difficulty swallowing and have been told that I have something called achalasia. What medicines should I be taking for this condition?",7,7
+3134,"Doctor, I have been having a lot of joint pain in my arm and wrist lately. It's starting to really bother me. What do you think it could be?",5,5
+318,"Doctor, I think I may have dental caries. My tooth hurts whenever I eat something sweet or sour.",6,6
+3856,"Doctor, I have been experiencing fatigue, wrist pain, pain during pregnancy, facial pain, and excessive urination at night. What could be the issue?",6,6
+1823,"Doctor, I've been feeling really down lately. I had my baby six weeks ago, but I just can't seem to shake this feeling of sadness. I'm also feeling really anxious all the time and having trouble sleeping. ",4,4
+1635,"Hey Doc, I have been having some trouble smoking lately. It feels like my lungs aren't working properly.",5,5
+3771,"Doctor, I've been experiencing vomiting, low back pain, side pain, and dizziness. What could be wrong with me?",6,6
+2865,"Doctor, I have been experiencing diaper rash and nosebleeds lately. What could be wrong with me?",5,5
+2501,"Doctor, I have been experiencing bleeding from my ear. What could be the problem?",7,7
+1865,"Doctor, I have been experiencing pain in my eye and there's pus draining from my ear. What could be the problem?",3,3
+1827,"Doctor, I've been feeling down lately, and I think I might be struggling with drug abuse. I also had a baby a few months ago.",6,6
+194,"Doctor, I've been experiencing stiffness and pain in my shoulders, neck, and hip for a few weeks now. I also have a low-grade fever and feel tired all the time. Do you know what might be causing this?",13,13
+5407,"Doctor, I've been having some strange symptoms lately. I've been acting really antisocial and hostile. Also, I've been feeling really down and sometimes even have psychotic symptoms. What could be wrong with me?",5,5
+1583,"Doctor, I've been feeling really sick lately. I have diarrhea and feel really depressed.",3,3
+3265,"Hi doctor, I've been experiencing pain in my eye for the past few days.",3,3
+2690,"Doctor, I have been having a sharp pain in my eye. Can you please tell me what might be causing this?",5,5
+2283,"Doctor, I've been experiencing sinus congestion, neck pain, and headaches. What could be the problem?",5,5
+569,"Doctor, I have been experiencing severe headaches, fever, and a stiff neck for the past few days. I'm getting really worried that it might be something serious.",5,5
+2287,"Doctor, I haven't had my periods for a while and I always feel cold no matter how many layers I wear. What could be wrong with me?",7,7
+2877,"Doctor, my throat feels tight, what could be the problem?",5,5
+5256,"Doctor, I am having difficulty breathing, especially when I lie down. What could be the reason for this?",6,6
+4174,"Doctor, I am having some trouble with my jaw. It's swollen, and my eye is also swollen. I am also experiencing pain in my mouth and skin irritation. Additionally, my eye is hurting. What could be the problem?",11,11
+3275,"Doctor, I have been feeling really down lately. I also have been experiencing anxiety and nervousness along with disturbance of memory and slurring of words.",10,10
+2713,"Doctor, I have been experiencing some symptoms lately - I have gained weight and been having nightmares. ",10,10
+227,"Hi doctor, I injured my leg and it's been really painful. I can't put any weight on it and there's a large bruise.",7,7
+945,"Hi doctor, I have been experiencing problems with my bladder lately. It feels like I always have to pee and I have trouble controlling the urge. ",7,7
+2140,"Doctor, I've been experiencing some pain when I breathe and I also have this weird skin rash. What could be the problem?",5,5
+1463,I have been recently diagnosed with multiple sclerosis. What medication do I need to take?,4,4
+4757,"Doctor, I have been experiencing pain in my penis lately.",4,4
+2175,"Doctor, I have been feeling very depressed lately and I keep fainting. I also have a history of drug abuse.",4,4
+314,"Doctor, I think I might have syphilis.",4,4
+889,"I have cerebral palsy, what medications do I need?",3,3
+4888,"Doctor, I have been having frequent headaches and smoking problems. I also feel low most of the times. What could be the reason for this?",7,7
+3560,"Doctor, I have been experiencing suprapubic pain, heavy menstrual flow, vaginal pain, and painful menstruation. What could be the problem?",7,7
+2832,"Doctor, I have been experiencing nasal congestion for the past few weeks. What could be the problem?",3,3
+3575,"Doctor, I've been experiencing paresthesia, hand weakness, hand pain, shoulder pain, and sharp chest pain. What's happening to me?",11,11
+4967,"Doctor, I have been experiencing low back weakness and sore throat. What could be the problem?",5,5
+4190,"Doctor, I am experiencing vaginal discharge. What could be causing this?",5,5
+948,Hi Doctor. I think I have been diagnosed with Myositis. What medication would you recommend for me?,4,4
+3156,"Doctor, I have been having fever, nosebleed and difficulty breathing. Along with that, I am also experiencing nasal and sinus congestion. What could be the problem?",8,8
+4724,"Doctor, I have been experiencing some weight gain, diarrhea, and headaches lately. What do you think might be wrong with me?",5,5
+1558,"Doctor, I have been diagnosed with a white blood cell disease. What medications do I need to take to treat it?",3,3
+2087,"Doctor, I have been experiencing excessive appetite and abnormal breathing sounds. What could be the problem?",5,5
+364,"Doctor, I have been experiencing some discomfort in my kidneys lately. I think I might have a primary kidney disease.",5,5
+3573,"Doctor, I have been having some trouble with my appetite and also experiencing pain in my shoulder and arm. What could be the problem?",7,7
+14,"Doctor, I badly hurt my knee while playing football last evening. It's quite painful and I am not able to put weight on it. What could be the problem and what tests are needed?",10,10
+4260,"Doctor, I am experiencing foot or toe stiffness, swelling and difficulty with movement. Also, I have been losing sensation in my foot and the skin on my leg and foot looks infected. What could be happening to me?",10,10
+4411,"Doctor, I have an incredibly itchy scalp and my skin looks really abnormal. What could be wrong with me? ",3,3
+1615,"Doctor, I have been experiencing severe burning abdominal pain for the past few weeks. What could be causing this?",9,9
+2984,"Doctor, I've been having some severe itching in my genital area. Can you tell me what's wrong?",5,5
+3534,"Doctor, I've been experiencing fluid retention, pain during pregnancy, pain of the anus, and leg cramps or spasms. What could be the problem?",13,13
+574,"Doctor, I have been experiencing intense itching and rashes on my skin for quite some time now. I also have small blisters on my fingers and toes. What could be the reason for it?",11,11
+5442,"Hi doctor, I have been experiencing spots or clouds in my vision, involuntary movements, skin swelling, and fluid retention. What could be the problem?",9,9
+2705,"Doctor, I've been having trouble breathing lately. It hurts to inhale and exhale. ",8,8
+5105,"Doctor, I have been experiencing wrist swelling, ankle stiffness, joint pain and there's a lump in my foot. What may be the problem?",10,10
+2572,"Doctor, I have been experiencing lower abdominal pain for a few days now. What could be the reason behind it?",5,5
+1021,"Doctor, I have been feeling very weak lately and my blood count is really low, what could be the issue?",2,2
+2461,"Doctor, I have been feeling extremely sleepy lately and have had difficulty speaking clearly. I've also been experiencing some depressive and psychotic symptoms.",9,9
+4155,"Hi doctor, I have been having a lot of pain and swelling in my ankle lately, and my foot and toes feel stiff and tight.",7,7
+2534,"Doctor, I am experiencing a burning and stinging sensation in my eye. Additionally, my eye feels itchy and I've been tearing up a lot. What's going on?",6,6
+3346,"Doctor, I have a small growth of skin on my toe, near the nail. It looks unusual and I feel a slight pain and discomfort while walking. Can you please tell me what is happening?",12,12
+2673,"Doctor, I have peripheral edema, symptoms in the eye, diminished hearing, itching on my skin, and neck swelling. Can you please help me out? ",11,11
+3297,"Doctor, I have been facing some fertility issues lately, and I have also developed acne and my periods have become quite unpredictable. Can you tell me what might be causing these symptoms?",5,5
+2423,"Doctor, I've been experiencing sweating, feeling ill, fainting, dizziness, and problems with movement.",10,10
+4542,"Doctor, I have been experiencing diarrhea and nasal congestion for the past few days. What could be the cause of this?",3,3
+1043,"Doctor, I have been diagnosed with leukemia. Can you please suggest some medications for me?",4,4
+1572,"Doctor, I have been experiencing a hoarse voice and there seems to be a lump in my throat. What could be causing this?",3,3
+3445,"Doctor, I've been experiencing involuntary urination, blood in my urine and symptoms similar to those of prostate cancer. What could be causing this?",7,7
+5448,"Doctor, I have an open wound in my nose and I also feel some knee weakness, diminished hearing, facial pain, and neck weakness. What could be the problem?",11,11
+3106,"Doctor, my sinuses have been really painful and congested lately. What could be causing this?",3,3
+1426,"Doctor, I was diagnosed with epidural hemorrhage. What medication should I take?",4,4
+5043,"Doctor, I have been experiencing excessive growth, ear pain, vulvar sore, nosebleed, and pelvic pressure. Do you have any idea what could be the cause?",15,15
+4663,"Doctor, I have been having redness in my nose along with coughing up sputum and nosebleeds. Do I have a cold?",11,11
+2466,"Doctor, I have some skin lesion and rash on my body. Also, I feel some pain in my fingers and hands as well as in my mouth. What could be the reason behind these symptoms?",11,11
+3327,"Doctor, I have been experiencing blindness, spots or clouds in my vision and diminished vision. What could be wrong with me?",4,4
+4489,"Doctor, I have been experiencing lower abdominal pain and painful urination. Also, I have noticed blood in my urine and back pain. Sometimes, I feel like I have to urinate, but can't. What could be causing all these symptoms?",7,7
+4,"Doctor, I've been experiencing a condition called cryptorchidism. My testicles have not descended properly into the scrotum. What medical tests do I need to take?",5,5
+2490,"Doctor, I have been experiencing some changes in the appearance of my stool and also some symptoms related to my prostate. Can you tell me what is going on?",3,3
+2351,"Doctor, I have been experiencing pain in my eye, along with diminished vision and itchiness in my eye. What could be the problem?",5,5
+1722,"Doctor, I have been experiencing seizures, facial pain, hostile behavior, and sometimes delusions or hallucinations, what could be the problem? ",9,9
+3522,"Doctor, my baby has been very irritable lately and also seems to have a runny nose. What could be going on?",7,7
+4752,"Doctor, I have been experiencing loss of sensation in my limbs along with neck and low back pain. What could be the issue? ",6,6
+5364,"Doctor, I've been experiencing focal weakness, vaginal discharge, pain during intercourse and painful urination. What could be the problem?",8,8
+2640,"Doctor, lately I've been experiencing eye burns or stings along with diminished vision. I also noticed some acne or pimples on my eyelids and there seem to be spots or clouds in my vision. Oh and my eyelids have been a bit swollen too.",8,8
+3810,"Doctor, I have been having slurred speech, sharp chest pain, fainting spells and my heartbeat feels irregular at times, what could be wrong?",8,8
+3623,"Doctor, I am experiencing a lot of pain in my gums and there's some swelling as well. I also have a mouth ulcer. What could be the problem?",8,8
+1751,"Doctor, I've been experiencing a high fever and sharp abdominal pain. Do you have any idea what could be causing this?",3,3
+4188,"Doctor, I have been having a fever and I'm concerned about it. Can you tell me what might be causing it?",5,5
+3877,"Doctor, can you tell me what's wrong with me? I have these weird symptoms like mouth ulcers, frontal headaches, temper problems, arm stiffness, and a swollen tongue.",14,14
+1391,"Doctor, I think I might have diverticulitis. I have been experiencing abdominal pain, constipation, and feverishness.",6,6
+5398,"Doctor, I have been having an allergic reaction lately and my skin has been looking very abnormal.",5,5
+695,"Hi doctor, I have been experiencing some discomfort and pain during sex. I think I might have HPV. ",5,5
+2325,I have noticed a lump on my leg and my leg has also been swollen. ,5,5
+4223,"Doctor, I have been having leg cramps or spasms, fatigue, sharp chest pain, and lymphedema. What could be wrong with me?",6,6
+5439,"Doctor, I have been experiencing diminished vision, fluid retention, headaches, abnormal involuntary movements, and spots or clouds in my vision. Do you know what could be causing this?",9,9
+5186,"Doctor, I have been having this cough for a few days now. What could be the reason?",9,9
+5073,"Doctor, I have an open wound on my hand and my finger is starting to swell. What could it be?",4,4
+2746,"Doctor, I have been experiencing blood in my urine accompanied by sharp abdominal pain and other symptoms related to my kidneys. What could be the issue?",5,5
+766,"Hi Doc, I've been experiencing some severe pain and swelling in my leg. I also have some open wounds which are not healing and are emitting a foul odor. Can you please help me?",9,9
+1925,"Doctor, I have noticed skin swelling on my foot along with dryness, peeling, scaliness and a lump. What could it be?",10,10
+2543,"Doctor, my knee has been hurting a lot lately and there seems to be some fluid retention around it. ",6,6
+1632,"Doctor, I am having arm stiffness and difficulty eating, my baby is also facing feeding problems. What could be the reason for all these symptoms?",4,4
+1208,"Hi doctor, I have been diagnosed with a decubitus ulcer. What medications do I need?",5,5
+201,"Hi Doctor, I have been having a lot of pain in my lower back and legs, and I think it might be sciatica.",4,4
+379,"Doctor, I have been feeling very weak and have lost a lot of weight recently. I went to the hospital and was diagnosed with metastatic cancer. What tests do I need to take now?",7,7
+3893,"Doctor, I have been experiencing low back pain, headache, and problems with movement lately. What do you think could be causing this?",5,5
+5008,"Doctor, I've been having this frontal headache for a few days now and my nose keeps bleeding frequently. What could be wrong? ",3,3
+597,"Doctor, I am worried about my high blood pressure. What tests do I need to take to check on it?",4,4
+3731,"Doctor, I have this burning abdominal pain that just won't go away. Do you have any idea what could be causing it? ",3,3
+3396,"Doctor, I've been having some gum pain lately. What could it be?",3,3
+5160,"Doctor, I am experiencing problems with movement, abnormal involuntary movements, fainting, and also noticed blood in my urine. What could be the problem?",9,9
+4716,"Doctor, I have this eyelid lesion with rash and my eye is swollen and itchy. What could be wrong?",8,8
+1593,"Hi doctor, I have been experiencing arm swelling, hand stiffness, wrist swelling, and wrist pain. What could be wrong with me?",5,5
+3146,"Doctor, I am experiencing muscle pain and weakness recently, do you know what could be the reason for it?",5,5
+4050,"Doctor, I have been experiencing some strange symptoms lately like regurgitation, weight gain, heartburn and rectal bleeding. Could you tell me what could be the reason behind this?",9,9
+3274,"Doctor, I have been experiencing vomiting, chills, and emotional symptoms lately.",7,7
+1999,"Hello Doctor, I'm here because I'm having some problems with my eye. There are spots and clouds in my vision, and my eye is swollen and red. I'm also experiencing diminished vision. Can you tell me what's wrong with my eye?",7,7
+1209,"Doctor, I have been feeling very thirsty and have been drinking a lot of water lately. I think I might have hypernatremia, what should I do?",7,7
+5375,"Doctor, I have been feeling ill lately and I think I might have a drug abuse problem. Also, my arm has been hurting a lot and I feel weakness in it.",8,8
+46,"Doctor, I have been experiencing shortness of breath lately and coughing up phlegm. I am afraid it could be emphysema.",4,4
+874,"Doctor, I have been experiencing pain and irritation in my eyes lately. Upon getting it checked, I was told that I have a cornea infection. What medication do I need to take for this?",3,3
+3483,"Doctor, I have been experiencing some abnormal appearing skin, pelvic pain, and knee pain. What could be the cause?",5,5
+1793,"Doctor, I have been experiencing vomiting, wrist weakness and seizures. What could be the problem?",5,5
+1441,"Doctor, I have been experiencing bone pain, headaches, and hearing loss. My X-rays also show an enlargement in some of my bones. What could be causing this and what medication would you recommend?",10,10
+4244,"Doctor, I have been experiencing leg stiffness or tightness lately. What could be the reason for this?",7,7
+3806,"Doctor, I have a swelling on my leg and my eye is swollen too. ",5,5
+412,"Doctor, I have been experiencing severe pain in my tooth. I think I may have a tooth disorder.",4,4
+4567,"Doctor, I have been experiencing painful menstruation, jaundice, heavy menstrual flow, and swollen abdomen. What could be wrong with me?",10,10
+2042,"Doctor, I have been feeling very tired lately, and I experience shortness of breath when I try to do anything strenuous. My heart rate also seems to be very high all the time. What could be wrong with me?",7,7
+995,I had surgery yesterday and I'm experiencing a lot of pain. What medications should I take?,7,7
+3740,"Doctor, I've been experiencing frequent urination, blood in my urine, and lower abdominal pain. What could be the issue?",4,4
+1093,"Hi doctor, I think I may have lateral epicondylitis, also known as tennis elbow. ",4,4
+3807,"Doctor, I have a problem. My arm is swelling and my eye is so swollen that I can barely even see. On top of that, I have a skin rash and fluid seems to be building up in my body. What could be causing all of this?",13,13
+4352,"Doctor, I've been experiencing sharp chest pain. What could be the reason behind this?",3,3
+4579,"Doctor, I've been having a pretty sore throat lately.",3,3
+4878,"Doctor, I have been experiencing chest tightness, fainting, depressive or psychotic symptoms, dizziness, and sharp chest pain. What could be wrong with me?",8,8
+2600,"Doctor, since my operation, I have been experiencing sharp chest pain and headaches, what could be wrong with me?",3,3
+3626,"Doctor, I am experiencing mouth pain, ear pain, headache, gum pain, and peripheral edema. What could be the reason for this?",11,11
+5019,"Doctor, I have been experiencing some strange symptoms lately. I have noticed pus in my sputum and my back feels weak.",3,3
+4136,"Doctor, I have been experiencing elbow weakness, difficulty in swallowing, hip stiffness or tightness, and itchy eyelid. What do you think could be the problem?",11,11
+3496,"Doctor, I have been experiencing a lot of pain in my eye and my eyes have been tearing up frequently, what could be the cause of this?",3,3
+3653,"Doctor, I have been constantly fainting and feeling dizzy along with palpitations, increased heart rate and weakness, what could be the cause of these symptoms?",6,6
+1304,"Doctor, I have developed a lipoma on my shoulder. What medications would you recommend for it?",6,6
+3889,"Doctor, I have been experiencing knee pain lately and I have been abusing alcohol. Do you know what might be causing these symptoms? ",5,5
+3687,"Doctor, I have a sore throat, headache, coughing up sputum, throat swelling and I'm feeling ill. What do I have?",9,9
+2124,"Doctor, I have been experiencing a plugged feeling in my ear, and it's been red and swollen for the past few days. I also have a fever, and my hearing seems to be diminished. There's a strange fluid in my ear as well.",8,8
+2026,"Doctor, I am experiencing some unusual symptoms like elbow cramps, sharp abdominal pain, diarrhea, depressive or psychotic symptoms, and nausea. What could be the cause of my symptoms?",9,9
+5224,"Doctor, I have been feeling very weak and nauseous lately. Can you tell me what might be causing this?",3,3
+2272,"Doctor, I've been experiencing low back pain, problems with movement, abnormal involuntary movements, arm pain, and neck pain, what could be the problem?",8,8
+4271,"Doctor, I have been experiencing excessive appetite, hip stiffness, and itching of the anus. What could be the cause?",8,8
+3970,"Doctor, I have been having a cough and feel irritable all day long. During my pregnancy, I also faced some problems. Moreover, my whole body aches, and my eyes are red. I am worried about what might be happening to me. ",11,11
+5135,"Doctor, I have been feeling excessively angry lately and I am experiencing delusions and hallucinations. What could be wrong with me? ",5,5
+1960,"Hi doctor, I have been feeling hot lately and also experiencing premenstrual tension and irritability. Additionally, I have noticed some warts on my fingers. What could be the reason behind all this?",9,9
+2250,"Doctor, I have been experiencing some weakness in my elbow and feeling hot and cold at times. What could be causing this?",3,3
+3604,"Doctor, my legs and hands have been swelling up and retaining fluids. What could be causing this?",5,5
+635,"Hi Doctor, I have been experiencing a severe headache and some people around me noticed that my eyes looked different. I think there might be something wrong with me.",5,5
+2341,"Doctor, I've been feeling really tired lately and my urine has an unusual color and odor. What could be the problem?",8,8
+1921,"Doctor, I have been experiencing excessive urination at night and shoulder cramps or spasms. What could it be?",3,3
+2226,"Doctor, I've been experiencing seizures, palpitations, nausea and shortness of breath. Do you have any idea what the problem could be?",7,7
+2752,"Doctor, I have been experiencing pelvic pain and have been noticing blood clots during my menstrual periods. What could be the problem?",3,3
+2620,"Doctor, I have some skin lesions on my hands and face, and my scalp looks irregular. What could be the cause?",5,5
+4425,"Hi doctor, I am experiencing some skin-related symptoms such as skin growth, warts, lymphedema, skin lesion, and abnormal appearing skin. What could be the possible disease I am suffering from?",8,8
+661,"Doctor, I have been experiencing a persistent cough, fever, and fatigue for the past few weeks. I also have chest pain and difficulty breathing. I'm worried that I might have histoplasmosis.",9,9
+1236,"Doctor, I was just diagnosed with endometrial hyperplasia. Can you tell me what medications I need to take?",4,4
+1895,"Doctor, I've been feeling quite dizzy lately, what could be wrong with me?",4,4
+3138,"Doctor, I have been experiencing some symptoms with my eye. There is some kind of white discharge coming out, and it is also itching a lot. Additionally, my eye has become swollen and I noticed some bleeding from it.",7,7
+1252,"Doctor, I am experiencing redness, swelling, and pain in my arm. I also have a fever and chills. ",12,12
+1753,"Doctor, I have been experiencing sharp abdominal pain and nausea for the past few days. ",3,3
+527,"Hi doctor, I think I might have a Cytomegalovirus infection.",3,3
+3399,"Doctor, I have noticed a mass in my groin area and my menstrual flow has been extremely heavy lately. What could be causing this? ",5,5
+3340,"Doctor, I have been experiencing weakness in one side of my body, problems with movement, seizures, and arm stiffness or tightness. What could be causing this?",8,8
+2711,"Doctor, I am experiencing palpitations, what could be the reason?",8,8
+4446,"Doctor, I have been having ear pain, a hoarse voice, sore throat, fever, and nasal congestion. ",8,8
+3817,"Doc, I have an irregular belly button and sharp chest pain, what could be the cause of it?",5,5
+3407,"Doctor, I have been having long menstrual periods. What could be the reason for this?",5,5
+511,"Doctor, I have been experiencing sudden, rapid heartbeats and chest discomfort. It usually lasts for a few minutes and then goes away. What do you think is the problem?",3,3
+1695,"Doctor, I have been experiencing a lot of symptoms lately. I ache all over, have rib pain, a fever, sharp chest pain, and a cough. Can you help me identify what could be going on?",6,6
+3442,"Doctor, I have been experiencing cramps and spasms in my rectal area, do you know what might be causing it?",5,5
+3191,"Doctor, I have been experiencing some strange symptoms lately. I have not had my menstruation period, I have a cough, and I've been having a lot of leg pain. Do you know what it could be?",7,7
+4785,"Doctor, I have been experiencing knee swelling, elbow swelling, abnormal appearing skin and feeling ill. Can you please tell me what's wrong with me?",9,9
+161,"Doctor, I have been experiencing vision problems and I recently got diagnosed with chorioretinitis. What medical tests do I need to undergo?",4,4
+4717,"Doctor, I have noticed a lump in my breast and have been experiencing skin pain along with some acne. What could be the reason for this? ",9,9
+3117,"Doctor, I have been experiencing a fever, my mouth is always dry, and I just vomited blood, what could be wrong with me?",8,8
+3908,"Doctor, I have been having difficulty eating for a few weeks now and I also have some discomfort and pain in my ribs. ",7,7
+49,"Doctor, my baby has been very fussy and irritable lately. I'm pretty sure he's going through teething syndrome.",10,10
+2882,"Doctor, I have been experiencing a persistent cough and it hurts to breathe. What could be wrong with me?",3,3
+2447,"Doctor, I feel like my heart is racing and I'm breathing really fast, what could be happening to me?",3,3
+3195,"Doctor, I'm experiencing thirst, fainting, frequent urination, and burning chest pain. What could be causing this?",9,9
+3433,"Doctor, I have been experiencing some emotional symptoms lately. ",9,9
+4410,"Doctor, I am experiencing an itchy scalp and itching of my skin. Also, I am pregnant and facing some problems, can you tell me what could be the issue?",8,8
+4474,"Hi doctor, I've been experiencing peripheral edema, feeling ill, and back pain lately. I also have fluid retention and weakness. What could be the problem?",9,9
+4942,"Doctor, I have been experiencing pain during my pregnancy and heavy menstrual flow. Also, sometimes I spot or bleed during my pregnancy and have blood clots during my periods. I also have intermenstrual bleeding. What could be the problem? ",8,8
+1807,"Doctor, I have been experiencing a lot of fluid retention lately, is something wrong with me?",4,4
+4000,"Doctor, I have been experiencing a lot of hand pain lately. ",4,4
+1798,"Doctor, I have been experiencing blood clots during my menstrual periods, intermenstrual bleeding, cramps and spasms, sharp abdominal pain, and spotting or bleeding during pregnancy. What could be the problem?",7,7
+2236,"Doctor, I have been experiencing chest tightness, shortness of breath, and fainting. What could be the reason for this?",5,5
+3571,"Doctor, I have been experiencing pelvic pain, intermenstrual bleeding, lack of growth, hot flashes, and weight gain. What's wrong with me?",13,13
+238,"Doctor, I think I have a problem with drug abuse, specifically opioids, and I want to get help. ",5,5
+3186,"Doc, I have been experiencing low back pain, leg pain, loss of sensation, back pain, and even headache. Can you tell me what's wrong with me?",6,6
+2754,"Doctor, I have been having some back pain lately. It feels like a sharp pain and it comes and goes.",3,3
+3313,"Hi doctor, I have noticed that I have a rash down there and it's really itchy. It feels like diaper rash, even though I am not wearing any.",7,7
+3829,"Doctor, I have been feeling very sick lately. I have been experiencing symptoms like nausea, dizziness, shortness of breath, wheezing, and nasal congestion. What could be the problem?",8,8
+1046,"Doctor, I'm having a reaction to a medication I've been taking. My skin is itchy and red, and I have difficulty breathing.",9,9
+5098,"Doctor, I've been experiencing excessive anger lately.",9,9
+221,"Doctor, I think I have a fungal infection on my skin. I have red, itchy patches on my arm and leg. What should I do?",11,11
+3228,"Doctor, I have a lump on my neck and a plugged feeling in my ear, and there are some lesions on my tongue. What could be wrong with me? ",8,8
+4849,"Doctor, I have been feeling weak lately, my chest feels tight and I have been experiencing sharp pains in my chest. Additionally, my heart rate has been faster than usual.",6,6
+4624,"Doctor, I have been experiencing vomiting lately, what could be the cause?",6,6
+5432,"Doctor, I have been feeling a weakness in my low back for the past few days. Do you know what could be causing this?",5,5
+223,"Doctor, I have been feeling very fatigued and nauseous lately. I've also noticed that I've been drinking a lot of water but not urinating as much as usual.",7,7
+688,"Doctor, I have been experiencing problems with my vision and my limbs feel weak at times. I also have trouble maintaining my balance while walking.",7,7
+5266,"Doctor, I have been experiencing shoulder cramps and joint stiffness lately. Do you have any idea what could be wrong?",7,7
+3512,"Doctor, I've been experiencing a lot of lower and sharp abdominal pain recently. I also had some problems during my pregnancy. What could be wrong with me?",5,5
+1112,"I have been diagnosed with head and neck cancer, what are the required medications for my treatment?",8,8
+3783,"Doctor, I have been experiencing pain when I breathe, excessive sweating, and congestion in my chest. What could be wrong with me?",8,8
+1489,"Doctor, I have been experiencing unusual skin bumps and lesions in my genital area. It's causing a lot of discomfort and pain. What could be causing this?",8,8
+2132,"Doctor, I've been feeling hot and cold lately and I've noticed that I've become quite underweight. On top of that, I've also been experiencing some symptoms related to my kidneys. What could be the reason behind all these symptoms?",7,7
+2682,"Doctor, I have been feeling very weak lately and have fainted a couple of times. I also experience sharp abdominal pains and extreme fatigue. What could be causing this? ",7,7
+1734,"Doctor, I have been experiencing double vision and bleeding from my eye, along with abnormal movement of my eyelid and spots or clouds in my vision. Do you know what could be causing these symptoms?",5,5
+3725,"Doctor, I have been experiencing pain of the anus, upper abdominal pain, and vomiting. What could be wrong with me? ",5,5
+2678,"Doctor, I have been experiencing ankle pain, knee swelling, foot or toe pain and my nails seem to be irregular. What could be the problem? ",6,6
+2765,"Doctor, I have an open wound from a surgical incision, and I've been sneezing a lot lately. What's wrong with me?",7,7
+2280,"Doctor, I've been experiencing some muscle swelling, wrist weakness, and I've been biting my nails a lot lately. Do you have any idea what's going on?",7,7
+3454,"Doctor, I have been experiencing arm weakness, muscle cramps, contractures, or spasms. Also, I have an eyelid lesion or rash, low back weakness, and even blindness at times. What could be the reason?",18,18
+2067,"Doctor, my voice has been hoarse for a while now, and I'm having trouble hearing properly. What could be the problem?",3,3
+671,"Doctor, I have been feeling very weak and dizzy lately. I think it has something to do with the antipsychotic medication I have been taking.",6,6
+3853,"Doctor, I have been experiencing pulling at my ears and itching of my skin. What could be the cause of these symptoms?",5,5
+159,"Doctor, I have been experiencing some symptoms that I think might be related to my kidneys. I feel tired all the time, my appetite has decreased, and I have noticed swelling in my feet and ankles.",11,11
+427,"Doctor, I have been feeling very weak lately and noticed that my fingers and toes turn blue. Also, I have bruises all over my body that appear without any injury. Can you tell me what's wrong with me?",7,7
+2867,"Doctor, my eyes have been feeling very itchy lately. Is it because of an allergy or some other problem?",5,5
+1837,"Doctor, I have been experiencing back cramps or spasms for a few weeks now. What could be the cause of this?",3,3
+5326,"Doctor, I have swollen lymph nodes, heartburn, smoking problems, leg cramps or spasms, and pain or soreness of breast. What could be the problem?",13,13
+563,"Doctor, I am feeling very weak and I have high fever. I recently had an infection which was treating using antibiotics, but the fever and weakness did not go away. ",9,9
+5340,"Doctor, I have been experiencing hip pain, arm swelling and there is an excessive growth on my body. What could be the problem?",9,9
+330,"Doctor, I feel fatigued all the time and I have a ruddy complexion. I also have frequent headaches and itching, and I've noticed some unexplained bruising. What could be wrong with me?",9,9
+255,"Doctor, I think I may have a food allergy. Every time I eat peanuts, I get a rash on my skin.",7,7
+1634,"Doctor, I have been experiencing some smoking problems and also noticed that my skin has turned yellow. What could be the issue?",5,5
+167,"I have been experiencing periods of mania and depression, and my mood swings have been affecting my daily life.",6,6
+5090,"Doctor, I've been feeling really nauseous lately and I've noticed an excessive growth in my genital area. I also have this lump on my knee that is really painful and there is vaginal pain too.",11,11
+1249,"Doctor, I recently had an accident and got diagnosed with heart contusion. What do you suggest I take as medication?",4,4
+1955,"Doctor, I have been experiencing a dry and flaky scalp along with acne and pimples on my head. What could be wrong with me?",5,5
+1035,"Hi Doctor, I think I might have narcolepsy. I keep falling asleep during the day no matter how much rest I get at night.",3,3
+3880,"Doctor, I've been having difficulty eating and also I recently missed my menstruation cycle, what could be the cause?",5,5
+938,"Hi doctor, I've been having some symptoms like frequent urination, extreme thirst and hunger, and blurry vision. I think I might have diabetes.",10,10
+4621,"Hey Doc, I'm feeling really sick today. I feel nauseous and dizzy.",3,3
+1786,"Doctor, I have been having this persistent cough for a while now, and I am getting concerned. Can you tell me what's going on?",3,3
+2100,"Doctor, I have been experiencing knee swelling, elbow pain, shoulder stiffness, shoulder pain and hip pain. What could be wrong with me?",9,9
+3022,"Doctor, I have been experiencing sleepiness and headaches lately, can you tell me what could be causing it?",3,3
+1375,"Hello doctor, I have been recently diagnosed with liver disease. Can you please tell me what medications I need to take?",4,4
+4964,"Doctor, I'm having trouble swallowing and also my elbow feels weak. What could be the issue?",5,5
+4975,"Doctor, I'm having trouble breathing and my nose feels stuffy. What could be causing this?",3,3
+1342,"Hi doctor, I have recently been diagnosed with Cholecystitis, can you prescribe me some medications for it?",4,4
+2549,"Doctor, I have been experiencing weakness in my leg. Can you tell me what it could be caused by?",4,4
+4741,"Doctor, I am experiencing several symptoms including hemoptysis, muscle cramps, involuntary urination, dizziness, and weight gain. What could be the cause of this?",11,11
+211,"Hi doctor, I have been having abdominal pain and bloating for the past few weeks. I also experience constipation and diarrhea alternatively. My friend told me it could be Diverticulosis. ",9,9
+2556,"Doctor, I've been having arm cramps or spasms for a while now. What could be causing this?",9,9
+3075,"Doctor, I have been experiencing some involuntary urination, focal weakness, excessive urination at night, and some retention of urine. Do you have any idea what could be causing this?",8,8
+3250,"Doctor, I have a painful wound on my arm, and my hand and fingers feel weak. Can you tell me what is wrong with me?",5,5
+1625,"Doctor, I have been experiencing ankle pain, knee swelling, and my bones are painful. In addition, I also have elbow pain and a lump on my knee. What could be wrong with me?",6,6
+623,"Doctor, I have been experiencing a lot of pain and swelling in my ankle. ",5,5
+4851,"Doctor, I've been experiencing some leg cramps or spasms, chest tightness, and fatigue lately. What could be the reason?",8,8
+5139,"Doctor, I've been having trouble sleeping lately. I feel like I'm not good enough and I get anxious all the time.",4,4
+1990,"Doctor, I have been experiencing leg pain recently. ",4,4
+835,"I think I have acute sinusitis. My symptoms include congestion, headache, and pressure in my sinuses.",4,4
+2471,"Doctor, I have noticed warts on my penis and I am experiencing impotence. What could be the problem?",5,5
+4919,"Doctor, I have been experiencing an ache all over my body.",3,3
+4637,"Doctor, I have these bumps on my penis and my groin hurts. Also, my skin looks abnormal and I have been urinating more often than usual. I also have been experiencing some penile discharge.",9,9
+337,"Doctor, I have a deep cut on my arm that won't stop bleeding. What's wrong with me?",6,6
+2845,"Doctor, I am experiencing some symptoms of the kidneys and bleeding gums. Can you please help me understand what's going on?",7,7
+4365,"Doctor, I have been experiencing upper abdominal pain, lower body pain, nausea, sharp chest pain and burning abdominal pain. What could be the reason for these symptoms?",8,8
+5420,"Doctor, I have a wound on my jaw and my lip is swelling. I'm also having a lot of mouth pain and some strange symptoms on my face. What could be wrong with me?",11,11
+3036,"Doctor, I've been experiencing hand or finger swelling, paresthesia, elbow pain, and weakness in my hand or fingers. I'm not sure what's wrong with me.",9,9
+565,"Doctor, I have been having severe pain in my upper right abdomen and I am feeling nauseous. I think I might have cholecystitis.",6,6
+5305,"Doctor, I've been experiencing some groin pain, shortness of breath, and arm swelling lately. What do you think it could be?",7,7
+2796,"Doctor, I have been feeling depressed lately, and I have been drinking a lot more than usual. I've also noticed some abnormal movements in my body. What could be wrong with me?",5,5
+104,"Doctor, I have been having some problems with my abdomen lately. I feel a bulge in the lower part of my abdomen that gets bigger when I lift something heavy. It also causes me discomfort and some pain at times. ",7,7
+4016,"Doctor, I have been experiencing suprapubic pain and lower abdominal pain. ",3,3
+865,"Hi doctor, I have been losing hair rapidly for the past few months. I think I might have Alopecia. What should I do?",4,4
+3552,"Doctor, I have been feeling weakness and headache over the past few days. I am not sure what is causing it.",7,7
+2968,"Doctor, I've been having some trouble with my vision lately, and I'm also experiencing apnea and insomnia. What could be causing this?",7,7
+5207,"Doctor, I am feeling a lump in my throat, and my throat is sore and red. Also, I am experiencing some redness in my ear. What could be wrong with me?",6,6
+3767,"Hi Doctor, I've been experiencing arm stiffness, skin irritation, dry mouth, joint pain, and irregular periods. What could be the cause of these symptoms?",13,13
+1254,"Doctor, I have been diagnosed with an intestinal disease. Can you please tell me what medications I need to take?",4,4
+3568,"Doctor, my hands and fingers have been feeling stiff and tight lately. What could be causing this?",5,5
+1443,"Doctor, I have been experiencing severe stiffness and pain in my back and hips, and I find it difficult to bend or move around.",9,9
+4275,"Doctor, I have a lump or mass on my breast and I am experiencing arm pain, lower body pain, and my skin on my arm or hand looks infected. What could be the problem?",10,10
+5329,"Hey, Doctor. I am feeling painful urination and lower body pain. Also, I am seeing blood in my urine and there is a mass in my scrotum. Can you tell me what might be the problem I am facing?",8,8
+2213,"Doctor, I'm having an irregular heartbeat and shortness of breath. What could it be?",3,3
+5046,"Doctor, I have been having some symptoms lately. I had a nosebleed, and I have a lump on my knee. Additionally, I noticed a sore on my vulva and I have been experiencing chills. What could be causing all of this?",10,10
+4409,"Doctor, I have this skin rash and it's really itchy. The affected area looks abnormal and I also have this diaper rash. My skin feels dry, and it's peeling and scaly. What do you think is wrong with me?",12,12
+3961,"Doctor, I'm experiencing leg weakness, abnormal involuntary movements, and have developed a lump on my foot. Also, my skin is looking abnormal, and I have a mass on my neck. What do you think could be the problem?",10,10
+3809,"Doctor, I've been having some issues lately. My heart rate seems to be decreasing and I'm also having trouble slurring my words. Additionally, I'm experiencing sharp chest pain. What could be causing all of this?",7,7
+3569,"Doctor, I have been experiencing a dry and flaky scalp. Also, I have noticed that I haven't grown in height in a long time. What could be the reason?",5,5
+4854,"Doctor, I have been experiencing ringing in my ear, elbow cramps, abnormal breathing sounds, abnormal appearing skin, and nailbiting. Can you tell me what is wrong with me?",13,13
+2199,"Hi doctor, I have been experiencing a lot of pain in my leg. It's mostly around my ankle. ",5,5

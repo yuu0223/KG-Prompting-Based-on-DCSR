@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 750px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "orange", "fixed": true, "id": "Fatigue", "label": "Fatigue", "shape": "dot", "size": 20, "x": -330.77148872371214, "y": 214.28565314699688}, {"color": "lightblue", "fixed": true, "id": "Cirrhosis", "label": "Cirrhosis", "shape": "dot", "size": 10, "x": -249.82257958675524, "y": 81.63880689074308}, {"color": "lightblue", "fixed": true, "id": "Shortness_of_breath", "label": "Shortness_of_breath", "shape": "dot", "size": 10, "x": -135.0818319917285, "y": 54.01615434054764}, {"color": "lightblue", "fixed": true, "id": "Sick_sinus_syndrome", "label": "Sick_sinus_syndrome", "shape": "dot", "size": 10, "x": -112.4470682446427, "y": 265.30887150980936}, {"color": "orange", "fixed": true, "id": "Weakness", "label": "Weakness", "shape": "dot", "size": 20, "x": -103.69766299457456, "y": 425.70457736319344}, {"color": "lightblue", "fixed": true, "id": "Thoracic_aortic_aneurysm", "label": "Thoracic_aortic_aneurysm", "shape": "dot", "size": 10, "x": -164.90978797532395, "y": -174.9731455301319}, {"color": "orange", "fixed": true, "id": "Jaundice", "label": "Jaundice", "shape": "dot", "size": 20, "x": -39.62594409360768, "y": -237.39983513616318}, {"color": "lightblue", "fixed": true, "id": "Choledocholithiasis", "label": "Choledocholithiasis", "shape": "dot", "size": 10, "x": 46.393266818953244, "y": -120.9530222245827}, {"color": "lightblue", "fixed": true, "id": "Sharp_abdominal_pain", "label": "Sharp_abdominal_pain", "shape": "dot", "size": 10, "x": 214.12524371906423, "y": -135.57634940457731}, {"color": "orange", "fixed": true, "id": "Hyperkalemia", "label": "Hyperkalemia", "shape": "dot", "size": 20, "x": 375.8378530723276, "y": -193.08911940811112}, {"color": "orange", "fixed": true, "id": "Hematologic_tests_(Blood_test)", "label": "Hematologic_tests_(Blood_test)", "shape": "dot", "size": 20, "x": 499.99999999999994, "y": -178.96259154772437}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "gray", "from": "Fatigue", "to": "Cirrhosis", "width": 3}, {"arrows": "to", "color": "gray", "from": "Cirrhosis", "to": "Shortness_of_breath", "width": 3}, {"arrows": "to", "color": "gray", "from": "Shortness_of_breath", "to": "Sick_sinus_syndrome", "width": 3}, {"arrows": "to", "color": "gray", "from": "Shortness_of_breath", "to": "Thoracic_aortic_aneurysm", "width": 3}, {"arrows": "to", "color": "gray", "from": "Sick_sinus_syndrome", "to": "Weakness", "width": 3}, {"arrows": "to", "color": "gray", "from": "Sick_sinus_syndrome", "to": "Shortness_of_breath", "width": 3}, {"arrows": "to", "color": "gray", "from": "Weakness", "to": "Sick_sinus_syndrome", "width": 3}, {"arrows": "to", "color": "gray", "from": "Thoracic_aortic_aneurysm", "to": "Jaundice", "width": 3}, {"arrows": "to", "color": "gray", "from": "Jaundice", "to": "Choledocholithiasis", "width": 3}, {"arrows": "to", "color": "gray", "from": "Choledocholithiasis", "to": "Sharp_abdominal_pain", "width": 3}, {"arrows": "to", "color": "gray", "from": "Sharp_abdominal_pain", "to": "Hyperkalemia", "width": 3}, {"arrows": "to", "color": "gray", "from": "Hyperkalemia", "to": "Hematologic_tests_(Blood_test)", "width": 3}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": false,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

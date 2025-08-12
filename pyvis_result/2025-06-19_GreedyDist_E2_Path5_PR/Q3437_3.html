@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 750px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "orange", "fixed": true, "font": {"size": 20}, "id": "Sweating", "label": "Sweating", "shape": "dot", "size": 20, "x": 320.2485550165266, "y": -499.99999999999994}, {"color": "lightblue", "fixed": true, "font": {"size": 20}, "id": "Idiopathic_nonmenstrual_bleeding", "label": "Idiopathic_nonmenstrual_bleeding", "shape": "dot", "size": 10, "x": 243.5132981429574, "y": -381.0403431854485}, {"color": "lightblue", "fixed": true, "font": {"size": 20}, "id": "Hematologic_tests_(Blood_test)", "label": "Hematologic_tests_(Blood_test)", "shape": "dot", "size": 10, "x": 277.2763792213114, "y": -237.52154264742677}, {"color": "lightblue", "fixed": true, "font": {"size": 20}, "id": "Volvulus", "label": "Volvulus", "shape": "dot", "size": 10, "x": 279.4094846114335, "y": -79.67048702037353}, {"color": "orange", "fixed": true, "font": {"size": 20}, "id": "Back_pain", "label": "Back_pain", "shape": "dot", "size": 20, "x": 158.50920175316347, "y": 28.8162190369154}, {"color": "lightblue", "fixed": true, "font": {"size": 20}, "id": "Lung_contusion", "label": "Lung_contusion", "shape": "dot", "size": 10, "x": -2.532516373543858, "y": 82.0668419304096}, {"color": "lightblue", "fixed": true, "font": {"size": 20}, "id": "Radiographic_imaging_procedure", "label": "Radiographic_imaging_procedure", "shape": "dot", "size": 10, "x": -143.09273498237638, "y": 154.92145725663738}, {"color": "lightblue", "fixed": true, "font": {"size": 20}, "id": "Crushing_injury", "label": "Crushing_injury", "shape": "dot", "size": 10, "x": -292.1909203011149, "y": 96.34172240501154}, {"color": "orange", "fixed": true, "font": {"size": 20}, "id": "Foot_or_toe_pain", "label": "Foot_or_toe_pain", "shape": "dot", "size": 20, "x": -414.0482543852257, "y": 45.393602939024674}, {"color": "lightblue", "fixed": true, "font": {"size": 20}, "id": "Intracranial_hemorrhage", "label": "Intracranial_hemorrhage", "shape": "dot", "size": 10, "x": -129.8883458220222, "y": 319.6262853803831}, {"color": "orange", "fixed": true, "font": {"size": 20}, "id": "Dizziness", "label": "Dizziness", "shape": "dot", "size": 20, "x": -297.2041468811094, "y": 471.0662439048677}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "gray", "from": "Sweating", "to": "Idiopathic_nonmenstrual_bleeding", "width": 3}, {"arrows": "to", "color": "gray", "from": "Idiopathic_nonmenstrual_bleeding", "to": "Hematologic_tests_(Blood_test)", "width": 3}, {"arrows": "to", "color": "gray", "from": "Hematologic_tests_(Blood_test)", "to": "Volvulus", "width": 3}, {"arrows": "to", "color": "gray", "from": "Volvulus", "to": "Back_pain", "width": 3}, {"arrows": "to", "color": "gray", "from": "Back_pain", "to": "Lung_contusion", "width": 3}, {"arrows": "to", "color": "gray", "from": "Lung_contusion", "to": "Radiographic_imaging_procedure", "width": 3}, {"arrows": "to", "color": "gray", "from": "Radiographic_imaging_procedure", "to": "Crushing_injury", "width": 3}, {"arrows": "to", "color": "gray", "from": "Radiographic_imaging_procedure", "to": "Intracranial_hemorrhage", "width": 3}, {"arrows": "to", "color": "gray", "from": "Crushing_injury", "to": "Foot_or_toe_pain", "width": 3}, {"arrows": "to", "color": "gray", "from": "Crushing_injury", "to": "Radiographic_imaging_procedure", "width": 3}, {"arrows": "to", "color": "gray", "from": "Foot_or_toe_pain", "to": "Crushing_injury", "width": 3}, {"arrows": "to", "color": "gray", "from": "Intracranial_hemorrhage", "to": "Dizziness", "width": 3}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": false,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

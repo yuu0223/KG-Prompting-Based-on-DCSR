@@ -1,0 +1,8 @@
+GreedyDist+BFS  : win rate = 0.471 (282.5 pts / 600 games)
+GreedyDist+PR   : win rate = 0.488 (293.0 pts / 600 games)
+SteinerTree+BFS : win rate = 0.443 (266.0 pts / 600 games)
+SteinerTree+PR  : win rate = 0.482 (289.0 pts / 600 games)
+GreedyGen+BFS   : win rate = 0.515 (309.0 pts / 600 games)
+GreedyGen+PR    : win rate = 0.524 (314.5 pts / 600 games)
+MindMap         : win rate = 0.577 (346.0 pts / 600 games)
+

@@ -1,0 +1,715 @@
+Q_ID,Query_Nodes,Query_Nodes_Count,Total_Distance,Average_Distance
+5239,"['Hostile_behavior', 'Problems_with_movement', 'Slurring_words']",3,8,2.667
+913,"['Weakness', 'Fatigue', 'Muscle_swelling', 'Muscle_pain']",4,22,3.667
+205,"['Lower_abdominal_pain', 'Kidney_mass', 'Hematologic_tests_(Blood_test)']",3,8,2.667
+2254,"['Pain_or_soreness_of_breast', 'Back_pain', 'Difficulty_breathing']",3,10,3.333
+2007,"['Shortness_of_breath', 'Drainage_in_throat', 'Wrist_weakness', 'Coughing_up_sputum']",4,16,2.667
+1829,"['Sharp_chest_pain', 'Irregular_heartbeat']",2,2,2.0
+1144,"['Symptoms_of_the_kidneys', 'Prednisone']",2,4,4.0
+840,"['Back_pain', 'Stiffness_all_over', 'Suprapubic_pain', 'Problems_with_movement']",4,20,3.333
+4468,['Kidney_mass'],1,0,0
+713,"['Ketoconazole', 'Hematologic_tests_(Blood_test)']",2,4,4.0
+4838,"['Lower_body_pain', 'Foot_or_toe_stiffness_or_tightness']",2,4,4.0
+3457,"['Eyelid_lesion_or_rash', 'Diminished_vision', 'Leg_pain']",3,10,3.333
+261,"['Lower_abdominal_pain', 'Swollen_abdomen', 'Vaginal_redness', 'Vaginal_discharge']",4,18,3.0
+245,"['Open_wound_of_the_hip', 'Incision_and_drainage_(I_d)', 'Hematologic_tests_(Blood_test)']",3,10,3.333
+768,"['Retention_of_urine', 'Involuntary_urination']",2,2,2.0
+1792,"['Feeling_hot_and_cold', 'Elbow_cramps_or_spasms', 'Nausea', 'Seizures']",4,14,2.333
+1906,"['Vomiting', 'Throat_feels_tight', 'Incontinence_of_stool']",3,6,2.0
+4140,"['Eye_redness', 'Swollen_eye', 'Headache', 'Spots_or_clouds_in_vision', 'Pain_in_eye']",5,26,2.6
+4932,"['Skin_rash', 'Skin_growth']",2,2,2.0
+218,"['Injury_to_the_abdomen', 'Injury_to_the_hand']",2,2,2.0
+4598,"['Abusing_alcohol', 'Delusions_or_hallucinations', 'Slurring_words', 'Fainting']",4,20,3.333
+1629,"['Knee_pain', 'Heartburn']",2,2,2.0
+5324,"['Burning_chest_pain', 'Regurgitation', 'Problems_with_shape_or_size_of_breast', 'Smoking_problems']",4,22,3.667
+4465,"['Abusing_alcohol', 'Depression', 'Temper_problems', 'Fears_and_phobias', 'Panic_disorder']",5,28,2.8
+3437,"['Sweating', 'Back_pain', 'Foot_or_toe_pain', 'Dizziness']",4,22,3.667
+1806,"['Vomiting', 'Sharp_abdominal_pain', 'Burning_abdominal_pain', 'Lower_abdominal_pain']",4,12,2.0
+3680,['Pelvic_pain'],1,0,0
+4828,"['Cough', 'Elbow_cramps_or_spasms', 'Excessive_growth', 'Low_back_weakness', 'Decreased_appetite']",5,28,2.8
+2279,"['Plugged_feeling_in_ear', 'Diminished_hearing', 'Nailbiting', 'Emotional_symptoms', 'Muscle_swelling']",5,26,2.6
+54,"['Postpartum_depression', 'Depression', 'Sleepiness', 'Mental_health_counseling']",4,13,2.167
+1308,"['Toothache', 'Fracture_of_the_arm']",2,5,5.0
+3463,"['Leg_cramps_or_spasms', 'Foot_or_toe_cramps_or_spasms']",2,4,4.0
+2788,"['Focal_weakness', 'Depression', 'Itching_of_skin']",3,12,4.0
+2277,"['Dizziness', 'Elbow_weakness', 'Low_back_weakness', 'Muscle_swelling', 'Plugged_feeling_in_ear']",5,30,3.0
+1274,"['Knee_pain', 'Muscle_pain', 'Leg_pain']",3,8,2.667
+1764,"['Hemoptysis', 'Sharp_abdominal_pain', 'Side_pain', 'Diarrhea', 'Burning_abdominal_pain']",5,20,2.0
+2758,"['Mouth_ulcer', 'Gum_pain']",2,4,4.0
+838,"['Depression', 'Sleepiness', 'Postpartum_depression']",3,6,2.0
+760,"['Temper_problems', 'Excessive_anger', 'Hostile_behavior']",3,6,2.0
+3113,"['Neck_swelling', 'Toothache', 'Gum_pain', 'Peripheral_edema', 'Facial_pain']",5,32,3.2
+793,"['Vaginal_dryness', 'Vaginal_itching', 'Pain_during_intercourse']",3,6,2.0
+2941,"['Cramps_and_spasms', 'Mass_in_scrotum', 'Frequent_menstruation', 'Vaginal_discharge', 'Intermenstrual_bleeding']",5,30,3.0
+2818,"['Nausea', 'Headache', 'Plugged_feeling_in_ear']",3,8,2.667
+4946,"['Vaginal_itching', 'Painful_urination', 'Groin_pain', 'Vaginal_discharge', 'Skin_lesion']",5,28,2.8
+2167,"['Redness_in_ear', 'Abnormal_appearing_skin']",2,4,4.0
+356,['Open_wound_of_the_hip'],1,0,0
+3764,"['Painful_urination', 'Frequent_urination', 'Incontinence_of_stool']",3,10,3.333
+4393,"['Diminished_vision', 'Skin_dryness']",2,4,4.0
+1023,"['Symptoms_of_the_kidneys', 'Nausea', 'Injury_to_the_abdomen']",3,10,3.333
+3101,"['Impotence', 'Heartburn', 'Blood_in_stool', 'Leg_swelling']",4,20,3.333
+646,"['Nonoperative_removal_of_foreign_body', 'Pain_in_testicles', 'Skin_irritation']",3,12,4.0
+4523,"['Lower_abdominal_pain', 'Sharp_abdominal_pain', 'Suprapubic_pain']",3,6,2.0
+2402,"['Depression', 'Shortness_of_breath', 'Problems_with_movement', 'Leg_swelling']",4,18,3.0
+5150,['Shoulder_pain'],1,0,0
+5067,"['Problems_with_shape_or_size_of_breast', 'Low_back_swelling']",2,4,4.0
+2963,"['Redness_in_ear', 'Facial_pain', 'Toothache', 'Sore_throat', 'Ear_pain']",5,26,2.6
+4730,"['Ear_pain', 'Ringing_in_ear', 'Fluid_in_ear']",3,6,2.0
+1576,"['Suprapubic_pain', 'Groin_mass', 'Lack_of_growth', 'Leg_pain', 'Emotional_symptoms']",5,20,2.0
+570,"['Fatigue', 'Weakness', 'Jaundice', 'Hyperkalemia', 'Hematologic_tests_(Blood_test)']",5,24,2.4
+376,"['Dizziness', 'Nausea']",2,2,2.0
+5418,"['Lip_swelling', 'Jaw_swelling']",2,4,4.0
+1867,"['Sharp_abdominal_pain', 'Sharp_chest_pain']",2,2,2.0
+2371,"['Neck_pain', 'Shoulder_pain', 'Arm_pain']",3,6,2.0
+654,"['Shortness_of_breath', 'Sharp_chest_pain', 'Emphysema', 'Hematologic_tests_(Blood_test)']",4,9,1.5
+1908,"['Vomiting_blood', 'Incontinence_of_stool', 'Temper_problems']",3,6,2.0
+828,"['Foreign_body_in_the_vagina', 'Vaginal_pain']",2,3,3.0
+3114,"['Gum_pain', 'Toothache']",2,4,4.0
+2278,"['Elbow_cramps_or_spasms', 'Elbow_weakness', 'Emotional_symptoms']",3,6,2.0
+3715,"['Leg_swelling', 'Skin_on_arm_or_hand_looks_infected']",2,4,4.0
+5208,"['Lump_in_throat', 'Drainage_in_throat', 'Throat_swelling', 'Sore_throat', 'Apnea']",5,34,3.4
+2989,"['Side_pain', 'Back_pain', 'Difficulty_breathing', 'Bones_are_painful']",4,20,3.333
+1333,"['Loss_of_sensation', 'Weakness', 'Elbow_weakness', 'Feet_turned_in', 'Flu-like_syndrome', 'Adderall']",6,60,4.0
+3033,"['Vomiting_blood', 'Depressive_or_psychotic_symptoms', 'Hostile_behavior']",3,8,2.667
+2911,"['Pain_in_eye', 'Facial_pain', 'Knee_lump_or_mass']",3,6,2.0
+1717,"['Coughing_up_sputum', 'Sharp_chest_pain', 'Sharp_abdominal_pain', 'Flushing', 'Jaundice']",5,20,2.0
+2188,"['Sleepiness', 'Dizziness', 'Constipation', 'Smoking_problems', 'Depression', 'Ache_all_over']",6,54,3.6
+5309,"['Sharp_chest_pain', 'Leg_pain', 'Sweating', 'Back_pain', 'Cough']",5,28,2.8
+585,"['Pain_or_soreness_of_breast', 'Examination_of_breast', 'Headache']",3,10,3.333
+4991,"['Groin_pain', 'Vaginal_redness', 'Swelling_of_scrotum', 'Abnormal_appearing_skin']",4,24,4.0
+5202,"['Skin_rash', 'Sore_throat', 'Lip_swelling', 'Ache_all_over', 'Headache']",5,30,3.0
+1402,"['Muscle_cramps', 'Headache', 'Physical_therapy_exercises_(Exercises)']",3,8,2.667
+4376,"['Irregular_heartbeat', 'Chest_tightness', 'Palpitations', 'Decreased_heart_rate', 'Weight_gain']",5,28,2.8
+2006,"['Vomiting', 'Cough', 'Sharp_chest_pain', 'Back_pain']",4,12,2.0
+1339,"['Sharp_chest_pain', 'Adderall']",2,2,2.0
+3787,"['Heartburn', 'Back_pain']",2,4,4.0
+3109,"['Depression', 'Muscle_pain', 'Abnormal_involuntary_movements']",3,10,3.333
+2212,"['Open_wound_of_the_hip', 'Irregular_heartbeat']",2,5,5.0
+5243,"['Skin_rash', 'Skin_dryness', 'peeling', 'Skin_irritation']",4,14,2.333
+4563,"['Hand_or_finger_pain', 'Hand_or_finger_swelling', 'Shoulder_pain', 'Neck_pain', 'Elbow_pain', 'Low_back_pain']",6,46,3.067
+1800,"['Diarrhea', 'Redness_in_ear', 'Decreased_appetite', 'Excessive_anger']",4,16,2.667
+2657,"['Shoulder_pain', 'Headache', 'Weakness']",3,8,2.667
+459,"['Sharp_chest_pain', 'Coronary_atherosclerosis']",2,1,1.0
+1877,"['Back_pain', 'Headache']",2,2,2.0
+263,"['Facial_pain', 'Eye_moves_abnormally', 'Difficulty_eating']",3,12,4.0
+2585,"['Acne_or_pimples', 'Heavy_menstrual_flow', 'Abnormal_appearing_skin', 'Alopecia', 'Unwanted_hair']",5,28,2.8
+3287,['Difficulty_breathing'],1,0,0
+2194,"['Arm_cramps_or_spasms', 'Elbow_cramps_or_spasms', 'Disturbance_of_memory']",3,12,4.0
+543,"['Headache', 'Frontal_headache']",2,2,2.0
+1729,"['Excessive_urination_at_night', 'Excessive_anger']",2,2,2.0
+4647,"['Knee_pain', 'Headache', 'Low_back_pain', 'Shoulder_pain']",4,12,2.0
+2578,"['Hip_pain', 'Joint_pain', 'Leg_pain', 'Arm_pain']",4,18,3.0
+1742,"['Chills', 'Lower_abdominal_pain', 'Vomiting', 'Retention_of_urine', 'Sharp_abdominal_pain']",5,20,2.0
+5370,"['Ankle_pain', 'Itching_of_skin', 'Skin_lesion', 'Acne_or_pimples', 'Skin_on_arm_or_hand_looks_infected']",5,34,3.4
+4090,"['Sore_throat', 'Tinnitus_of_unknown_cause']",2,3,3.0
+3242,"['Involuntary_urination', 'Frequent_urination', 'Vaginal_itching']",3,6,2.0
+5267,"['Sleepiness', 'Lack_of_growth']",2,4,4.0
+3759,"['Anxiety_and_nervousness', 'Panic_disorder', 'Emotional_symptoms', 'Back_pain', 'Wrist_weakness', 'Elbow_weakness']",6,37,2.467
+1171,"['Coughing_up_sputum', 'Shortness_of_breath', 'Cough']",3,6,2.0
+2170,"['Neck_pain', 'Elbow_pain', 'Arm_stiffness_or_tightness', 'Shoulder_swelling']",4,20,3.333
+2021,"['Abnormal_size_or_shape_of_ear', 'Diminished_hearing', 'Redness_in_ear', 'Fluid_in_ear', 'Plugged_feeling_in_ear']",5,28,2.8
+4599,"['Feeling_ill', 'Stiffness_all_over', 'Difficulty_speaking']",3,12,4.0
+4416,"['Absence_of_menstruation', 'Heartburn', 'Pelvic_pressure', 'Problems_during_pregnancy', 'Spotting_or_bleeding_during_pregnancy']",5,32,3.2
+2153,"['Sore_throat', 'Sharp_chest_pain', 'Fever', 'Cough', 'Wheezing']",5,22,2.2
+4789,"['Skin_rash', 'Foot_or_toe_swelling', 'Foot_or_toe_pain', 'Skin_irritation']",4,18,3.0
+3510,"['Intermenstrual_bleeding', 'Uterine_contractions', 'Problems_during_pregnancy', 'Infertility']",4,16,2.667
+4781,"['Emotional_symptoms', 'Diminished_hearing', 'Low_back_weakness', 'Back_pain', 'Feeling_hot_and_cold']",5,32,3.2
+3272,"['Weakness', 'Vomiting']",2,2,2.0
+2966,"['Redness_in_ear', 'Ear_pain']",2,2,2.0
+1797,"['Sharp_abdominal_pain', 'Problems_during_pregnancy']",2,2,2.0
+1134,"['Hemoptysis', 'Prednisone']",2,4,4.0
+4175,"['Peripheral_edema', 'Gum_pain', 'Pain_in_eye', 'Bones_are_painful']",4,24,4.0
+4043,"['Side_pain', 'Frequent_urination', 'Incontinence_of_stool']",3,10,3.333
+745,"['Skin_on_leg_or_foot_looks_infected', 'Foot_or_toe_pain']",2,2,2.0
+386,"['contractures', 'Spots_or_clouds_in_vision', 'Double_vision']",3,10,3.333
+899,"['Ear_pain', 'Vaginal_discharge', 'Acute_sinusitis']",3,10,3.333
+1253,"['Disturbance_of_memory', 'Headache', 'Von_Hippel-Lindau_disease']",3,6,2.0
+5141,"['Sharp_chest_pain', 'Itching_of_skin', 'Back_pain']",3,10,3.333
+1311,"['Injury_to_the_hand', 'Headache']",2,3,3.0
+3459,"['Cough', 'Loss_of_sensation', 'Feet_turned_in', 'Flat_feet', 'Emotional_symptoms']",5,32,3.2
+4886,"['Smoking_problems', 'Depression']",2,4,4.0
+521,"['Sharp_abdominal_pain', 'Stomach_bloating', 'Constipation', 'Intestinal_malabsorption']",4,13,2.167
+3153,['Ear_pain'],1,0,0
+3127,"['Fatigue', 'Sleepiness']",2,2,2.0
+4882,"['Neck_pain', 'Diminished_vision', 'Vomiting', 'Anxiety_and_nervousness', 'Panic_disorder']",5,30,3.0
+3835,"['Muscle_swelling', 'Heavy_menstrual_flow', 'Intermenstrual_bleeding', 'Early_or_late_onset_of_menopause', 'Vaginal_discharge', 'Pus_in_sputum']",6,48,3.2
+4335,['Weakness'],1,0,0
+2060,"['Sharp_chest_pain', 'Difficulty_breathing', 'Hoarse_voice', 'Difficulty_in_swallowing']",4,18,3.0
+4533,"['Rectal_bleeding', 'Blood_in_stool']",2,2,2.0
+95,"['Sharp_abdominal_pain', 'Abdominal_distention', 'Nausea', 'Vomiting', 'Constipation', 'Difficulty_breathing']",6,44,2.933
+939,"['Vaginal_pain', 'Vulvar_irritation']",2,2,2.0
+4399,"['Back_pain', 'Stiffness_all_over', 'Ache_all_over', 'Paresthesia', 'Symptoms_of_eye']",5,34,3.4
+2186,"['Leg_pain', 'Ankle_swelling']",2,4,4.0
+5251,"['Back_pain', 'Low_back_pain', 'Back_cramps_or_spasms', 'Muscle_pain', 'Hip_pain']",5,22,2.2
+2787,"['Itching_of_skin', 'Allergic_reaction', 'Focal_weakness', 'Skin_rash', 'Weakness']",5,36,3.6
+914,"['Abnormal_involuntary_movements', 'or_spasms', 'Problems_with_movement']",3,10,3.333
+2405,"['Shortness_of_breath', 'Allergic_reaction']",2,2,2.0
+3562,"['Heavy_menstrual_flow', 'Sharp_abdominal_pain', 'Vaginal_pain']",3,8,2.667
+1296,"['Pain_in_eye', 'Eye_redness', 'Arthrocentesis', 'Levocetirizine_(Xyzal)']",4,24,4.0
+3717,['Skin_irritation'],1,0,0
+27,"['Difficulty_breathing', 'Shortness_of_breath', 'Intubation']",3,10,3.333
+2158,"['Arm_pain', 'Elbow_swelling']",2,2,2.0
+4101,"['Flushing', 'Eyelid_swelling']",2,6,6.0
+1464,"['Difficulty_in_swallowing', 'Throat_feels_tight', 'Shortness_of_breath', 'Regurgitation']",4,14,2.333
+4159,"['Lower_abdominal_pain', 'Muscle_cramps', 'Cramps_and_spasms', 'Sharp_abdominal_pain', 'Vomiting', 'Painful_menstruation', 'Burning_abdominal_pain']",7,60,2.857
+872,"['Intracranial_hemorrhage', 'Adderall']",2,3,3.0
+5123,"['Skin_moles', 'Changes_in_stool_appearance', 'Itching_of_skin', 'Skin_growth', 'Neck_mass', 'Groin_mass']",6,52,3.467
+2445,"['Shortness_of_breath', 'Loss_of_sensation', 'Irregular_heartbeat', 'Headache', 'Sharp_chest_pain']",5,28,2.8
+5235,"['Depression', 'Lack_of_growth', 'Loss_of_sensation', 'Slurring_words']",4,18,3.0
+4989,"['Irritable_infant', 'Excessive_anger', 'Headache']",3,10,3.333
+1630,"['Knee_swelling', 'Headache']",2,4,4.0
+3064,['Double_vision'],1,0,0
+1324,"['Fatigue', 'Cough', 'Fever', 'Sharp_chest_pain', 'Headache', 'H1N1', 'Adderall']",7,64,3.048
+4419,"['Pelvic_pressure', 'Spotting_or_bleeding_during_pregnancy']",2,4,4.0
+4345,"['Stiffness_all_over', 'Knee_swelling', 'Knee_lump_or_mass', 'Knee_stiffness_or_tightness']",4,18,3.0
+5,"['Lead_poisoning', 'Poisoning_due_to_ethylene_glycol']",2,4,4.0
+4907,"['Depression', 'Sleepiness', 'Lack_of_growth']",3,8,2.667
+2656,"['Nailbiting', 'Diarrhea']",2,4,4.0
+4003,"['Pus_draining_from_ear', 'Diminished_hearing', 'Ringing_in_ear', 'Ear_pain', 'Redness_in_ear']",5,22,2.2
+160,"['Painful_urination', 'Frequent_urination', 'Hematologic_tests_(Blood_test)']",3,6,2.0
+917,"['Open_wound_of_the_hip', 'Back_pain', 'Adderall']",3,8,2.667
+2974,"['Involuntary_urination', 'Fever']",2,4,4.0
+2520,"['Abnormal_appearing_skin', 'Skin_growth', 'Skin_rash']",3,6,2.0
+1962,"['Eye_strain', 'Cramps_and_spasms', 'Foot_or_toe_stiffness_or_tightness', 'Weight_gain']",4,18,3.0
+475,"['Disturbance_of_memory', 'Headache', 'Difficulty_speaking', 'Abusing_alcohol']",4,16,2.667
+1974,"['Knee_stiffness_or_tightness', 'Knee_pain', 'Problems_with_movement']",3,6,2.0
+4648,"['Ankle_pain', 'Leg_pain', 'Low_back_pain', 'Neck_pain', 'Back_pain']",5,28,2.8
+702,"['Sharp_abdominal_pain', 'Changes_in_stool_appearance', 'Blood_in_stool']",3,8,2.667
+3982,"['Hoarse_voice', 'Sore_throat', 'Pulling_at_ears']",3,10,3.333
+567,"['Shortness_of_breath', 'Sharp_chest_pain', 'Fatigue', 'Hypertrophic_obstructive_cardiomyopathy_(HOCM)']",4,13,2.167
+4364,"['Sharp_abdominal_pain', 'Stomach_bloating', 'Side_pain', 'Symptoms_of_the_kidneys']",4,16,2.667
+1031,"['Lead_poisoning', 'Clotrimazole', 'Risperidone']",3,12,4.0
+1052,"['Chronic_sinusitis', 'Fever', 'Joint_pain', 'Adderall']",4,19,3.167
+5405,"['Excessive_anger', 'Lack_of_growth', 'Drug_abuse', 'Fears_and_phobias', 'Delusions_or_hallucinations']",5,26,2.6
+3894,"['Shoulder_pain', 'Headache', 'Arm_pain', 'Neck_pain']",4,12,2.0
+4504,"['Mass_or_swelling_around_the_anus', 'Sharp_abdominal_pain', 'Changes_in_stool_appearance']",3,12,4.0
+1353,"['Retinopathy_due_to_high_blood_pressure', 'Recent_pregnancy']",2,5,5.0
+2172,"['Shoulder_pain', 'Neck_pain']",2,2,2.0
+4323,"['Loss_of_sensation', 'Arm_pain', 'Hand_or_finger_pain', 'Hand_or_finger_swelling', 'Foot_or_toe_pain', 'Foot_or_toe_cramps_or_spasms', 'Ankle_pain']",7,62,2.952
+4970,"['Hip_pain', 'Side_pain', 'Difficulty_speaking', 'Delusions_or_hallucinations', 'Seizures']",5,34,3.4
+3467,"['Mass_or_swelling_around_the_anus', 'Neck_mass']",2,4,4.0
+1736,"['Bleeding_from_eye', 'Cross-eyed', 'Spots_or_clouds_in_vision', 'Eye_redness']",4,18,3.0
+4418,"['Uterine_contractions', 'Anxiety_and_nervousness']",2,2,2.0
+1648,"['Eye_strain', 'Eye_alignment_disorder', 'Fluid_in_ear']",3,10,3.333
+3269,['Pain_in_eye'],1,0,0
+3060,['Pain_in_eye'],1,0,0
+3589,"['Pain_of_the_anus', 'Joint_pain', 'Nausea', 'Rectal_bleeding']",4,18,3.0
+4240,"['Incontinence_of_stool', 'Pain_of_the_anus', 'Low_back_cramps_or_spasms', 'Mass_or_swelling_around_the_anus', 'Blood_in_stool']",5,40,4.0
+3699,"['Joint_pain', 'Groin_pain', 'Lower_body_pain', 'Low_back_pain']",4,20,3.333
+992,"['Foot_or_toe_pain', 'Headache', 'Eating_disorder', 'Adderall']",4,21,3.5
+2031,"['Injury_to_the_finger', 'Hand_or_finger_pain', 'Knee_swelling']",3,6,2.0
+1841,"['Loss_of_sensation', 'Coryza', 'Nausea']",3,6,2.0
+525,"['Pinworm_infection', 'Feeling_ill']",2,3,3.0
+2770,['Vomiting'],1,0,0
+173,"['Culture_wound', 'Wound_care_management', 'Other_diagnostic_procedures_(interview;_evaluation;_consultation)', 'Psychotherapy']",4,18,3.0
+4820,"['Neck_pain', 'Back_pain', 'Bones_are_painful', 'Pain_or_soreness_of_breast']",4,22,3.667
+4538,"['Delusions_or_hallucinations', 'Seizures', 'Stiffness_all_over']",3,10,3.333
+1886,"['Difficulty_breathing', 'Elbow_weakness', 'Anxiety_and_nervousness', 'Panic_disorder']",4,13,2.167
+4821,"['Examination_of_breast', 'Pain_or_soreness_of_breast', 'Problems_with_shape_or_size_of_breast', 'Neck_pain']",4,24,4.0
+1805,"['Diarrhea', 'Decreased_appetite']",2,2,2.0
+59,"['Intermenstrual_bleeding', 'Unpredictable_menstruation', 'Idiopathic_nonmenstrual_bleeding']",3,4,1.333
+582,"['Cough', 'Difficulty_breathing', 'Nasal_congestion']",3,6,2.0
+5170,"['Diminished_vision', 'Pain_in_eye', 'Difficulty_in_swallowing', 'Joint_pain']",4,20,3.333
+483,"['Fibromyalgia', 'Pituitary_adenoma', 'Hematologic_tests_(Blood_test)']",3,8,2.667
+1876,"['Headache', 'Dizziness']",2,2,2.0
+258,"['Temper_problems', 'Mental_health_counseling']",2,2,2.0
+2707,"['Fainting', 'Itchiness_of_eye', 'Difficulty_breathing']",3,14,4.667
+581,"['Injury_to_the_hand', 'Suprapubic_pain', 'Mouth_dryness']",3,10,3.333
+4212,['Vomiting'],1,0,0
+1950,"['Hip_lump_or_mass', 'Headache', 'Depressive_or_psychotic_symptoms']",3,6,2.0
+2282,['Shoulder_pain'],1,0,0
+3977,"['Loss_of_sensation', 'Feet_turned_in']",2,4,4.0
+1756,"['Upper_abdominal_pain', 'Sharp_chest_pain', 'Pain_during_pregnancy']",3,6,2.0
+1084,"['Pituitary_adenoma', 'Salivary_gland_disorder']",2,2,2.0
+4678,"['Unpredictable_menstruation', 'Pain_or_soreness_of_breast', 'Painful_menstruation']",3,10,3.333
+4721,"['Skin_irritation', 'Acne_or_pimples', 'Itching_of_skin', 'Skin_growth', 'Examination_of_breast']",5,30,3.0
+3873,"['Vaginal_dryness', 'Sweating', 'Weight_gain']",3,12,4.0
+1991,"['Disturbance_of_memory', 'Vomiting', 'Headache']",3,6,2.0
+3875,"['Decreased_appetite', 'Frontal_headache', 'Upper_abdominal_pain', 'Cough']",4,18,3.0
+3335,"['Irregular_heartbeat', 'Dizziness', 'Increased_heart_rate']",3,6,2.0
+1560,"['Spondylitis', 'Headache', 'Adderall']",3,10,3.333
+773,"['Poisoning_due_to_analgesics', 'Nausea', 'Dizziness']",3,8,2.667
+795,"['Cellulitis_or_abscess_of_mouth', 'Mouth_ulcer']",2,1,1.0
+5399,"['Skin_swelling', 'Warts', 'Skin_lesion']",3,6,2.0
+3532,"['Dry_lips', 'Mouth_ulcer', 'Bleeding_from_ear', 'Adderall']",4,22,3.667
+2903,"['Lip_swelling', 'Itching_of_skin', 'Skin_swelling']",3,8,2.667
+3470,"['Hand_or_finger_swelling', 'Skin_irritation', 'Wrist_swelling', 'Bones_are_painful']",4,22,3.667
+3368,"['Diminished_hearing', 'Weakness', 'Disturbance_of_memory']",3,10,3.333
+3826,"['Foreign_body_sensation_in_eye', 'Abnormal_movement_of_eyelid', 'Itchy_eyelid']",3,8,2.667
+444,"['Skin_moles', 'Hematologic_tests_(Blood_test)']",2,4,4.0
+5354,"['Vaginal_dryness', 'Frequent_urination', 'Foot_or_toe_swelling']",3,10,3.333
+5294,"['Vomiting', 'Weakness', 'Ache_all_over', 'Leg_pain']",4,20,3.333
+807,"['Transient_ischemic_attack', 'Diabetic_retinopathy']",2,2,2.0
+497,"['Cysticercosis', 'Vaginal_yeast_infection', 'Irregular_appearing_nails', 'Ingrown_toe_nail', 'Foot_or_toe_pain']",5,32,3.2
+3299,"['Joint_pain', 'Leg_pain', 'Insomnia']",3,10,3.333
+2780,"['Shortness_of_breath', 'Anxiety_and_nervousness', 'Panic_disorder', 'Palpitations']",4,9,1.5
+896,"['Shortness_of_breath', 'Cough', 'Congestion_in_chest', 'Difficulty_breathing']",4,12,2.0
+2037,"['Problems_during_pregnancy', 'Low_self-esteem', 'Throat_irritation', 'Abusing_alcohol', 'Hostile_behavior']",5,20,2.0
+1570,"['Nasal_congestion', 'Cough', 'Diminished_hearing']",3,6,2.0
+1559,"['Hip_lump_or_mass', 'Adderall']",2,4,4.0
+4394,"['Lack_of_growth', 'Impotence', 'Symptoms_of_eye', 'Acne_or_pimples', 'Painful_menstruation']",5,38,3.8
+3676,"['Sharp_abdominal_pain', 'Blood_in_stool']",2,2,2.0
+1149,"['Cellulitis_or_abscess_of_mouth', 'Headache']",2,3,3.0
+1504,"['Osteochondrosis', 'Adderall']",2,3,3.0
+3790,"['Recent_pregnancy', 'Excessive_anger', 'Fever', 'Nasal_congestion']",4,18,3.0
+2047,"['Itching_of_the_anus', 'Burning_abdominal_pain', 'Ankle_pain']",3,6,2.0
+618,"['Weakness', 'Dizziness', 'Feeling_hot_and_cold']",3,10,3.333
+3631,"['Fainting', 'Irregular_heartbeat']",2,2,2.0
+4509,"['Skin_moles', 'Elbow_weakness', 'Feet_turned_in']",3,12,4.0
+803,['Vaginitis'],1,0,0
+415,"['Injury_to_the_knee', 'Fainting']",2,5,5.0
+5343,"['Leg_swelling', 'Vaginal_pain', 'Arm_swelling', 'Leg_pain']",4,14,2.333
+4429,"['Lymphedema', 'Symptoms_of_eye']",2,4,4.0
+121,"['Shortness_of_breath', 'Wheezing', 'Cough', 'Coughing_up_sputum', 'Emphysema']",5,20,2.0
+765,"['Mivacurium', 'Skin_moles', 'Calcium_Carbonate']",3,12,4.0
+1937,"['Difficulty_speaking', 'Depression', 'Disturbance_of_memory', 'Hand_or_finger_weakness']",4,22,3.667
+1363,"['Anxiety_and_nervousness', 'Fears_and_phobias', 'Seizures', 'Insomnia']",4,18,3.0
+3330,"['Weakness', 'Sharp_chest_pain', 'Drug_abuse', 'Abusing_alcohol']",4,18,3.0
+3979,"['Sore_throat', 'Ear_pain', 'Pulling_at_ears']",3,8,2.667
+3944,"['Foot_or_toe_lump_or_mass', 'Foot_or_toe_pain']",2,4,4.0
+1752,"['Too_little_hair', 'Cefotetan']",2,4,4.0
+3286,"['Insomnia', 'Fatigue', 'Heartburn', 'Irregular_heartbeat']",4,18,3.0
+481,"['Retinopathy_due_to_high_blood_pressure', 'Knee_swelling', 'Recent_pregnancy', 'Problem_during_pregnancy']",4,22,3.667
+1349,"['Loss_of_sensation', 'Feeling_cold', 'Injury_to_the_finger', 'Feet_turned_in', 'Human', 'Charcoal', 'Fever', 'Fatigue', 'Skin_rash', 'Adderall']",10,175,3.889
+3105,"['Fever', 'Sinus_congestion']",2,2,2.0
+18,"['Tinnitus_of_unknown_cause', 'Ringing_in_ear']",2,1,1.0
+3199,"['Ear_pain', 'Headache', 'Swollen_lymph_nodes']",3,8,2.667
+2173,"['Headache', 'Abusing_alcohol', 'Fainting', 'Sleepiness']",4,16,2.667
+3728,"['Knee_pain', 'Ache_all_over', 'Vomiting', 'Sharp_abdominal_pain', 'Fever']",5,26,2.6
+2337,"['Feeling_cold', 'Foot_or_toe_swelling']",2,6,6.0
+3466,"['Lump_in_throat', 'Vaginal_dryness', 'Leg_cramps_or_spasms']",3,14,4.667
+4553,"['Depression', 'Stiffness_all_over']",2,4,4.0
+5423,"['Fatigue', 'Sharp_abdominal_pain', 'Fever', 'Nausea']",4,14,2.333
+3987,"['Sharp_abdominal_pain', 'Pelvic_pain', 'Painful_menstruation']",3,6,2.0
+1269,"['Wrist_pain', 'Headache', 'Problems_with_movement']",3,10,3.333
+1556,"['Injury_to_the_finger', 'Paresthesia']",2,3,3.0
+2431,"['Sharp_abdominal_pain', 'Pain_or_soreness_of_breast', 'Nausea', 'Lower_abdominal_pain', 'Absence_of_menstruation']",5,26,2.6
+1784,['Back_pain'],1,0,0
+480,"['Sharp_chest_pain', 'Fatigue', 'Shortness_of_breath', 'Burning_chest_pain', 'Irregular_heartbeat', 'Hematologic_tests_(Blood_test)']",6,30,2.0
+4745,"['Disturbance_of_memory', 'Sleepiness']",2,4,4.0
+4442,"['Eye_redness', 'Nosebleed']",2,2,2.0
+500,"['Hyperkalemia', 'Fatigue', 'Weakness']",3,8,2.667
+2570,"['Vomiting', 'Low_back_pain', 'Decreased_appetite', 'Blood_in_urine']",4,16,2.667
+469,"['Back_pain', 'Leg_pain', 'Loss_of_sensation', 'Foot_or_toe_pain']",4,14,2.333
+411,"['Skin_lesion', 'Diminished_vision', 'Eye_deviation']",3,8,2.667
+4786,"['Skin_on_arm_or_hand_looks_infected', 'Hip_pain']",2,4,4.0
+3906,"['Lack_of_growth', 'Recent_weight_loss', 'Physical_therapy_exercises_(Exercises)']",3,12,4.0
+4120,"['Fatigue', 'Depression', 'Psychotherapy']",3,6,2.0
+4351,"['Shortness_of_breath', 'Increased_heart_rate', 'Lower_body_pain']",3,10,3.333
+1290,"['Leg_pain', 'Coagulation_(bleeding)_disorder', 'Prednisolone']",3,8,2.667
+466,"['Lower_abdominal_pain', 'Stomach_bloating', 'Difficulty_eating']",3,12,4.0
+4161,"['Muscle_cramps', 'or_spasms']",2,2,2.0
+657,"['Weakness', 'Fatigue', 'Multivitamin']",3,12,4.0
+1523,"['Difficulty_breathing', 'Nasal_congestion']",2,2,2.0
+562,"['Fever', 'Fatigue', 'Chills', 'Palpitations', 'Sharp_chest_pain']",5,28,2.8
+4875,"['Neck_mass', 'Abnormal_appearing_skin', 'Skin_swelling', 'Skin_moles']",4,16,2.667
+557,['Dengue_fever'],1,0,0
+1927,"['Skin_moles', 'Injury_to_the_finger', 'Feet_turned_in']",3,10,3.333
+3308,"['Eyelid_lesion_or_rash', 'Mass_on_eyelid', 'Diminished_vision', 'Pain_in_eye']",4,12,2.0
+983,"['Knee_pain', 'contractures', 'Headache']",3,10,3.333
+4667,"['Unpredictable_menstruation', 'Vaginal_itching', 'Long_menstrual_periods', 'Absence_of_menstruation']",4,22,3.667
+2017,"['Congestion_in_chest', 'Facial_pain', 'Frontal_headache']",3,6,2.0
+4743,"['Depression', 'Low_self-esteem', 'Pus_in_urine', 'Elbow_cramps_or_spasms']",4,24,4.0
+4871,"['Dizziness', 'Paresthesia', 'Elbow_weakness', 'Back_pain', 'Disturbance_of_memory']",5,30,3.0
+326,"['Throat_irritation', 'Difficulty_in_swallowing', 'Fever']",3,12,4.0
+5074,"['Hand_or_finger_pain', 'Skin_on_arm_or_hand_looks_infected']",2,4,4.0
+672,"['Painful_sinuses', 'Sore_throat', 'Difficulty_in_swallowing']",3,8,2.667
+3435,"['Weakness', 'Sharp_chest_pain', 'Problems_with_movement', 'Leg_pain', 'Sweating']",5,32,3.2
+5386,['Abnormal_appearing_skin'],1,0,0
+4782,"['Dizziness', 'Depressive_or_psychotic_symptoms', 'Diminished_hearing', 'Low_back_weakness']",4,20,3.333
+4631,"['Feeling_hot_and_cold', 'Nailbiting', 'Back_pain', 'Fainting', 'Hand_or_finger_swelling']",5,40,4.0
+4283,"['Nasal_congestion', 'Pain_in_eye']",2,4,4.0
+2592,"['Blood_in_urine', 'Vomiting', 'Pain_in_testicles', 'Suprapubic_pain']",4,18,3.0
+2137,['Coryza'],1,0,0
+1674,"['Neck_stiffness_or_tightness', 'Shoulder_swelling', 'Leg_cramps_or_spasms', 'Foot_or_toe_cramps_or_spasms']",4,18,3.0
+2574,"['Skin_growth', 'Symptoms_of_the_scrotum_and_testes', 'Pain_in_testicles', 'Impotence', 'Excessive_urination_at_night', 'Blood_in_urine']",6,60,4.0
+1956,"['Skin_swelling', 'Itching_of_skin']",2,2,2.0
+2176,"['Depression', 'Problems_with_movement', 'Psychotherapy']",3,6,2.0
+3243,"['Constipation', 'Incontinence_of_stool']",2,4,4.0
+1073,['Fracture_of_the_arm'],1,0,0
+5288,"['Eye_redness', 'Sore_throat', 'Itchiness_of_eye', 'Swollen_eye', 'Fever']",5,32,3.2
+2458,"['Eye_deviation', 'Abnormal_movement_of_eyelid']",2,2,2.0
+3746,"['Bleeding_from_ear', 'Facial_pain', 'Diminished_hearing']",3,8,2.667
+2591,"['Lower_body_pain', 'Side_pain']",2,2,2.0
+595,"['Skin_irritation', 'Eye_redness', 'Itching_of_skin', 'Eyelid_lesion_or_rash', 'Hematologic_tests_(Blood_test)']",5,36,3.6
+77,"['Stroke', 'Shoulder_weakness', 'Loss_of_sensation']",3,8,2.667
+3755,"['Pain_in_testicles', 'Elbow_cramps_or_spasms', 'Sharp_abdominal_pain']",3,10,3.333
+5089,"['Nausea', 'Excessive_growth', 'Knee_lump_or_mass', 'Vulvar_irritation']",4,22,3.667
+4613,"['Nausea', 'Burning_abdominal_pain', 'Chills', 'Side_pain']",4,12,2.0
+820,"['Diminished_vision', 'Diabetic_retinopathy', 'Adderall']",3,8,2.667
+601,"['Lump_in_throat', 'Hashimoto_thyroiditis', 'Hematologic_tests_(Blood_test)']",3,8,2.667
+4405,"['Neck_pain', 'Wrist_weakness', 'Vulvar_irritation', 'Back_pain']",4,22,3.667
+1747,"['Depression', 'Emotional_symptoms', 'Wrist_weakness', 'Excessive_anger']",4,14,2.333
+4145,"['Lower_abdominal_pain', 'Swelling_of_scrotum', 'Pain_during_intercourse']",3,10,3.333
+1086,"['Blindness', 'Adderall']",2,4,4.0
+2860,"['Nausea', 'Vomiting', 'Abnormal_appearing_skin']",3,8,2.667
+564,"['Feeling_ill', 'Nausea', 'Headache', 'Fever', 'Stroke']",5,24,2.4
+2002,"['Blindness', 'Itching_of_skin']",2,4,4.0
+3028,"['Abusing_alcohol', 'Hostile_behavior', 'Depression', 'Smoking_problems', 'Slurring_words']",5,32,3.2
+2335,"['Fever', 'Elbow_cramps_or_spasms', 'Elbow_weakness', 'Underweight', 'Coughing_up_sputum']",5,32,3.2
+1293,"['Drug_abuse', 'Adderall']",2,4,4.0
+3590,"['Sharp_abdominal_pain', 'Nausea']",2,2,2.0
+4451,['Jaw_swelling'],1,0,0
+2479,"['Delusions_or_hallucinations', 'Seizures', 'Nausea', 'Anxiety_and_nervousness', 'Panic_disorder']",5,28,2.8
+5011,"['Facial_pain', 'Allergic_reaction', 'Hoarse_voice', 'Frontal_headache']",4,20,3.333
+5358,"['Skin_swelling', 'Itchy_eyelid', 'Skin_dryness', 'peeling', 'scaliness', 'Skin_rash']",6,40,2.667
+65,"['Difficulty_breathing', 'Sharp_chest_pain', 'Fainting']",3,8,2.667
+4544,"['Nasal_congestion', 'Coryza', 'Diarrhea', 'Chills', 'Sore_throat']",5,30,3.0
+2453,"['Foot_or_toe_pain', 'Foot_or_toe_cramps_or_spasms']",2,4,4.0
+5435,"['Leg_pain', 'Leg_cramps_or_spasms', 'Weakness', 'Problems_with_movement', 'Back_pain']",5,30,3.0
+849,['Lung_contusion'],1,0,0
+1101,['Injury_to_the_knee'],1,0,0
+946,"['Diminished_vision', 'Choledocholithiasis', 'Adderall']",3,10,3.333
+877,"['Chronic_sinusitis', 'Nasal_congestion', 'Headache', 'Adderall']",4,15,2.5
+2232,"['Absence_of_menstruation', 'Scanty_menstrual_flow']",2,4,4.0
+2309,"['Excessive_appetite', 'Weight_gain']",2,2,2.0
+4955,"['Regurgitation', 'Heartburn', 'Lower_body_pain', 'Vomiting', 'Back_pain']",5,30,3.0
+1726,"['Headache', 'Seizures', 'Depressive_or_psychotic_symptoms', 'Delusions_or_hallucinations']",4,12,2.0
+2809,"['Peripheral_edema', 'Skin_rash', 'Cough', 'Vomiting', 'Wheezing']",5,26,2.6
+1668,['Lower_abdominal_pain'],1,0,0
+5196,"['Skin_swelling', 'Skin_moles', 'Skin_dryness', 'peeling', 'Itching_of_skin']",5,22,2.2
+2163,"['Redness_in_ear', 'Cough', 'Mouth_ulcer', 'Abnormal_appearing_skin', 'Decreased_appetite']",5,32,3.2
+4141,"['Eye_redness', 'Itchiness_of_eye', 'Eyelid_swelling', 'Spots_or_clouds_in_vision', 'Double_vision']",5,24,2.4
+2058,"['Sharp_chest_pain', 'Regurgitation']",2,4,4.0
+417,"['Skin_rash', 'Abnormal_appearing_skin', 'peeling']",3,6,2.0
+757,"['Pain_or_soreness_of_breast', 'Headache', 'Knee_swelling']",3,10,3.333
+5197,"['Itchiness_of_eye', 'Neck_pain', 'Nailbiting', 'Impotence', 'Knee_lump_or_mass']",5,40,4.0
+2267,"['Seizures', 'Cough', 'Allergic_reaction', 'Focal_weakness', 'Abnormal_involuntary_movements']",5,32,3.2
+362,"['Itchy_eyelid', 'Eye_redness', 'Wheezing', 'Nasal_congestion', 'Allergic_reaction']",5,32,3.2
+30,"['Injury_to_the_hip', 'Headache', 'Problems_with_movement']",3,6,2.0
+2733,"['Excessive_anger', 'Temper_problems', 'Drug_abuse']",3,8,2.667
+1072,"['Painful_urination', 'Vaginal_discharge', 'Vaginitis']",3,4,1.333
+5220,"['Constipation', 'Fluid_retention', 'Vomiting', 'Diarrhea', 'Sharp_abdominal_pain']",5,22,2.2
+2146,"['Abnormal_appearing_skin', 'Changes_in_stool_appearance', 'Drainage_in_throat', 'Infant_feeding_problem', 'Irregular_appearing_scalp']",5,38,3.8
+3620,"['Diminished_vision', 'Eye_burns_or_stings', 'Pain_in_eye', 'Spots_or_clouds_in_vision', 'Double_vision', 'Blindness']",6,32,2.133
+4520,"['Sharp_chest_pain', 'Sharp_abdominal_pain']",2,2,2.0
+3504,"['Skin_swelling', 'Warts']",2,2,2.0
+4595,"['Slurring_words', 'Lack_of_growth']",2,4,4.0
+80,"['Problems_with_movement', 'Temper_problems', 'Symptoms_of_bladder', 'Incontinence_of_stool', 'Disturbance_of_memory', 'Headache']",6,52,3.467
+617,"['Headache', 'Seizures', 'Hand_or_finger_weakness']",3,10,3.333
+1222,"['Skin_moles', 'Adderall']",2,4,4.0
+4470,"['Kidney_mass', 'Increased_heart_rate', 'Excessive_urination_at_night', 'Symptoms_of_prostate']",4,18,3.0
+296,"['Open_wound_of_the_hip', 'Shoulder_pain']",2,3,3.0
+3025,"['Knee_stiffness_or_tightness', 'Blood_in_stool']",2,4,4.0
+4772,"['Fatigue', 'Muscle_swelling']",2,4,4.0
+4527,"['Heartburn', 'Upper_abdominal_pain']",2,4,4.0
+1214,"['Suprapubic_pain', 'Nausea', 'Bone_marrow_transplant_(Bmt)', 'Adderall']",4,20,3.333
+3521,"['Shortness_of_breath', 'Sinus_congestion', 'Vomiting', 'Cough', 'Sore_throat']",5,26,2.6
+1045,"['Eye_redness', 'White_discharge_from_eye', 'Symptoms_of_eye']",3,6,2.0
+343,"['Fever', 'Skin_rash', 'Sore_throat']",3,8,2.667
+2526,"['Wheezing', 'Nasal_congestion', 'Coryza']",3,6,2.0
+2988,"['Back_pain', 'Suprapubic_pain']",2,2,2.0
+327,"['Nausea', 'Vomiting', 'Stomach_bloating', 'Sharp_abdominal_pain', 'Abdominal_distention']",5,28,2.8
+2932,"['Nosebleed', 'Lack_of_growth']",2,4,4.0
+1721,"['Leg_cramps_or_spasms', 'Jaundice', 'Chest_tightness', 'Coughing_up_sputum', 'Flushing']",5,20,2.0
+2045,"['Painful_urination', 'Constipation']",2,2,2.0
+843,['Idiopathic_nonmenstrual_bleeding'],1,0,0
+2898,"['Sharp_chest_pain', 'Coryza', 'Nasal_congestion', 'Weakness', 'Wheezing']",5,26,2.6
+4587,"['Skin_rash', 'Pelvic_pain', 'Problems_during_pregnancy']",3,10,3.333
+1267,"['Diminished_vision', 'Focal_weakness', 'Eye_alignment_disorder']",3,6,2.0
+1940,"['Lower_body_pain', 'Skin_swelling', 'Pain_of_the_anus']",3,6,2.0
+1332,"['Shortness_of_breath', 'Sore_throat', 'Abscess_of_the_lung', 'Adderall']",4,15,2.5
+1451,"['Injury_to_the_finger', 'Headache']",2,3,3.0
+3378,"['Itchy_eyelid', 'Cross-eyed', 'Excessive_growth', 'Wrist_weakness', 'Emotional_symptoms']",5,22,2.2
+204,"['Leg_pain', 'Leg_swelling', 'Peripheral_edema']",3,6,2.0
+1470,"['Viral_warts', 'Adderall']",2,5,5.0
+2722,"['Foot_or_toe_pain', 'Ankle_pain', 'Ankle_swelling', 'Knee_pain', 'Foot_or_toe_swelling']",5,26,2.6
+3373,"['Blindness', 'Decreased_appetite']",2,4,4.0
+2033,"['Throat_irritation', 'Blood_in_stool', 'Low_self-esteem', 'Depression', 'Abusing_alcohol']",5,20,2.0
+1305,"['Vaginitis', 'Vaginal_yeast_infection', 'Atrophic_vaginitis']",3,6,2.0
+886,"['Difficulty_in_swallowing', 'Asthma', 'Meloxicam']",3,10,3.333
+3134,"['Joint_pain', 'Arm_pain', 'Wrist_pain']",3,8,2.667
+318,"['Mouth_ulcer', 'Toothache', 'Gum_pain']",3,10,3.333
+3856,"['Fatigue', 'Wrist_pain', 'Pain_during_pregnancy', 'Facial_pain', 'Excessive_urination_at_night']",5,20,2.0
+1823,"['Postpartum_depression', 'Anxiety_and_nervousness', 'Insomnia']",3,6,2.0
+1635,"['Smoking_problems', 'Difficulty_breathing']",2,4,4.0
+3771,"['Vomiting', 'Low_back_pain', 'Side_pain', 'Dizziness']",4,14,2.333
+2865,"['Skin_rash', 'Nosebleed']",2,4,4.0
+2501,"['Rectal_bleeding', 'Mass_on_ear']",2,6,6.0
+1865,"['Pain_in_eye', 'Pus_draining_from_ear']",2,2,2.0
+1827,"['Depression', 'Drug_abuse', 'Prenatal']",3,10,3.333
+194,"['Stiffness_all_over', 'Headache', 'Shoulder_pain', 'Neck_mass', 'Hip_pain', 'Fever', 'Fatigue']",7,68,3.238
+5407,"['Drug_abuse', 'Hostile_behavior', 'Depression', 'Depressive_or_psychotic_symptoms']",4,12,2.0
+1583,"['Diarrhea', 'Depression']",2,2,2.0
+3265,['Pain_in_eye'],1,0,0
+2690,"['Pain_in_eye', 'Sharp_abdominal_pain']",2,4,4.0
+2283,"['Sinus_congestion', 'Neck_pain', 'Headache']",3,8,2.667
+569,"['Headache', 'Fever', 'Neck_stiffness_or_tightness']",3,8,2.667
+2287,"['Unpredictable_menstruation', 'Feeling_cold']",2,6,6.0
+2877,"['Throat_feels_tight', 'Throat_irritation']",2,4,4.0
+5256,"['Difficulty_breathing', 'Apnea', 'Ortho_Cyclen']",3,10,3.333
+4174,"['Jaw_swelling', 'Swollen_eye', 'Gum_pain', 'Skin_irritation', 'Pain_in_eye']",5,36,3.6
+3275,"['Inactivated', 'Anxiety_and_nervousness', 'Panic_disorder', 'Disturbance_of_memory', 'Slurring_words']",5,34,3.4
+2713,['Weight_gain'],1,0,0
+227,"['Leg_pain', 'Injury_to_the_knee', 'Eating_disorder', 'Crushing_injury']",4,17,2.833
+945,"['Frequent_urination', 'Painful_urination', 'Incontinence_of_stool']",3,10,3.333
+2140,"['Hurts_to_breath', 'Skin_rash']",2,4,4.0
+1463,"['Chronic_pain_disorder', 'Adderall']",2,3,3.0
+4757,['Pain_in_testicles'],1,0,0
+2175,"['Depression', 'Fainting', 'Drug_abuse']",3,6,2.0
+314,['Cysticercosis'],1,0,0
+889,"['Seizures', 'Adderall']",2,2,2.0
+4888,"['Headache', 'Smoking_problems', 'Depression']",3,10,3.333
+3560,"['Suprapubic_pain', 'Heavy_menstrual_flow', 'Vaginal_pain', 'Painful_menstruation']",4,18,3.0
+2832,"['Nasal_congestion', 'Shortness_of_breath']",2,2,2.0
+3575,"['Paresthesia', 'Hand_or_finger_weakness', 'Hand_or_finger_pain', 'Shoulder_pain', 'Sharp_chest_pain']",5,34,3.4
+4967,"['Low_back_weakness', 'Sore_throat']",2,4,4.0
+4190,['Vaginal_discharge'],1,0,0
+948,"['Spondylitis', 'Levocetirizine_(Xyzal)']",2,3,3.0
+3156,"['Fever', 'Nosebleed', 'Difficulty_breathing', 'Nasal_congestion', 'Sinus_congestion']",5,24,2.4
+4724,"['Weight_gain', 'Diarrhea', 'Headache']",3,6,2.0
+1558,"['Hematologic_tests_(Blood_test)', 'Adderall']",2,2,2.0
+2087,"['Excessive_appetite', 'Abnormal_breathing_sounds']",2,4,4.0
+364,"['Symptoms_of_the_kidneys', 'Kidney_mass']",2,4,4.0
+3573,"['Decreased_appetite', 'Shoulder_pain', 'Arm_pain']",3,10,3.333
+14,"['Injury_to_the_knee', 'Headache', 'Eating_disorder', 'Bowlegged_or_knock-kneed', 'Hematologic_tests_(Blood_test)']",5,32,3.2
+4260,"['Foot_or_toe_stiffness_or_tightness', 'Knee_swelling', 'Problems_with_movement', 'Loss_of_sensation', 'Skin_on_leg_or_foot_looks_infected']",5,32,3.2
+4411,"['Itchy_scalp', 'Abnormal_appearing_skin']",2,2,2.0
+1615,"['Sharp_abdominal_pain', 'Burning_abdominal_pain', 'Lower_abdominal_pain', 'Lack_of_growth']",4,18,3.0
+2984,"['Vaginal_itching', 'Other_OR_therapeutic_procedures;_male_genital']",2,4,4.0
+3534,"['Fluid_retention', 'Pain_during_pregnancy', 'Pain_of_the_anus', 'Leg_cramps_or_spasms', 'Foot_or_toe_cramps_or_spasms']",5,36,3.6
+574,"['Itching_of_skin', 'Skin_rash', 'Warts', 'Injury_to_the_finger', 'Feet_turned_in']",5,36,3.6
+5442,"['Diminished_vision', 'Abnormal_involuntary_movements', 'Skin_swelling', 'Fluid_retention']",4,20,3.333
+2705,"['Difficulty_breathing', 'Hurts_to_breath', 'Painful_sinuses']",3,12,4.0
+5105,"['Wrist_swelling', 'Ankle_pain', 'Joint_pain', 'Foot_or_toe_lump_or_mass']",4,22,3.667
+2572,"['Lower_abdominal_pain', 'Lack_of_growth']",2,4,4.0
+1021,"['Feeling_ill', 'Hyperkalemia']",2,1,1.0
+2461,"['Sleepiness', 'Difficulty_speaking', 'Depressive_or_psychotic_symptoms', 'Delusions_or_hallucinations']",4,20,3.333
+4155,"['Ankle_pain', 'Ankle_swelling', 'Foot_or_toe_stiffness_or_tightness', 'Foot_or_toe_pain']",4,16,2.667
+2534,"['Eye_burns_or_stings', 'Pain_in_eye', 'Itchy_eyelid', 'Bleeding_from_eye']",4,16,2.667
+3346,"['Skin_growth', 'Foot_or_toe_pain', 'Nailbiting', 'Headache', 'Nausea']",5,36,3.6
+2673,"['Peripheral_edema', 'Symptoms_of_eye', 'Diminished_hearing', 'Itching_of_skin', 'Neck_swelling']",5,36,3.6
+3297,"['Infertility', 'Acne_or_pimples', 'Unpredictable_menstruation']",3,8,2.667
+2423,"['Sweating', 'Feeling_ill', 'Fainting', 'Dizziness', 'Problems_with_movement']",5,30,3.0
+4542,"['Diarrhea', 'Nasal_congestion']",2,2,2.0
+1043,"['Liver_cancer', 'Adderall']",2,3,3.0
+1572,"['Hoarse_voice', 'Lump_in_throat']",2,2,2.0
+3445,"['Involuntary_urination', 'Blood_in_urine', 'Symptoms_of_prostate']",3,10,3.333
+5448,"['Open_wound_of_the_hip', 'Knee_weakness', 'Diminished_hearing', 'Facial_pain', 'Neck_pain']",5,34,3.4
+3106,"['Painful_sinuses', 'Sinus_congestion']",2,2,2.0
+1426,"['Subdural_hemorrhage', 'Adderall']",2,3,3.0
+5043,"['Excessive_growth', 'Ear_pain', 'Vulvar_irritation', 'Nosebleed', 'Pelvic_pressure']",5,42,4.2
+4663,"['Eye_redness', 'Coughing_up_sputum', 'Nosebleed', 'Flu-like_syndrome']",4,22,3.667
+2466,"['Skin_lesion', 'Skin_rash', 'Hand_or_finger_pain', 'Gum_pain']",4,24,4.0
+3327,"['Blindness', 'Spots_or_clouds_in_vision', 'Diminished_vision']",3,6,2.0
+4489,"['Lower_abdominal_pain', 'Painful_urination', 'Blood_in_urine', 'Back_pain', 'Frequent_urination']",5,20,2.0
+4,"['Cryptorchidism', 'Pain_in_testicles', 'Hematologic_tests_(Blood_test)']",3,8,2.667
+2490,"['Changes_in_stool_appearance', 'Symptoms_of_prostate']",2,2,2.0
+2351,"['Pain_in_eye', 'Diminished_vision', 'Itchiness_of_eye']",3,6,2.0
+1722,"['Seizures', 'Facial_pain', 'Hostile_behavior', 'Delusions_or_hallucinations', 'Sleepiness']",5,28,2.8
+3522,"['Recent_pregnancy', 'Excessive_anger', 'Nasal_congestion']",3,10,3.333
+4752,"['Loss_of_sensation', 'Neck_pain', 'Low_back_pain']",3,10,3.333
+5364,"['Focal_weakness', 'Vaginal_discharge', 'Pain_during_intercourse', 'Painful_urination']",4,20,3.333
+2640,"['Eye_burns_or_stings', 'Diminished_vision', 'Acne_or_pimples', 'Spots_or_clouds_in_vision', 'Eyelid_swelling']",5,30,3.0
+3810,"['Slurring_words', 'Sharp_chest_pain', 'Fainting', 'Irregular_heartbeat']",4,18,3.0
+3623,"['Gum_pain', 'Knee_swelling', 'Mouth_ulcer']",3,12,4.0
+1751,"['Fever', 'Sharp_abdominal_pain']",2,2,2.0
+4188,"['Fever', 'Anxiety_and_nervousness']",2,4,4.0
+3877,"['Mouth_ulcer', 'Frontal_headache', 'Temper_problems', 'Arm_stiffness_or_tightness', 'Abnormal_appearing_tongue']",5,40,4.0
+1391,"['Sharp_abdominal_pain', 'Lower_abdominal_pain', 'Constipation', 'Fever']",4,14,2.333
+5398,"['Allergic_reaction', 'Abnormal_appearing_skin']",2,4,4.0
+695,"['Pain_during_intercourse', 'Vaginal_pain', 'Pap_smear']",3,6,2.0
+2325,"['Knee_lump_or_mass', 'Leg_swelling']",2,4,4.0
+4223,"['Leg_cramps_or_spasms', 'Fatigue', 'Sharp_chest_pain', 'Lymphedema']",4,12,2.0
+5439,"['Diminished_vision', 'Fluid_retention', 'Headache', 'Abnormal_involuntary_movements', 'Spots_or_clouds_in_vision']",5,30,3.0
+5186,['Cough'],1,0,0
+5073,"['Open_wound_of_the_hip', 'Hand_or_finger_swelling']",2,3,3.0
+2746,"['Blood_in_urine', 'Sharp_abdominal_pain', 'Symptoms_of_the_kidneys']",3,8,2.667
+766,"['Leg_pain', 'Leg_swelling', 'Culture_wound', 'Unusual_color_or_odor_to_urine']",4,20,3.333
+1925,"['Skin_swelling', 'Skin_dryness', 'peeling', 'scaliness', 'Knee_lump_or_mass']",5,28,2.8
+2543,"['Knee_pain', 'Fluid_retention', 'Knee_swelling']",3,10,3.333
+1632,"['Arm_stiffness_or_tightness', 'Difficulty_eating', 'Infant_feeding_problem']",3,6,2.0
+1208,"['Mouth_ulcer', 'Adderall']",2,4,4.0
+201,"['Low_back_pain', 'Leg_pain', 'Back_pain']",3,6,2.0
+379,"['Weakness', 'Recent_weight_loss', 'Biopsy', 'Hematologic_tests_(Blood_test)']",4,18,3.0
+3893,"['Low_back_pain', 'Headache', 'Problems_with_movement']",3,8,2.667
+5008,"['Frontal_headache', 'Nasal_congestion']",2,2,2.0
+597,"['Retinopathy_due_to_high_blood_pressure', 'Hematologic_tests_(Blood_test)']",2,3,3.0
+3731,"['Sharp_abdominal_pain', 'Burning_abdominal_pain']",2,2,2.0
+3396,['Gum_pain'],1,0,0
+5160,"['Abnormal_involuntary_movements', 'Problems_with_movement', 'Fainting', 'Blood_in_urine']",4,20,3.333
+4716,"['Eyelid_lesion_or_rash', 'Skin_rash', 'Swollen_eye', 'Itchy_eyelid']",4,20,3.333
+1593,"['Arm_swelling', 'Hand_or_finger_stiffness_or_tightness', 'Wrist_swelling', 'Wrist_pain']",4,12,2.0
+3146,"['Muscle_pain', 'Shoulder_weakness']",2,4,4.0
+4050,"['Regurgitation', 'Weight_gain', 'Heartburn', 'Rectal_bleeding']",4,20,3.333
+3274,"['Vomiting', 'Chills', 'Emotional_symptoms']",3,10,3.333
+1999,"['Symptoms_of_eye', 'Spots_or_clouds_in_vision', 'Swollen_eye', 'Diminished_vision']",4,12,2.0
+1209,"['Fatigue', 'Weight_gain', 'Hyperkalemia']",3,10,3.333
+5375,"['Drug_abuse', 'Arm_pain', 'Elbow_weakness']",3,12,4.0
+46,"['Shortness_of_breath', 'Coughing_up_sputum', 'Emphysema']",3,6,2.0
+874,"['Cornea_infection', 'Itchiness_of_eye', 'Pain_in_eye']",3,4,1.333
+3483,"['Abnormal_appearing_skin', 'Pelvic_pain', 'Knee_pain']",3,8,2.667
+1793,"['Vomiting', 'Wrist_weakness', 'Seizures']",3,6,2.0
+1441,"['Bones_are_painful', 'Headache', 'Diminished_hearing', 'Excessive_growth', 'Levocetirizine_(Xyzal)']",5,34,3.4
+4244,"['Leg_stiffness_or_tightness', 'Leg_pain', 'Knee_stiffness_or_tightness']",3,12,4.0
+3806,"['Leg_swelling', 'Eyelid_swelling']",2,4,4.0
+412,"['Toothache', 'Teething_syndrome']",2,3,3.0
+4567,"['Painful_menstruation', 'Jaundice', 'Heavy_menstrual_flow', 'Swollen_abdomen']",4,22,3.667
+2042,"['Sleepiness', 'Shortness_of_breath', 'Increased_heart_rate']",3,10,3.333
+995,"['Other_therapeutic_procedures', 'Headache', 'Adderall']",3,10,3.333
+3740,"['Frequent_urination', 'Blood_in_urine', 'Lower_abdominal_pain']",3,6,2.0
+1093,"['Spondylitis', 'Elbow_pain']",2,3,3.0
+3807,"['Arm_swelling', 'Eyelid_swelling', 'Skin_rash', 'Fluid_retention']",4,24,4.0
+4352,"['Sharp_chest_pain', 'Sharp_abdominal_pain']",2,2,2.0
+4579,['Sore_throat'],1,0,0
+4878,"['Chest_tightness', 'Fainting', 'Depressive_or_psychotic_symptoms', 'Dizziness', 'Sharp_chest_pain']",5,22,2.2
+2600,"['Sharp_chest_pain', 'Headache']",2,2,2.0
+3626,"['Gum_pain', 'Ear_pain', 'Headache', 'Toothache', 'Peripheral_edema']",5,34,3.4
+5019,"['Pus_in_sputum', 'Back_weakness']",2,2,2.0
+4136,"['Elbow_weakness', 'Difficulty_in_swallowing', 'Leg_stiffness_or_tightness', 'Itchy_eyelid']",4,24,4.0
+3496,"['Pain_in_eye', 'Eye_burns_or_stings']",2,2,2.0
+3653,"['Fainting', 'Dizziness', 'Palpitations', 'Increased_heart_rate', 'Weakness']",5,20,2.0
+1304,"['Cholesteatoma', 'Shoulder_weakness']",2,5,5.0
+3889,"['Knee_pain', 'Abusing_alcohol']",2,4,4.0
+3687,"['Sore_throat', 'Headache', 'Coughing_up_sputum', 'Throat_swelling', 'Feeling_ill']",5,30,3.0
+2124,"['Ear_pain', 'Fever', 'Diminished_hearing', 'Fluid_in_ear', 'Bleeding_from_ear']",5,22,2.2
+2026,"['Elbow_cramps_or_spasms', 'Sharp_abdominal_pain', 'Diarrhea', 'Depressive_or_psychotic_symptoms', 'Delusions_or_hallucinations', 'Nausea']",6,38,2.533
+5224,"['Weakness', 'Nausea']",2,2,2.0
+2272,"['Low_back_pain', 'Problems_with_movement', 'Abnormal_involuntary_movements', 'Arm_pain', 'Neck_pain']",5,30,3.0
+4271,"['Excessive_appetite', 'Leg_stiffness_or_tightness', 'Itching_of_the_anus']",3,14,4.667
+3970,"['Cough', 'Excessive_anger', 'Problems_during_pregnancy', 'Ache_all_over', 'Eye_redness']",5,34,3.4
+5135,"['Excessive_anger', 'Delusions_or_hallucinations', 'Seizures']",3,6,2.0
+1960,"['Hot_flashes', 'Premenstrual_tension_or_irritability', 'Excessive_anger', 'Warts']",4,22,3.667
+2250,"['Elbow_weakness', 'Feeling_hot_and_cold']",2,2,2.0
+3604,"['Hand_or_finger_swelling', 'Fluid_retention']",2,4,4.0
+635,"['Headache', 'Eye_moves_abnormally']",2,4,4.0
+2341,"['Sleepiness', 'Unusual_color_or_odor_to_urine', 'Blood_in_urine']",3,12,4.0
+1921,"['Excessive_urination_at_night', 'Shoulder_cramps_or_spasms']",2,2,2.0
+2226,"['Seizures', 'Palpitations', 'Nausea', 'Shortness_of_breath']",4,16,2.667
+2752,"['Pelvic_pain', 'Blood_clots_during_menstrual_periods']",2,2,2.0
+2620,"['Skin_lesion', 'Irregular_appearing_scalp']",2,4,4.0
+4425,"['Skin_growth', 'Warts', 'Lymphedema', 'Skin_lesion', 'Abnormal_appearing_skin']",5,26,2.6
+661,"['Cough', 'Fever', 'Fatigue', 'Sharp_chest_pain', 'Difficulty_breathing', 'Hemoptysis']",6,40,2.667
+1236,"['Uterine_fibroids', 'Adderall']",2,3,3.0
+1895,['Dizziness'],1,0,0
+3138,"['White_discharge_from_eye', 'Itchiness_of_eye', 'Eyelid_swelling', 'Bleeding_from_eye']",4,18,3.0
+1252,"['Arm_pain', 'Arm_swelling', 'Eye_redness', 'Fever', 'Chills']",5,36,3.6
+1753,"['Sharp_abdominal_pain', 'Nausea']",2,2,2.0
+527,['Viral_warts'],1,0,0
+3399,"['Groin_mass', 'Heavy_menstrual_flow']",2,4,4.0
+3340,"['Hand_or_finger_weakness', 'Problems_with_movement', 'Seizures', 'Arm_stiffness_or_tightness']",4,22,3.667
+2711,['Palpitations'],1,0,0
+4446,"['Ear_pain', 'Hoarse_voice', 'Sore_throat', 'Fever', 'Nasal_congestion']",5,22,2.2
+3817,"['Abnormal_appearing_skin', 'Sharp_chest_pain']",2,4,4.0
+3407,['Long_menstrual_periods'],1,0,0
+511,"['Irregular_heartbeat', 'Chest_tightness']",2,2,2.0
+1695,"['Ache_all_over', 'Rib_pain', 'Fever', 'Sharp_chest_pain', 'Cough']",5,20,2.0
+3442,"['Cramps_and_spasms', 'Rectal_bleeding']",2,4,4.0
+3191,"['Long_menstrual_periods', 'Cough', 'Leg_pain']",3,12,4.0
+4785,"['Knee_swelling', 'Elbow_swelling', 'Abnormal_appearing_skin', 'Feeling_ill']",4,20,3.333
+161,"['Diminished_vision', 'Choledocholithiasis', 'Hematologic_tests_(Blood_test)']",3,6,2.0
+4717,"['Knee_lump_or_mass', 'Skin_irritation', 'Acne_or_pimples']",3,12,4.0
+3117,"['Fever', 'Mouth_dryness', 'Vomiting_blood']",3,12,4.0
+3908,"['Difficulty_eating', 'Rib_pain', 'Sharp_chest_pain']",3,10,3.333
+49,"['Recent_pregnancy', 'Too_little_hair', 'Restlessness', 'Teething_syndrome']",4,23,3.833
+2882,"['Cough', 'Difficulty_breathing']",2,2,2.0
+2447,"['Irregular_heartbeat', 'Breathing_fast']",2,2,2.0
+3195,"['Fatigue', 'Fainting', 'Frequent_urination', 'Burning_chest_pain']",4,22,3.667
+3433,['Emotional_symptoms'],1,0,0
+4410,"['Itchy_scalp', 'Itching_of_skin', 'Recent_pregnancy', 'Drug_abuse']",4,22,3.667
+4474,"['Peripheral_edema', 'Back_pain', 'Fluid_retention', 'Weakness']",4,20,3.333
+4942,"['Pain_during_pregnancy', 'Heavy_menstrual_flow', 'Spotting_or_bleeding_during_pregnancy', 'Blood_clots_during_menstrual_periods', 'Intermenstrual_bleeding']",5,24,2.4
+1807,"['Fluid_retention', 'Chronic_pain_disorder']",2,3,3.0
+4000,['Hand_or_finger_pain'],1,0,0
+1798,"['Blood_clots_during_menstrual_periods', 'Intermenstrual_bleeding', 'Cramps_and_spasms', 'Sharp_abdominal_pain', 'Spotting_or_bleeding_during_pregnancy']",5,20,2.0
+2236,"['Chest_tightness', 'Shortness_of_breath', 'Fainting']",3,8,2.667
+3571,"['Pelvic_pain', 'Intermenstrual_bleeding', 'Lack_of_growth', 'Hot_flashes', 'Weight_gain']",5,36,3.6
+238,"['Drug_abuse', 'Oxycodone']",2,4,4.0
+3186,"['Low_back_pain', 'Leg_pain', 'Loss_of_sensation', 'Headache']",4,14,2.333
+2754,"['Back_pain', 'Sharp_abdominal_pain']",2,2,2.0
+3313,"['Skin_rash', 'Itching_of_skin', 'Other_OR_therapeutic_procedures;_male_genital']",3,10,3.333
+3829,"['Nausea', 'Dizziness', 'Shortness_of_breath', 'Wheezing', 'Nasal_congestion']",5,26,2.6
+1046,"['Allergic_reaction', 'Itching_of_skin', 'Eye_redness', 'Difficulty_breathing']",4,22,3.667
+5098,['Excessive_anger'],1,0,0
+221,"['Vaginal_yeast_infection', 'Skin_growth', 'Skin_lesion', 'Itching_of_skin', 'Arm_pain', 'Leg_pain']",6,49,3.267
+3228,"['Lump_in_throat', 'Plugged_feeling_in_ear', 'Tongue_lesions']",3,12,4.0
+4849,"['Weakness', 'Chest_tightness', 'Sharp_chest_pain', 'Increased_heart_rate']",4,16,2.667
+4624,['Vomiting'],1,0,0
+5432,"['Low_back_weakness', 'Lack_of_growth']",2,4,4.0
+223,"['Fatigue', 'Nausea', 'Decreased_appetite', 'Retention_of_urine']",4,18,3.0
+688,"['Diminished_vision', 'Wrist_weakness', 'Problems_with_movement']",3,10,3.333
+5266,"['Shoulder_cramps_or_spasms', 'Joint_stiffness_or_tightness', 'Skin_lesion']",3,10,3.333
+3512,"['Lower_abdominal_pain', 'Sharp_abdominal_pain', 'Problems_during_pregnancy']",3,6,2.0
+1112,"['Liver_cancer', 'Prednisone', 'Psychotherapy']",3,12,4.0
+3783,"['Hurts_to_breath', 'Sweating', 'Congestion_in_chest']",3,12,4.0
+1489,"['Skin_moles', 'Bumps_on_penis', 'Nausea', 'Headache']",4,20,3.333
+2132,"['Feeling_hot_and_cold', 'Underweight', 'Symptoms_of_the_kidneys']",3,10,3.333
+2682,"['Weakness', 'Fainting', 'Sharp_abdominal_pain', 'Fatigue']",4,16,2.667
+1734,"['Double_vision', 'Bleeding_from_eye', 'Abnormal_movement_of_eyelid', 'Spots_or_clouds_in_vision']",4,12,2.0
+3725,"['Pain_of_the_anus', 'Upper_abdominal_pain', 'Vomiting']",3,8,2.667
+2678,"['Ankle_pain', 'Knee_swelling', 'Foot_or_toe_pain', 'Irregular_appearing_nails']",4,16,2.667
+2765,"['Open_wound_of_the_hip', 'Incision_and_drainage_(I_d)', 'Wheezing']",3,10,3.333
+2280,"['Muscle_swelling', 'Wrist_weakness', 'Nailbiting']",3,10,3.333
+3454,"['Elbow_weakness', 'Muscle_cramps', 'contractures', 'or_spasms', 'Eyelid_lesion_or_rash', 'Skin_rash', 'Low_back_weakness', 'Blindness']",8,112,4.0
+2067,"['Hoarse_voice', 'Diminished_hearing']",2,2,2.0
+671,"['Weakness', 'Dizziness', 'Fluoxetine_(Prozac)']",3,10,3.333
+3853,"['Pulling_at_ears', 'Itching_of_skin']",2,4,4.0
+159,"['Symptoms_of_the_kidneys', 'Sleepiness', 'Decreased_appetite', 'Foot_or_toe_swelling']",4,26,4.333
+427,"['Weakness', 'Irregular_appearing_nails', 'Crushing_injury']",3,10,3.333
+2867,"['Itchy_eyelid', 'Allergic_reaction']",2,4,4.0
+1837,"['Back_cramps_or_spasms', 'Low_back_cramps_or_spasms']",2,2,2.0
+5326,"['Swollen_lymph_nodes', 'Heartburn', 'Smoking_problems', 'Leg_cramps_or_spasms', 'Pain_or_soreness_of_breast']",5,38,3.8
+563,"['Weakness', 'Fever', 'Vaginitis', 'Amoxicillin']",4,21,3.5
+5340,"['Hip_pain', 'Arm_swelling', 'Excessive_growth']",3,12,4.0
+330,"['Fatigue', 'Abnormal_appearing_skin', 'Headache', 'Itching_of_skin', 'Arm_swelling']",5,30,3.0
+255,"['Allergic_reaction', 'Nicotine', 'Skin_rash']",3,12,4.0
+1634,"['Smoking_problems', 'Skin_rash']",2,4,4.0
+167,"['Fever', 'Depression', 'Depressive_or_psychotic_symptoms']",3,10,3.333
+5090,"['Nausea', 'Excessive_growth', 'Knee_lump_or_mass', 'Vaginal_pain']",4,22,3.667
+1249,"['Lung_contusion', 'Adderall']",2,3,3.0
+1955,"['Dry_or_flaky_scalp', 'Acne_or_pimples', 'Warts']",3,8,2.667
+1035,"['Sleepiness', 'Insomnia']",2,2,2.0
+3880,"['Difficulty_eating', 'Absence_of_menstruation']",2,4,4.0
+938,"['Frequent_urination', 'Excessive_appetite', 'Eating_disorder', 'Diminished_vision', 'Insulin']",5,36,3.6
+4621,"['Nausea', 'Dizziness']",2,2,2.0
+1786,['Cough'],1,0,0
+2100,"['Knee_swelling', 'Elbow_pain', 'Shoulder_stiffness_or_tightness', 'Shoulder_pain', 'Hip_pain']",5,26,2.6
+3022,"['Sleepiness', 'Headache']",2,2,2.0
+1375,"['Liver_cancer', 'Adderall']",2,3,3.0
+4964,"['Difficulty_in_swallowing', 'Elbow_weakness']",2,4,4.0
+4975,"['Difficulty_breathing', 'Nasal_congestion']",2,2,2.0
+1342,"['Cholesteatoma', 'Prednisolone']",2,3,3.0
+2549,['Leg_pain'],1,0,0
+4741,"['Hemoptysis', 'Muscle_cramps', 'Involuntary_urination', 'Dizziness', 'Weight_gain']",5,36,3.6
+211,"['Sharp_abdominal_pain', 'Stomach_bloating', 'Constipation', 'Diarrhea', 'Hemoptysis']",5,28,2.8
+2556,"['Arm_cramps_or_spasms', 'Elbow_cramps_or_spasms', 'Lack_of_growth']",3,14,4.667
+3075,"['Involuntary_urination', 'Focal_weakness', 'Excessive_urination_at_night', 'Retention_of_urine']",4,18,3.0
+3250,"['Arm_swelling', 'Hand_or_finger_weakness']",2,4,4.0
+1625,"['Ankle_pain', 'Knee_swelling', 'Bones_are_painful', 'Elbow_pain', 'Knee_lump_or_mass']",5,20,2.0
+623,"['Ankle_pain', 'Ankle_swelling']",2,4,4.0
+4851,"['Leg_cramps_or_spasms', 'Foot_or_toe_cramps_or_spasms', 'Chest_tightness', 'Fatigue']",4,18,3.0
+5139,"['Insomnia', 'Depression', 'Anxiety_and_nervousness']",3,6,2.0
+1990,['Leg_pain'],1,0,0
+835,"['Acute_sinusitis', 'Nasal_congestion', 'Headache', 'Sinus_congestion']",4,9,1.5
+2471,"['Warts', 'Impotence']",2,4,4.0
+4919,"['Ache_all_over', 'Muscle_pain']",2,2,2.0
+4637,"['Bumps_on_penis', 'Groin_pain', 'Abnormal_appearing_skin', 'Frequent_urination', 'Vaginal_discharge']",5,32,3.2
+337,"['Fracture_of_the_arm', 'Bleeding_from_ear']",2,5,5.0
+2845,"['Symptoms_of_the_kidneys', 'Gum_pain']",2,6,6.0
+4365,"['Upper_abdominal_pain', 'Lower_body_pain', 'Nausea', 'Sharp_chest_pain', 'Burning_abdominal_pain']",5,20,2.0
+5420,"['Jaw_swelling', 'Lip_swelling', 'Gum_pain', 'Symptoms_of_the_face']",4,26,4.333
+3036,"['Hand_or_finger_swelling', 'Paresthesia', 'Elbow_pain', 'Hand_or_finger_weakness']",4,22,3.667
+565,"['Upper_abdominal_pain', 'Nausea', 'Cholesteatoma']",3,8,2.667
+5305,"['Groin_pain', 'Shortness_of_breath', 'Arm_swelling']",3,10,3.333
+2796,"['Depression', 'Abusing_alcohol', 'Abnormal_involuntary_movements']",3,8,2.667
+104,"['Abdominal_distention', 'Lower_abdominal_pain', 'Headache']",3,10,3.333
+4016,"['Suprapubic_pain', 'Lower_abdominal_pain']",2,2,2.0
+865,"['Alopecia', 'Unwanted_hair']",2,3,3.0
+3552,"['Weakness', 'Headache', 'Lack_of_growth']",3,10,3.333
+2968,"['Diminished_vision', 'Apnea', 'Insomnia']",3,10,3.333
+5207,"['Lump_in_throat', 'Sore_throat', 'Redness_in_ear']",3,10,3.333
+3767,"['Arm_stiffness_or_tightness', 'Skin_irritation', 'Mouth_dryness', 'Joint_pain', 'Unpredictable_menstruation']",5,40,4.0
+1254,"['Infectious_gastroenteritis', 'Adderall']",2,3,3.0
+3568,"['Hand_or_finger_stiffness_or_tightness', 'Wrist_stiffness_or_tightness', 'Arm_stiffness_or_tightness', 'Hand_or_finger_pain']",4,12,2.0
+1443,"['Back_pain', 'Hip_pain', 'Stiffness_all_over', 'Problems_with_movement', 'Abnormal_involuntary_movements']",5,28,2.8
+4275,"['Knee_lump_or_mass', 'Arm_pain', 'Lower_body_pain', 'Skin_irritation']",4,24,4.0
+5329,"['Painful_urination', 'Lower_body_pain', 'Blood_in_urine', 'Mass_in_scrotum']",4,22,3.667
+2213,"['Irregular_heartbeat', 'Shortness_of_breath']",2,2,2.0
+5046,"['Nosebleed', 'Knee_lump_or_mass', 'Vulvar_irritation', 'Chills']",4,22,3.667
+4409,"['Skin_rash', 'Itching_of_skin', 'Abnormal_size_or_shape_of_ear', 'Skin_irritation', 'Skin_dryness', 'peeling', 'Abnormal_appearing_skin']",7,60,2.857
+3961,"['Leg_pain', 'Abnormal_involuntary_movements', 'Foot_or_toe_lump_or_mass', 'Abnormal_appearing_skin', 'Neck_mass']",5,34,3.4
+3809,"['Increased_heart_rate', 'Slurring_words', 'Sharp_chest_pain']",3,10,3.333
+3569,"['Dry_or_flaky_scalp', 'Lack_of_growth']",2,4,4.0
+4854,"['Ringing_in_ear', 'Elbow_cramps_or_spasms', 'Abnormal_breathing_sounds', 'Abnormal_appearing_skin', 'Nailbiting']",5,36,3.6
+2199,"['Leg_pain', 'Ankle_pain']",2,4,4.0

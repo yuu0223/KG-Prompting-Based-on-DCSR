@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 750px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "orange", "fixed": true, "font": {"size": 20}, "id": "Hurts_to_breath", "label": "Hurts_to_breath", "shape": "dot", "size": 20, "x": 260.61040082600505, "y": -500.0}, {"color": "lightblue", "fixed": true, "font": {"size": 20}, "id": "Lung_contusion", "label": "Lung_contusion", "shape": "dot", "size": 10, "x": 78.20344411285733, "y": -431.2699630409766}, {"color": "lightblue", "fixed": true, "font": {"size": 20}, "id": "Hematologic_tests_(Blood_test)", "label": "Hematologic_tests_(Blood_test)", "shape": "dot", "size": 10, "x": 56.578307433860765, "y": -254.35028674228843}, {"color": "lightblue", "fixed": true, "font": {"size": 20}, "id": "Idiopathic_nonmenstrual_bleeding", "label": "Idiopathic_nonmenstrual_bleeding", "shape": "dot", "size": 10, "x": 156.19202465757198, "y": -92.80321040291908}, {"color": "orange", "fixed": true, "font": {"size": 20}, "id": "Sweating", "label": "Sweating", "shape": "dot", "size": 20, "x": 182.70800599217313, "y": 80.29401487290463}, {"color": "lightblue", "fixed": true, "font": {"size": 20}, "id": "Hyperhidrosis", "label": "Hyperhidrosis", "shape": "dot", "size": 10, "x": 30.95482363524079, "y": 173.39068107307563}, {"color": "lightblue", "fixed": true, "font": {"size": 20}, "id": "Fever", "label": "Fever", "shape": "dot", "size": 10, "x": -118.60147104440345, "y": 254.4520248207298}, {"color": "lightblue", "fixed": true, "font": {"size": 20}, "id": "Asthma", "label": "Asthma", "shape": "dot", "size": 10, "x": -245.1688111950669, "y": 348.54594179456666}, {"color": "orange", "fixed": true, "font": {"size": 20}, "id": "Congestion_in_chest", "label": "Congestion_in_chest", "shape": "dot", "size": 20, "x": -401.4767244182387, "y": 421.7407976249074}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "gray", "from": "Hurts_to_breath", "to": "Lung_contusion", "width": 3}, {"arrows": "to", "color": "gray", "from": "Lung_contusion", "to": "Hematologic_tests_(Blood_test)", "width": 3}, {"arrows": "to", "color": "gray", "from": "Hematologic_tests_(Blood_test)", "to": "Idiopathic_nonmenstrual_bleeding", "width": 3}, {"arrows": "to", "color": "gray", "from": "Idiopathic_nonmenstrual_bleeding", "to": "Sweating", "width": 3}, {"arrows": "to", "color": "gray", "from": "Sweating", "to": "Hyperhidrosis", "width": 3}, {"arrows": "to", "color": "gray", "from": "Hyperhidrosis", "to": "Fever", "width": 3}, {"arrows": "to", "color": "gray", "from": "Fever", "to": "Asthma", "width": 3}, {"arrows": "to", "color": "gray", "from": "Asthma", "to": "Congestion_in_chest", "width": 3}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": false,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
